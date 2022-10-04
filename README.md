@@ -11,6 +11,5 @@ Requirements:
   
 How-to use:
   1. Download Ghidra. Unzip to the working directory for this project.
-  2. Make a folder in the same working directory for the project, and call it "GhidraProjects" sans quotes.
-  3. Run "runHeadless" to create the decompiled .c code. You can supply your own binaries in the "Binaries/Execs" folder.
-  4. Run the "run-joern" program with the path of decompiled code. It will save the graph in a folder called "out".
+  2. Run "runHeadless" to create the decompiled .c code. You can supply your own binaries in the "Binaries/Execs" folder.
+  3. Run the "run-joern" program with the path of decompiled code. It will save the graph in a folder called "out".
