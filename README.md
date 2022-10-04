@@ -10,6 +10,7 @@ Requirements:
   
   
 How-to use:
-  Decompilation:
-    -Run the "runHeadless" script. It will pull binaries from the "Binaries" folder and produce the .c files 
-    -Run the "./run-joern" program with a path to code. By default, it exports the AST to a dot file
+  1. Download Ghidra. Unzip to the working directory for this project.
+  2. Make a folder in the same working directory for the project, and call it "GhidraProjects" sans quotes.
+  3. Run "runHeadless" to create the decompiled .c code. You can supply your own binaries in the "Binaries/Execs" folder.
+  4. Run the "run-joern" program with the path of decompiled code. It will save the graph in a folder called "out".
