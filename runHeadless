@@ -1,0 +1,17 @@
+
+HEADLESS_PATH=/home/alexandros/Desktop/GhidraBall/ghidra_10.1.5_PUBLIC/support/analyzeHeadless
+PROJECT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraProjects/
+BINARIES_DIR=/home/alexandros/Desktop/GhidraBall/Binaries/Execs/
+SCRIPT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraScripts/
+
+SCRIPT=DecompileAllFunctions.py
+
+# If file DOES NOT exist in project folder
+# ./ghidra_10.1.5_PUBLIC/support/analyzeHeadless ${BINARIES_DIR} P_Code -import ./Binaries/Execs/sample.exe    
+
+# If file ALREADY exists in project folder
+# ./ghidra_10.1.5_PUBLIC/support/analyzeHeadless ./GhidraProjects/ P_Code -process sample.exe
+
+
+$HEADLESS_PATH $PROJECT_DIR P_Code -import ${BINARIES_DIR}*.exe -overwrite -scriptPath $SCRIPT_DIR -postscript $SCRIPT
+#$HEADLESS_PATH $PROJECT_DIR P_Code -process *.exe -scriptPath $SCRIPT_DIR -prescript $SCRIPT
