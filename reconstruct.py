@@ -15,6 +15,8 @@ def process_decompiled_funcs(files, bin_folder):
 def createFile(decompiled_funcs_code, dir_name):
     #write headers. Assuming the basic ones
     file_name = "recreated-"+dir_name+"c"
+    if os.path.exists(file_name):
+        os.remove(file_name)
     reconstructedFile = open(file_name, "w+")
     reconstructedFile.write("#include <stdio.h>\n")
     reconstructedFile.write("#include <stdlib.h>\n")
@@ -41,7 +43,7 @@ def createFile(decompiled_funcs_code, dir_name):
 def main():
     #You will need to change this to wherever the folders are located
     #expecting a folder with source code
-    bin_folder = '/home/alexandros/Desktop/GhidraBall/DecompiledFuncs/sample3.exe'
+    bin_folder = os.getcwd() + "/DecompiledFuncs/sample3.exe"
     file_lst = []
     decompiled_funcs_code = []
     for files in os.walk(bin_folder):
