@@ -5,8 +5,8 @@ Overview: The code here works with Ghidra scripting and JOERN to do the followin
   -Pass the decompiled code into JOERN to create graphs. 
   
 Requirements:
-  -Ghidra (version 10.1.5 provided in here for convience) 
-  -Joern (you can download from here: https://github.com/joernio/joern. Follow its instructions
+  -Ghidra (version 10.1.5) 
+  -Joern (you can download from here: https://github.com/joernio/joern. Follow its instructions)
   
   
 How-to use:
