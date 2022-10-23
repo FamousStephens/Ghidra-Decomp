@@ -1,17 +1,20 @@
+# Path to Ghidra analyzeHeadless script, typically in support directory in the Ghidra installation folder
+HEADLESS_PATH=./ghidra_10.1.5_PUBLIC/support/analyzeHeadless
+#HEADLESS_PATH=/home/alexandros/Desktop/GhidraBall/ghidra_10.1.5_PUBLIC/support/analyzeHeadless
 
-HEADLESS_PATH=/home/alexandros/Desktop/GhidraBall/ghidra_10.1.5_PUBLIC/support/analyzeHeadless
-PROJECT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraProjects/
-BINARIES_DIR=/home/alexandros/Desktop/GhidraBall/Binaries/Execs/
-SCRIPT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraScripts/
+# Path to Ghidra Projects Folder
+PROJECT_DIR=./GhidraProjects/
+#PROJECT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraProjects/
 
+# Path to Executables Folder that contains Binaries to be analyzed 
+BINARIES_DIR=./Binaries/Execs/
+#BINARIES_DIR=/home/alexandros/Desktop/GhidraBall/Binaries/Execs/
+
+# Path to Ghidra Script Folder, that contains script to Decompile all Functions to files, and other scripts as need be
+SCRIPT_DIR=./GhidraScripts/
+#SCRIPT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraScripts
+
+# Name of Script to Run in Headless mode
 SCRIPT=DecompileAllFunctions.py
 
-# If file DOES NOT exist in project folder
-# ./ghidra_10.1.5_PUBLIC/support/analyzeHeadless ${BINARIES_DIR} P_Code -import ./Binaries/Execs/sample.exe    
-
-# If file ALREADY exists in project folder
-# ./ghidra_10.1.5_PUBLIC/support/analyzeHeadless ./GhidraProjects/ P_Code -process sample.exe
-
-
 $HEADLESS_PATH $PROJECT_DIR P_Code -import ${BINARIES_DIR}*.exe -overwrite -scriptPath $SCRIPT_DIR -postscript $SCRIPT
-#$HEADLESS_PATH $PROJECT_DIR P_Code -process *.exe -scriptPath $SCRIPT_DIR -prescript $SCRIPT
