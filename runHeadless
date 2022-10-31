@@ -16,6 +16,5 @@ SCRIPT_DIR=./GhidraScripts/
 
 # Name of Script to Run in Headless mode
 SCRIPT=DecompileAllFunctions.py
-
 $HEADLESS_PATH $PROJECT_DIR P_Code -import ${BINARIES_DIR}*.exe -overwrite -scriptPath $SCRIPT_DIR -postscript $SCRIPT
 
