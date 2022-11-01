@@ -1,7 +1,7 @@
 import os
 import re
 import sys
-
+import time
 def process_decompiled_funcs(files, bin_folder):
     #open the file. Read in all lines
     program_code = []
@@ -13,11 +13,14 @@ def process_decompiled_funcs(files, bin_folder):
     return program_code
 
 def createFile(decompiled_funcs_code, dir_name):
+    banned_funcs = ["malloc", "printf", "puts", "putschar", "free"]
     #write headers. Assuming the basic ones
     file_name = "recreated-"+dir_name+"c"
     if os.path.exists(file_name):
+        print("[*] Samples were previously reconstructed, default to overwriting")
         os.remove(file_name)
-    reconstructedFile = open(file_name, "w+")
+        #time.sleep(5)
+    reconstructedFile = open(file_name, 'w')
     reconstructedFile.write("#include <stdio.h>\n")
     reconstructedFile.write("#include <stdlib.h>\n")
     reconstructedFile.write("#include <unistd.h>\n")
@@ -28,6 +31,8 @@ def createFile(decompiled_funcs_code, dir_name):
             continue
         elif func[1].find("/*") != -1:
             continue
+        elif func[1] in banned_funcs:
+            pass
         else:
             func_prototype = func[1].strip('\n')
             func_prototype += ";"

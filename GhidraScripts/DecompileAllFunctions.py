@@ -7,6 +7,11 @@ import os
 cwd = os.getcwd()
 out_dir=cwd + "/DecompiledFuncs/"
 
+#test if it exists, if not then create directory
+if not os.path.exists(out_dir):
+    print("[*] Creating DecompiledFuncs folder for results")
+    os.mkdir(out_dir)
+
 # Acquire current Binary loaded in Ghidra, and create Decompiler Interface
 program = getCurrentProgram()
 ifc = DecompInterface()
