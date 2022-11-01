@@ -40,10 +40,13 @@ for func in funcs:
     if FUNC_NAME[0] == '_' or any(f in FUNC_NAME for f in skip_funcs):
         continue
 
+    func.setComment("This is a comment")
+
     # Decompile Function and get C Code as a string
     results = ifc.decompileFunction(func, 0, ConsoleTaskMonitor())
     d_code = results.getDecompiledFunction().getC()
 
     # Write Decompiled code to file named the name of the function
     with open(out_dir+func.getName()+".c", "w") as out_file:
-        out_file.write(d_code)	
+        out_file.write(d_code)
+
