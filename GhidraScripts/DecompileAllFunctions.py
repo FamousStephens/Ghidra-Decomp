@@ -7,11 +7,6 @@ import os
 cwd = os.getcwd()
 out_dir=cwd + "/DecompiledFuncs/"
 
-#test if it exists, if not then create directory
-if not os.path.exists(out_dir):
-    print("[*] Creating DecompiledFuncs folder for results")
-    os.mkdir(out_dir)
-
 # Acquire current Binary loaded in Ghidra, and create Decompiler Interface
 program = getCurrentProgram()
 ifc = DecompInterface()
@@ -45,13 +40,43 @@ for func in funcs:
     if FUNC_NAME[0] == '_' or any(f in FUNC_NAME for f in skip_funcs):
         continue
 
+
     func.setComment("This is a comment")
+    func_c = func.getComment()
+
+    func_tags = func.getTags()
+    func.addTag("I am a Tag")
+
+    func_vars = func.getAllVariables()
+    for v in func_vars:
+        v.setComment("Var Name: " + v.getName())
 
     # Decompile Function and get C Code as a string
     results = ifc.decompileFunction(func, 0, ConsoleTaskMonitor())
     d_code = results.getDecompiledFunction().getC()
 
+    sm = results.getHighFunction().getLocalSymbolMap()
+    symbols = sm.getSymbols()
+
+    #object_methods = [method_name for method_name in dir(symbols)
+    #              if callable(getattr(symbols, method_name))]
+
+    #print(object_methods.toString)
+    #print(symbols.toString)
+
     # Write Decompiled code to file named the name of the function
     with open(out_dir+func.getName()+".c", "w") as out_file:
         out_file.write(d_code)
+        out_file.write("=-=-=-= TAGS =-=-=-=\n")
+        for t in func_tags:
+            out_file.write(t.getName())
+            out_file.write('\n')
+        out_file.write("\n=-=-=-= func_VARS =-=-=-=\n")
+        for v in func_vars:
+            out_file.write("DataType: " + v.getDataType().getName() + "\t Symbol: " + v.getSymbol().getName())
+            out_file.write('\n')
 
+        out_file.write("\n=-=-=-= SM =-=-=-=\n")
+        for s in symbols:
+            out_file.write("DataType: " + s.getDataType().getName() + "\t Symbol: " + s.getName())
+            out_file.write('\n')
