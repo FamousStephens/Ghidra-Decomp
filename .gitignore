@@ -1,3 +1,6 @@
 DecompiledFuncs/*
 ghidra_10.1.5_PUBLIC/
 GhidraProjects/*
+*.dot 
+out/*
+*.bin
