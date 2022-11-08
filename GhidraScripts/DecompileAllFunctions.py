@@ -25,7 +25,7 @@ class Function:
         vars_list = []
         for s in self.symbols:
             vars_list.append([s.getDataType().getName(),s.getName()])
-        funcStr = "{} {} ({})".format(self.callConv,self.name, vars_list)   
+        funcStr = "{} : {} {} ({})".format(hex(self.hash), self.callConv,self.name, vars_list)   
         return funcStr 
     
 
@@ -57,66 +57,15 @@ func_list = []
 
 # Iterate over Functions in Binary
 for func in funcs:
-    # Skip External Functions
-    decomp_results = ifc.decompileFunction(func, 0, ConsoleTaskMonitor())
-    func_vars = func.getAllVariables()
-    func_tags = func.getTags() 
-    if func.isExternal():
+    if func.getName() in skip_funcs:
         msg = "{} is external, skipping".format(func.getName())
         print(msg)
     else:
+        decomp_results = ifc.decompileFunction(func, 0, ConsoleTaskMonitor())
+        func_vars = func.getAllVariables()
+        func_tags = func.getTags() 
         f1 = Function(func, decomp_results, func_tags, func_vars)
         func_list.append(f1)
 
 for i in func_list:
     print(i)
-    """
-    if func.isExternal():
-        continue 
-
-    # Skip Function whose name begins with "_"
-    # Skip Functions in List of skippable functions
-    FUNC_NAME = str(func.getName())
-    if FUNC_NAME[0] == '_' or any(f in FUNC_NAME for f in skip_funcs):
-        continue
-
-    
-    func.setComment("This is a comment")
-    func_c = func.getComment()
-
-    func_tags = func.getTags()
-    func.addTag("I am a Tag")
-
-    func_vars = func.getAllVariables()
-    for v in func_vars:
-        v.setComment("Var Name: " + v.getName())
-
-    # Decompile Function and get C Code as a string
-    results = ifc.decompileFunction(func, 0, ConsoleTaskMonitor())
-    d_code = results.getDecompiledFunction().getC()
-
-    sm = results.getHighFunction().getLocalSymbolMap()
-    symbols = sm.getSymbols()
-
-    #object_methods = [method_name for method_name in dir(symbols)
-    #              if callable(getattr(symbols, method_name))]
-
-    #print(object_methods.toString)
-    #print(symbols.toString)
-    # Write Decompiled code to file named the name of the function
-    with open(out_dir+func.getName()+".c", "w") as out_file:
-        out_file.write(d_code)
-        out_file.write("=-=-=-= TAGS =-=-=-=\n")
-        for t in func_tags:
-            out_file.write(t.getName())
-            out_file.write('\n')
-        out_file.write("\n=-=-=-= func_VARS =-=-=-=\n")
-        for v in func_vars:
-            out_file.write("DataType: " + v.getDataType().getName() + "\t Symbol: " + v.getSymbol().getName())
-            out_file.write('\n')
-
-        out_file.write("\n=-=-=-= SM =-=-=-=\n")
-        for s in symbols:
-            out_file.write("DataType: " + s.getDataType().getName() + "\t Symbol: " + s.getName())
-            out_file.write('\n')
-    """
