@@ -7,6 +7,11 @@ PROJECT_DIR=./GhidraProjects/
 #PROJECT_DIR=/home/alexandros/Desktop/GhidraBall/GhidraProjects/
 
 # Path to Executables Folder that contains Binaries to be analyzed 
+
+# For Testing
+#rm -r DecompiledFuncs/*
+#rm -r JSONBinaries/*
+
 BINARIES_DIR=./Binaries/Execs/
 #BINARIES_DIR=/home/alexandros/Desktop/GhidraBall/Binaries/Execs/
 
@@ -16,5 +21,6 @@ SCRIPT_DIR=./GhidraScripts/
 
 # Name of Script to Run in Headless mode
 SCRIPT=DecompileAllFunctions.py
+#$HEADLESS_PATH $PROJECT_DIR P_Code -import ${BINARIES_DIR}*.exe -overwrite -scriptPath $SCRIPT_DIR -postscript $SCRIPT
 $HEADLESS_PATH $PROJECT_DIR P_Code -import ${BINARIES_DIR}*.exe -overwrite -scriptPath $SCRIPT_DIR -postscript $SCRIPT
 
