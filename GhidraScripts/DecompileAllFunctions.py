@@ -73,6 +73,8 @@ class Function:
     def getDict(self):
         return self.func_dict
 
+
+    #decomp is a DecompInterface object
     def update(self, newResults):
         self.decomp = newResults
         self.highFunc = newResults.getHighFunction()
@@ -121,7 +123,8 @@ out_dir = out_dir + name + '/'
 
 # Create Directory to store functions for current Binary if does not exist
 if not os.path.exists(out_dir):
-	os.mkdir(out_dir)
+    print("Why are we not making a directory?")
+    os.mkdir(out_dir)
 
 if not os.path.exists(json_dir):
 	os.mkdir(json_dir)
@@ -132,23 +135,28 @@ fm = program.getFunctionManager()
 funcs = fm.getFunctionsNoStubs(True)
 
 # List of functions that can be skipped/not decompiled
-skip_funcs = ["frame_dummy", 'tm_clones']
+skip_funcs = ["frame_dummy", 'tm_clones', '_fini', '_start', '_init', 
+    '__do_global_dtors_aux', '__libc_csu_init', '__libc_csu_fini', '__do_global_ctors_aux', '__libc_start_main', '__gmon_start__']
 
 bin_dict = {
     "Binary Name" : name,
     "Functions" : {}}
 
+#loop through functions, if external, skip 
 # Iterate over Functions in Binary
 for func in funcs:
+    if func.isThunk() and func.getThunkedFunction(True).isExternal():
+        print("Skipping External Function: {}".format(func.getName()))
+    #skip libc functions, specified from the skip_funcs list 
     if func.getName() in skip_funcs:
-        msg = "{} is external, skipping".format(func.getName())
-        print(msg)
+        print("Skipping libc Function: {}".format(func.getName()))
+
     else:
         decomp_results = ifc.decompileFunction(func, 0, ConsoleTaskMonitor())
         func_vars = func.getAllVariables()
         func_tags = func.getTags() 
         f1 = Function(func, decomp_results, func_tags, func_vars)
-        func_list.append(f1)
+        #func_list.append(f1)
 
         bin_dict["Functions"][f1.hash] = f1.getDict()
 
