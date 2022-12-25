@@ -136,7 +136,12 @@ funcs = fm.getFunctionsNoStubs(True)
 
 # List of functions that can be skipped/not decompiled
 skip_funcs = ["frame_dummy", 'tm_clones', '_fini', '_start', '_init', 
-    '__do_global_dtors_aux', '__libc_csu_init', '__libc_csu_fini', '__do_global_ctors_aux', '__libc_start_main', '__gmon_start__']
+    '__do_global_dtors_aux', '__libc_csu_init', '__libc_csu_fini', 
+    '__do_global_ctors_aux', '__libc_start_main', '__gmon_start__', 
+    '__cxa_finalize', '__cxa_atexit', '__cxa_finalize@@GLIBC_2.2.5', 
+    'deregister_tm_clones', 'register_tm_clones', 
+    '__x86.get_pc_thunk.bx', 'printf', 'getchar', 'putchar', 'puts']
+
 
 bin_dict = {
     "Binary Name" : name,

@@ -9,8 +9,8 @@ PROJECT_DIR=./GhidraProjects/
 # Path to Executables Folder that contains Binaries to be analyzed 
 
 # For Testing
-#rm -r DecompiledFuncs/*
-#rm -r JSONBinaries/*
+rm -r DecompiledFuncs/*
+rm -r JSONBinaries/*
 
 BINARIES_DIR=./Binaries/Execs/
 #BINARIES_DIR=/home/alexandros/Desktop/GhidraBall/Binaries/Execs/
