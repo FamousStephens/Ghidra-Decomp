@@ -5,3 +5,4 @@ GhidraProjects/*
 *.dot 
 out/*
 *.bin
+*.json

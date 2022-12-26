@@ -1,0 +1,164 @@
+{
+   "Binary Name": "sample2.exe", 
+   "Functions": {
+      "-2056133551": {
+         "Calling Convention": "unknown", 
+         "Function Name": "__cxa_finalize", 
+         "Symbols": [], 
+         "Tags": []
+      }, 
+      "-1465440413": {
+         "Calling Convention": "unknown", 
+         "Function Name": "_start", 
+         "Symbols": [
+            {
+               "DataType": "undefined8", 
+               "Name": "param_1"
+            }, 
+            {
+               "DataType": "undefined8", 
+               "Name": "param_2"
+            }, 
+            {
+               "DataType": "undefined8", 
+               "Name": "param_3"
+            }, 
+            {
+               "DataType": "undefined[8]", 
+               "Name": "auStack8"
+            }, 
+            {
+               "DataType": "undefined8", 
+               "Name": "in_stack_00000000"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "-1174101988": {
+         "Calling Convention": "unknown", 
+         "Function Name": "FUN_00101020", 
+         "Symbols": [], 
+         "Tags": []
+      }, 
+      "-979983527": {
+         "Calling Convention": "unknown", 
+         "Function Name": "printf", 
+         "Symbols": [
+            {
+               "DataType": "int", 
+               "Name": "iVar1"
+            }, 
+            {
+               "DataType": "char *", 
+               "Name": "__format"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "-625870111": {
+         "Calling Convention": "unknown", 
+         "Function Name": "deregister_tm_clones", 
+         "Symbols": [], 
+         "Tags": []
+      }, 
+      "-74676308": {
+         "Calling Convention": "unknown", 
+         "Function Name": "getchar", 
+         "Symbols": [
+            {
+               "DataType": "int", 
+               "Name": "iVar1"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "101375": {
+         "Calling Convention": "unknown", 
+         "Function Name": "fib", 
+         "Symbols": [
+            {
+               "DataType": "int", 
+               "Name": "param_1"
+            }, 
+            {
+               "DataType": "int", 
+               "Name": "iVar1"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "3343801": {
+         "Calling Convention": "unknown", 
+         "Function Name": "main", 
+         "Symbols": [
+            {
+               "DataType": "uint", 
+               "Name": "uVar1"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "90877597": {
+         "Calling Convention": "unknown", 
+         "Function Name": "_fini", 
+         "Symbols": [], 
+         "Tags": []
+      }, 
+      "90971631": {
+         "Calling Convention": "__stdcall", 
+         "Function Name": "_init", 
+         "Symbols": [
+            {
+               "DataType": "undefined *", 
+               "Name": "puVar1"
+            }, 
+            {
+               "DataType": "EVP_PKEY_CTX *", 
+               "Name": "ctx"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "569075229": {
+         "Calling Convention": "unknown", 
+         "Function Name": "__do_global_dtors_aux", 
+         "Symbols": [], 
+         "Tags": []
+      }, 
+      "717805689": {
+         "Calling Convention": "unknown", 
+         "Function Name": "__libc_csu_fini", 
+         "Symbols": [], 
+         "Tags": []
+      }, 
+      "717899723": {
+         "Calling Convention": "unknown", 
+         "Function Name": "__libc_csu_init", 
+         "Symbols": [
+            {
+               "DataType": "EVP_PKEY_CTX *", 
+               "Name": "param_1"
+            }, 
+            {
+               "DataType": "undefined8", 
+               "Name": "param_2"
+            }, 
+            {
+               "DataType": "undefined8", 
+               "Name": "param_3"
+            }, 
+            {
+               "DataType": "long", 
+               "Name": "lVar1"
+            }
+         ], 
+         "Tags": []
+      }, 
+      "994159776": {
+         "Calling Convention": "unknown", 
+         "Function Name": "register_tm_clones", 
+         "Symbols": [], 
+         "Tags": []
+      }
+   }
+}
