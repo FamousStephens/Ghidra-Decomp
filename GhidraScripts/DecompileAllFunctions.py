@@ -92,12 +92,12 @@ class Function:
         self.hf_DB.commitReturnToDatabase(self.highFunc, self.st) 
 
 def updateVar(decompInter, funcObj, var, newName=None, newDataType=None):
-    st = SourceType.valueOf("USER_DEFINED")
+    st = SourceType.valueOf("DEFAULT")
     dtm = decompInter.getDataTypeManager()
 
     varSymbol = funcObj.getSymbol(var)
     
-    varSymbol.setNameLock(False) # Still does not allow name to be changed.
+    #varSymbol.setNameLock(False) # Still does not allow name to be changed.
 
     funcObj.getDB().updateDBVariable(varSymbol, newName, newDataType, st)
 
@@ -194,11 +194,29 @@ for i in func_list:
     print(i)
     if i.name == "addNode":
 
-        dataTypeObj = dtm.findBaseType("double", None)
+        dataTypeObj = dtm.findBaseType("int", None)
 
-        with open(out_dir+func.getName()+"_UpdateTest.c", "w") as out_file:
+        with open(out_dir+i.name+"_UpdateTest.c", "w") as out_file:
             out_file.write(i.decomp.getDecompiledFunction().getC())
-            updateVar(ifc, i, "local_20", "local_2048", dataTypeObj)
-            out_file.write(i.decomp.getDecompiledFunction().getC())
+            #updateVar(ifc, i, "local_20", "local_2048", dataTypeObj) 
+
+
+            # Careful when changing undefineds, make sure its same datatype size
+        
+            #loop through all variables in function 
+
+            for v in i.vars:
+                #if variable is a double, change it to a float 
+                if v.dataType.getName() == "undefined4":
+                    out_file.write("Found undefined4: {}\n".format(v.getName()))
+                    out_file.write("Changing undefined4 {} to int:".format(v.getName()))
+                    
+                    symName = v.getSymbol()
+                    updateVar(ifc, i, "param_2", None, dataTypeObj)
+                    out_file.write(i.decomp.getDecompiledFunction().getC())
+
+
+      
+
 
         print(i)
