@@ -35,7 +35,7 @@ def main():
        os.system(joern_loc)
        #Configure settings for the output
        #refer to joern documentation for setting types
-       export_type = " --repr=ast"
+       export_type = " --repr=all"
        graph_format = " --format=dot"
        joern_export = "/usr/local/bin/joern-export" + export_type + graph_format
        #by default, the folder output is called out and the next call will fail if it already exists
@@ -44,8 +44,9 @@ def main():
        if os.path.exists(pwd):
         os.system("rm -r out")
        os.system(joern_export)
-       print("[*] Graphs created in the directory 'out'")
+       print("[*] Graphs created in the directory 'out'. If empty, there was an oopsie.")
        #the joern file doesn't name the files well, so we will give labels to them
-       rename_output_files()
+       #You don't have to do this, but it's nice to have
+       #rename_output_files()
 
 if __name__ == "__main__": main()
