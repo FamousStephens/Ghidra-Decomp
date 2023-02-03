@@ -19,6 +19,36 @@ import pandas as pd
 import time
 
 
+"""
+    TYPE_FULL_NAME: For a variable, this will return the type of the variable
+
+
+
+"""
+
+def findType(graph):
+    variables = {}
+    #loop through the nodes and find one with the label "TYPE_FULL_NAME"
+    for node in graph.nodes:
+        var = ""
+        if graph.nodes[node]['label'] == "IDENTIFIER":
+            #grab the name of the variable from the code property
+            var = graph.nodes[node]['CODE']
+            for key, value in graph.nodes[node].items():
+                if key == "TYPE_FULL_NAME":
+                    variables[var] = value
+
+    type_list = []
+    for node in graph.nodes:
+        if graph.nodes[node]['label'] == "TYPE":
+            for key,values in graph.nodes[node].items():
+                if key == "NAME":
+                    type_list.append(values)
+    type_list.pop(0)
+    print(f"List of all types read from file: {type_list}", sep = ", ")
+    return variables
+
+
 
 def graphToDot(graph):
     #From the graph, write to a dot file 
@@ -53,16 +83,14 @@ def parse_to_graph(fp):
     graph = nx.nx_pydot.read_dot(fp)
     #Remove node if label = "META_DATA"
     for node in list(graph.nodes):
-        if graph.nodes[node]['label'] == "META_DATA":
+        if graph.nodes[node]['label'] == "META_DATA":   #this refers to a row in the dataframe
             print("Removing MetaData node")
             graph.remove_node(node)
-
-    
 
 
     return graph
 
-
+#DO NOT USE FOR LARGE GRAPHS!!! 
 #Run dot -Tpng graph.dot -o graph.png for another form of visulaization
 def render_graph(graph):
     pos = nx.nx_pydot.graphviz_layout(graph, prog='dot')
@@ -91,12 +119,7 @@ def main():
         #export the dataframe to a csv file
         df.to_csv("nodes.csv", index=False)
         df2.to_csv("edges.csv", index=False)
-
-
-
-        #print(*graph.nodes)
-        #print(*graph.edges)
-
+        print(findType(graph))
 
 
 
