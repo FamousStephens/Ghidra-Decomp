@@ -62,7 +62,7 @@ def parse_to_graph(fp):
 
     return graph
 
-
+#DO NOT USE FOR LARGE GRAPHS!!! 
 #Run dot -Tpng graph.dot -o graph.png for another form of visulaization
 def render_graph(graph):
     pos = nx.nx_pydot.graphviz_layout(graph, prog='dot')
