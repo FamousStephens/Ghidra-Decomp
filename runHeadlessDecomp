@@ -1,5 +1,5 @@
 # Path to Ghidra analyzeHeadless script, typically in support directory in the Ghidra installation folder
-HEADLESS_PATH=./ghidra_10.1.5_PUBLIC/support/analyzeHeadless
+HEADLESS_PATH=./ghidra_*_PUBLIC/support/analyzeHeadless
 
 # Path to Ghidra Projects Folder
 PROJECT_DIR=./GhidraProjects/

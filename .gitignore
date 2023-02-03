@@ -1,6 +1,6 @@
 DecompiledFuncs/*
-ghidra_10.1.5_PUBLIC
-ghidra_10.1.5_PUBLIC/
+ghidra_*_PUBLIC
+ghidra_*_PUBLIC/
 GhidraProjects/*
 *.dot 
 out/*
