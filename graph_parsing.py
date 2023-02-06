@@ -17,7 +17,7 @@ import argparse
 from networkx.drawing.nx_agraph import graphviz_layout   
 import pandas as pd
 import time
-
+import multiprocessing as mp
 
 """
     TYPE_FULL_NAME: For a variable, this will return the type of the variable
@@ -28,6 +28,7 @@ import time
 
 def findType(graph):
     variables = {}
+    freq = {}
     #loop through the nodes and find one with the label "TYPE_FULL_NAME"
     for node in graph.nodes:
         var = ""
@@ -37,6 +38,17 @@ def findType(graph):
             for key, value in graph.nodes[node].items():
                 if key == "TYPE_FULL_NAME":
                     variables[var] = value
+                    #check to see if the dict freq already contains a key with the value
+                    if value in freq:
+                        freq[value] += 1
+                    else:
+                        freq[value] = 1
+
+
+    print(f"Variables and their types: {variables}")
+    print(f"Frequency of each type: {freq}")
+
+  
 
     type_list = []
     for node in graph.nodes:
@@ -105,7 +117,7 @@ def render_graph(graph):
 def main():
     #grab the file from the command line
     parser = argparse.ArgumentParser()
-    parser.add_argument("file", help="The graphson file to parse")
+    parser.add_argument("file", help="The dot file to parse")
     args = parser.parse_args()
     #check if the file exists
     if not os.path.exists(args.file):
@@ -114,12 +126,13 @@ def main():
     else:
         fp = open(args.file, "r")
         graph = parse_to_graph(fp)
+        findType(graph)
         #render_graph(graph)
-        df,df2 = generate_pd_frame(graph)
+        #df,df2 = generate_pd_frame(graph)
         #export the dataframe to a csv file
-        df.to_csv("nodes.csv", index=False)
-        df2.to_csv("edges.csv", index=False)
-        print(findType(graph))
+        #df.to_csv("nodes.csv", index=False)
+        #df2.to_csv("edges.csv", index=False)
+        #print(findType(graph))
 
 
 
