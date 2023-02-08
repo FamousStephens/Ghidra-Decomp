@@ -132,6 +132,11 @@ def main():
     master_list = {}
     logging.info(f"Master Directory set as {master_dir}")
     os.chdir(master_dir)
+    folder_list = [folder for folder in os.listdir()]
+    #for each instance of the folder, we will run the marathon function
+    #for each instance of the marathon function, we will create a process 
+    #we will then join the processes
+    
     for folder in os.listdir():
         try:
             master_list = mergeDicts(master_list, marathon(folder, master_dir))
