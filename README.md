@@ -6,8 +6,9 @@ Overview: The code here works with Ghidra scripting and JOERN to do the followin
   -Provide annotations to improve quality of decompiled code (coming to a store near you)
   
 Requirements:
-  -Ghidra (version 10.1.5)
+  -Ghidra (version 10.1.5). Download from their Github page. 
   -Joern (you can download from here: https://github.com/joernio/joern. Follow its instructions)
+  -Code tested on Python 3.10.0 but ideally, Python 3.x should work.
 
 Scripts have been tested and work on Ubuntu 20.04 and Mint Linux 20.3.
   
@@ -16,5 +17,6 @@ How-to use:
   1. Download Ghidra. Unzip to a working directory of your choice.
   2. Open the "ghidraSym.sh", replace the working directory for Ghidra with yours, and run to create a symlink to Ghidra
   3. Run "runHeadless" to create the decompiled .c code. You can supply your own binaries in the "Binaries/Execs" folder. They must end in a .exe extension.
-  4. Run the "run-joern" program with the path of decompiled code. It will save the graph in a folder called "out".
-  5. To generate a CSV file of the graph edges and nodes, use the "graph_parsing.py script" with the path of the graph.
+  4. Run the "run-joern" program with the path to the decompiled code. It will save the graph in a folder called "out".
+  5. To generate a CSV file of the graph edges and nodes, use the "graph_parsing.py script" with the path of the .dot file
+  6. The "parse_data_types.py" attempts to find all data types on ALL SAMPLES IN THE DECOMPILED CODE. It may take hours to complete depending on sample size.

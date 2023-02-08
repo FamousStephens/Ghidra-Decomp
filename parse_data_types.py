@@ -41,6 +41,22 @@ class joern_parse:
             os.system("rm -r out")
         os.system(joern_export)
 
+class fileCount:
+    i = 0
+
+#This is to get an estimate for the time to process all files
+def traverseFS(folder):
+    for content in os.listdir(folder):
+        if os.path.isfile(os.path.join(folder, content)):
+            fileCount.i += 1
+        elif os.path.isdir(os.path.join(folder, content)):
+            traverseFS(os.path.join(folder, content))
+        else:
+            print("Error: Neither a file nor a directory")
+    #best so far is 4.5 seconds, worse estimate is 10 seconds. Ballpark, 6.5 seconds per file
+    print(f"Number of files: {fileCount.i}")
+    print(f"Estimated time to loop and process: {fileCount.i * 6.5 / 3600} hours")
+    time.sleep(5)
 
 
 def mergeDicts(dict1, dict2):
@@ -76,7 +92,15 @@ def generateAndParseGraph(filename = None):
         logging.info(f"Filename set as {filename}")
     #read the dot file
     fp = open(filename, "r")
-    graph = nx.nx_pydot.read_dot(fp)
+    """
+    I think there is an issue in some of the joern exported dot graphs with pyparsing 
+    Currently, the goal is to just skip the problem child and move on to the next file
+    """
+    try:
+        graph = nx.nx_pydot.read_dot(fp)
+    except Exception as e:
+        logging.error(f"Error parsing the dot file: {e}")
+        return None
     dict = extractTypeAndFreq(graph)
     return dict
   
@@ -92,12 +116,12 @@ def marathon(folder, master_pwd):
         if filename.endswith(".c"): 
             file_dir = folder + "/" + filename
             joern_parse(file_dir).run_graph_processor()  
-            list_types = mergeDicts(list_types, generateAndParseGraph())
-            
+            #due to issues with the parsing of .dot files, we may not get anything back
+            new_list = generateAndParseGraph()
+            list_types = mergeDicts(list_types, new_list) if new_list is not None else list_types    
         else:
             #write to log file
             logging.error(f"File {filename} does not have a .c extension, and will not be parsed")
-
     return list_types
 
 def main():
