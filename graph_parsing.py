@@ -19,12 +19,6 @@ import pandas as pd
 import time
 import multiprocessing as mp
 
-"""
-    TYPE_FULL_NAME: For a variable, this will return the type of the variable
-
-
-
-"""
 
 def findType(graph):
     variables = {}

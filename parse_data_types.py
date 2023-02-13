@@ -1,11 +1,6 @@
 """
-This script will do the following things:
- TO DO: Loop through all folders containing the decompiled code 
- 1. Run the run-joern command on each file, saving the results 
- 2. Parse the results and create a graph   
- 3. Parse the graph for the data types  
- 4. Repeat steps 1-3 for all files in the folder until all files have been parsed 
- 5. Calculate stats for the data types and frequency of data types
+This script traverses each folder in the master directory and generates graphs for each .c file. 
+For every .c file, there will be a .dot file generated
 """
 import os 
 import sys 
@@ -19,8 +14,29 @@ from networkx.drawing.nx_agraph import graphviz_layout
 import pandas as pd
 import time
 import multiprocessing as mp
-import logging 
+from multiprocessing import Process
+from multiprocessing import Queue
+import logging
 
+
+class mpManager(Process):
+    def __init__(self):
+        mp.Process.__init__(self)
+        self.process_list = []
+        self.coreUsage = 0
+        self.maxCores = mp.cpu_count()
+    def add_process(self, process):
+        if len(self.process_list) == mp.cpu_count():
+            print(f"[X] Max core allotment reached, cannot start process {process}")
+        else:
+            process.start()
+            print(f"[*] Process {process} started")
+            self.process_list.append(process)
+            self.coreUsage += 1
+    def remove_process(self, process):
+        self.process_list.remove(process)
+        process.terminate()
+        self.coreUsage -= 1
 
 class joern_parse:
     def __init__(self, filename, joern_loc = "/usr/local/bin/joern-parse ", export_type = " --repr=all", 
@@ -32,122 +48,96 @@ class joern_parse:
             self.file = filename
 
     def run_graph_processor(self):
+        #get rid of the .c extension
+        file = self.file.split(".")[0]
         joern_loc = self.joern_loc + self.file
-        joern_export = self.joern_export + self.export_type + self.graph_format
+        folder_name = "g_" + file 
+        folder_output = " --out " + folder_name + "/"
+        joern_export = self.joern_export + self.export_type + self.graph_format + folder_output
+        if os.path.exists(folder_name):
+            os.system("rm -r " + folder_name)
+        #joern-parse will create a cpg.bin file in the current directory
+        #joern-export will fail if the specified output folder exists, even if it is empty
         os.system(joern_loc)
-        #check if 'out' exists and delete if so
-        pwd = os.getcwd() + "/out"
-        if os.path.exists(pwd):
-            os.system("rm -r out")
         os.system(joern_export)
+        #remove the cpg.bin file
+        os.system("rm cpg.bin")
 
-class fileCount:
-    i = 0
+#input: A list of features that will be removed from the graph
+#output: The resultant graph with the features removed
+def removeFeatures(graph, *features):
+    #check if kwargs is a list
+    if type(features) is None:
+        print("[-] No features to remove")
+        return
+    for feature in features:
+        #loop through feature list, find and remove
+        for node in graph.nodes:
+            if feature in graph.nodes[node]:
+                del graph.nodes[node][feature] 
+                print(f"[*] Feature {feature} removed from graph")
+    return graph
 
-#This is to get an estimate for the time to process all files
-def traverseFS(folder):
-    for content in os.listdir(folder):
-        if os.path.isfile(os.path.join(folder, content)):
-            fileCount.i += 1
-        elif os.path.isdir(os.path.join(folder, content)):
-            traverseFS(os.path.join(folder, content))
-        else:
-            print("Error: Neither a file nor a directory")
-    #best so far is 4.5 seconds, worse estimate is 10 seconds. Ballpark, 6.5 seconds per file
-    print(f"Number of files: {fileCount.i}")
-    print(f"Estimated time to loop and process: {fileCount.i * 6.5 / 3600} hours")
-    time.sleep(5)
+#input: The graph to be exported 
+#output: A folder named after the file that was parsed
+def exportToFolder(graph, filename):
+    fp = open(filename, "w+")
+    nx.nx_pydot.write_dot(graph, fp)
+    fp.close()
 
 
-def mergeDicts(dict1, dict2):
-    for key, value in dict2.items():
-        if key in dict1:
-            dict1[key] += value
-        else:
-            dict1[key] = value
-    return dict1
-
-#input: A graph object
-#output: A dictionary with the data types and their frequency
-def extractTypeAndFreq(graph):
-    freq = {}
-    for node in graph.nodes:
-        var = ""
-        if graph.nodes[node]['label'] == "IDENTIFIER":
-            #grab the name of the variable from the code property
-            var = graph.nodes[node]['CODE']
-            for key, value in graph.nodes[node].items():
-                if key == "TYPE_FULL_NAME":
-                    if value in freq:
-                        freq[value] += 1
-                    else:
-                        freq[value] = 1
-    return freq
-
-def generateAndParseGraph(filename = None):
-    if filename == None:
-        logging.info("Assuming the dot file is in out/export.dot")
-        filename = "out/export.dot"
-    else:
-        logging.info(f"Filename set as {filename}")
-    #read the dot file
+def generateAndParseGraph(filename):
     fp = open(filename, "r")
-    """
-    I think there is an issue in some of the joern exported dot graphs with pyparsing 
-    Currently, the goal is to just skip the problem child and move on to the next file
-    """
     try:
         graph = nx.nx_pydot.read_dot(fp)
     except Exception as e:
         logging.error(f"Error parsing the dot file: {e}")
+        logging.error(f"File {filename} will not be parsed")
         return None
-    dict = extractTypeAndFreq(graph)
-    return dict
-  
+    #remove the features that we don't want to parse
+    return graph
+    
+
 #Given a directory, we will go through every .c file and then use the python script for joern to parse the file
 def marathon(folder, master_pwd):
-    #get the pwd
-    fold = os.path.join(os.getcwd(), folder)
-    os.system("ls")
-    #create a dataframe with type and frequency 
-    #we will append the results to this dataframe 
-    list_types = {}
-    for filename in os.listdir(fold):
-        if filename.endswith(".c"): 
-            file_dir = folder + "/" + filename
-            joern_parse(file_dir).run_graph_processor()  
-            #due to issues with the parsing of .dot files, we may not get anything back
-            new_list = generateAndParseGraph()
-            list_types = mergeDicts(list_types, new_list) if new_list is not None else list_types    
+    #change the current working directory to the folder 
+    os.chdir(folder)
+    #get all files within the folder
+    file_list = [file for file in os.listdir() if file.endswith(".c")]
+    for file in file_list:
+        joern_parse(file).run_graph_processor()
+        file_loc = "g_" + file.split(".")[0] + "/" + "export.dot"
+        graph = generateAndParseGraph(file_loc)
+        if graph is None:
+            print(f"[-] Error parsing {file_loc}")
         else:
-            #write to log file
-            logging.error(f"File {filename} does not have a .c extension, and will not be parsed")
-    return list_types
+            graph = removeFeatures(graph, "META_DATA", "FULL_NAME", "FILENAME", "COLUMN_NUMBER", "LINE_NUMBER", 
+                "COLUMN_NUMBER_END", "LINE_NUMBER_END", "EVALUATION_STRATEGY", "PARSER_TYPE_NAME", "CONTAINED_REF")
+            exportToFolder(graph, file_loc)
+    os.chdir("..")
+
 
 def main():
-    #Assummption is that the master folder is DecompiledFuncs 
-    #sub folders will contain the .c files
-    master_dir = "DecompiledFuncs"
-    pwd = os.getcwd()
-    master_list = {}
-    logging.info(f"Master Directory set as {master_dir}")
-    os.chdir(master_dir)
-    folder_list = [folder for folder in os.listdir()]
-    #for each instance of the folder, we will run the marathon function
-    #for each instance of the marathon function, we will create a process 
-    #we will then join the processes
-    
-    for folder in os.listdir():
-        try:
-            master_list = mergeDicts(master_list, marathon(folder, master_dir))
-        except NotADirectoryError as e:
-            logging.error(f"File {folder} is not a directory, and will not be parsed")
-            continue
-        #return results are a dataframe 
-        #we will append the results to a master dataframe
-    fp = open("results.txt", "w")
-    #write the dict to file 
-    for key, value in master_list.items():
-        fp.write(f"{key} : {value} \n")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", "--master_dir", help="The master directory that contains all the folders to be parsed")
+    args = parser.parse_args()
+    master_dir = ""
+    #check if anythign was passed in
+    if args.master_dir is None:
+        print("[*] The master directory was not specified, using the default directory")
+        master_dir = "DecompiledFuncs"
+    else:
+        master_dir = args.master_dir
+        print(f"[*] Master Directory set as {master_dir}")
+    Process_Manager = mpManager()
+    print(f"[*] Process Manager reports this system has {Process_Manager.maxCores} cores")
+    folder_list = [folder for folder in os.listdir(master_dir) if os.path.isdir(os.path.join(master_dir, folder))]
+    folder_list.remove("out") if "out" in folder_list else None
+    os.chdir(master_dir)    #in the master directory
+    for f in folder_list:
+        p = Process(target=marathon, args=(f, os.getcwd()))
+        Process_Manager.add_process(p)
+
+
 if __name__ == "__main__": 
     main()

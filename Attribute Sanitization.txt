@@ -1,0 +1,31 @@
+KEEP:
+	0 label : label for node
+	1 ORDER : Ordering of nodes used for AST
+	2 CODE : Code associated with node
+	5 NAME : Name of Variable, namespace
+	6 AST_PARENT_TYPE : Type of node that is parent of this node
+	7 AST_PARENT_FULL_NAME : Name associated with Parent node
+	10 IS_EXTERNAL : Indicates that the node represents a program construct that is not defined directly in its source code
+	12 SIGNATURE : Function Signature
+	14 ARGUMENT_INDEX : Identifies different AST children of CALL nodes or BLOCK nodes. Ordered 1 to N, with 0 reserved for implicit arguments like this or self
+	15 TYPE_FULL_NAME : Name of DataType
+	16 IS_VARIADIC : Is variadic parameter (**args, kwargs)
+	18 INDEX : Index of parameter in parameter lists
+	23 CONTROL_STRUCTURE_TYPE : Lists type of control structure
+
+REMOVE:
+	3 FULL_NAME : Has less information than NAME
+	4 FILE_NAME : Do not need
+	8 COLUMN_NUMBER : Do not need
+	9 LINE_NUMBER : Do not need
+	11 COLUMN_NUMBER_END : Do not need
+	13 LINE_NUMBER_END : Do not need
+	17 EVALUATION_STRATEGY : States if parameter is pass by value, by reference, etc.
+	21 PARSER_TYPE_NAME : Unknown
+	22 CONTAINED_REF : unknown, linked to PARSER_TYPE_NAME
+
+50/50:
+
+	19 METHOD_FULL_NAME : Might be equal to Name, need to verify
+	20 DISPATCH_TYPE : used with METHOD_FULL_NAME
+	24 TYPE_DECL_FULL_NAME : Already handled by NAME
