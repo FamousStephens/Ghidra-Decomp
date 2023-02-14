@@ -38,6 +38,12 @@ class mpManager(Process):
         process.terminate()
         self.coreUsage -= 1
 
+    def isProcessRunning(self, process):
+        if process.is_alive():
+            return True
+        else:
+            return False
+
 class joern_parse:
     def __init__(self, filename, joern_loc = "/usr/local/bin/joern-parse ", export_type = " --repr=all", 
         graph_format=" --format=dot", joern_export = "/usr/local/bin/joern-export "):
