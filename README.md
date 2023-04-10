@@ -1,4 +1,4 @@
-# Ghidra-Decomp
+# A Ghidra-GNN Pipeline for Generating Recompilable Source Code
 Authors: Alexander Kostandarithes and Tim Barao.
 Overview: The code here works with Ghidra scripting and JOERN to do the following:
   -Decompile a binary and output all its functions to individual .c files 
