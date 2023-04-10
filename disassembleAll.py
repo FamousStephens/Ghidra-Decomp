@@ -14,4 +14,8 @@ if __name__ == "__main__":
     for file in os.listdir(BIN_PATH_NAME):
         command = str_fmt + BIN_PATH_NAME + file + " > " + OUTPUT_PATH_NAME + file + ".asm"
         os.system(command)
+
+
+    for file in os.listdir(OUTPUT_PATH_NAME):
+        
     
