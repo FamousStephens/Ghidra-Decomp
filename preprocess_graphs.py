@@ -143,6 +143,12 @@ def main():
     for f in folder_list:
         p = Process(target=marathon, args=(f, os.getcwd()))
         Process_Manager.add_process(p)
+    while Process_Manager.coreUsage > 0:
+        for p in Process_Manager.process_list:
+            if not Process_Manager.isProcessRunning(p):
+                Process_Manager.remove_process(p)
+                print(f"[*] Process {p} has finished")
+    
 
 
 if __name__ == "__main__": 

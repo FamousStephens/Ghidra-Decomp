@@ -1,0 +1,1205 @@
+	1204
+      1 vprintf.c:4:28: error: unknown type name ‘__gnuc_va_list’
+      1 vfprintf.c:4:39: error: unknown type name ‘__gnuc_va_list’
+      1 vfprintf.c:4:14: error: unknown type name ‘FILE’
+      1 usage.c:2:12: error: unknown type name ‘FILE’
+      1 unlink.c:9:20: error: expected expression before ‘)’ token
+      1 unlink.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 umask.c:4:1: error: unknown type name ‘__mode_t’
+      1 umask.c:4:16: error: unknown type name ‘__mode_t’
+      1 translate_addresses.c:2:36: error: unknown type name ‘asection’
+      1 translate_addresses.c:2:26: error: unknown type name ‘bfd’
+      1 towlower.c:4:1: error: unknown type name ‘wint_t’
+      1 towlower.c:4:17: error: unknown type name ‘wint_t’
+      1 time.c:4:1: error: unknown type name ‘time_t’
+      1 time.c:4:13: error: unknown type name ‘time_t’
+      1 textdomain.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 textdomain.c:5:12: error: expected expression before ‘)’ token
+      1 template_in_dir.c:8:3: error: unknown type name ‘size_t’
+      1 template_in_dir.c:6:3: error: unknown type name ‘size_t’
+      1 sysconf.c:9:20: error: expected expression before ‘)’ token
+      1 sysconf.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 symbolsrec_object_p.c:2:34: error: unknown type name ‘bfd’
+      1 symbolsrec_object_p.c:2:1: error: unknown type name ‘bfd_target’
+      1 strtoul.c:9:20: error: expected expression before ‘)’ token
+      1 strtoul.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strtoul.c:7:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 strtoul.c:4:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 strtol.c:9:20: error: expected expression before ‘)’ token
+      1 strtol.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strtab_hash_newfunc.c:2:60: error: unknown type name ‘bfd_hash_table’
+      1 strtab_hash_newfunc.c:2:38: error: unknown type name ‘bfd_hash_entry’
+      1 strtab_hash_newfunc.c:2:1: error: unknown type name ‘bfd_hash_entry’
+      1 strstr.c:9:29: error: expected expression before ‘)’ token
+      1 strstr.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strspn.c:9:20: error: expected expression before ‘)’ token
+      1 strspn.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strspn.c:7:3: error: unknown type name ‘size_t’
+      1 strspn.c:4:1: error: unknown type name ‘size_t’
+      1 strrchr.c:9:29: error: expected expression before ‘)’ token
+      1 strrchr.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strpbrk.c:9:29: error: expected expression before ‘)’ token
+      1 strpbrk.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strnlen.c:4:31: error: unknown type name ‘size_t’
+      1 strnlen.c:4:1: error: unknown type name ‘size_t’
+      1 strncpy.c:4:41: error: unknown type name ‘size_t’
+      1 strncmp.c:4:35: error: unknown type name ‘size_t’
+      1 strncat.c:4:41: error: unknown type name ‘size_t’
+      1 strncasecmp.c:4:39: error: unknown type name ‘size_t’
+      1 strlen.c:9:20: error: expected expression before ‘)’ token
+      1 strlen.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strlen.c:7:3: error: unknown type name ‘size_t’
+      1 strlen.c:4:1: error: unknown type name ‘size_t’
+      1 strerror.c:9:29: error: expected expression before ‘)’ token
+      1 strerror.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strdup.c:9:29: error: expected expression before ‘)’ token
+      1 strdup.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strcspn.c:9:20: error: expected expression before ‘)’ token
+      1 strcspn.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strcspn.c:7:3: error: unknown type name ‘size_t’
+      1 strcspn.c:4:1: error: unknown type name ‘size_t’
+      1 strcpy.c:9:29: error: expected expression before ‘)’ token
+      1 strcpy.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strcmp.c:9:20: error: expected expression before ‘)’ token
+      1 strcmp.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strchr.c:9:29: error: expected expression before ‘)’ token
+      1 strchr.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strcat.c:9:29: error: expected expression before ‘)’ token
+      1 strcat.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strcasecmp.c:9:20: error: expected expression before ‘)’ token
+      1 strcasecmp.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 __stack_chk_fail.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 __stack_chk_fail.c:5:12: error: expected expression before ‘)’ token
+      1 sscanf.c:9:20: error: expected expression before ‘)’ token
+      1 sscanf.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 srec_write_terminator.c:2:45: error: unknown type name ‘tdata_type’
+      1 srec_write_terminator.c:2:35: error: unknown type name ‘bfd’
+      1 srec_write_terminator.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_write_section.c:2:60: error: unknown type name ‘srec_data_list_type’
+      1 srec_write_section.c:2:42: error: unknown type name ‘tdata_type’
+      1 srec_write_section.c:2:32: error: unknown type name ‘bfd’
+      1 srec_write_section.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_write_record.c:2:82: error: unknown type name ‘bfd_byte’
+      1 srec_write_record.c:2:67: error: unknown type name ‘bfd_byte’
+      1 srec_write_record.c:2:51: error: unknown type name ‘bfd_vma’
+      1 srec_write_record.c:2:41: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 srec_write_record.c:2:31: error: unknown type name ‘bfd’
+      1 srec_write_record.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_write_header.c:2:31: error: unknown type name ‘bfd’
+      1 srec_write_header.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_set_section_contents.c:4:69: error: unknown type name ‘bfd_size_type’
+      1 srec_set_section_contents.c:4:53: error: unknown type name ‘file_ptr’
+      1 srec_set_section_contents.c:4:22: error: unknown type name ‘sec_ptr’
+      1 srec_set_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 srec_set_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_set_arch_mach.c:2:64: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 srec_set_arch_mach.c:2:42: error: unknown type name ‘bfd_architecture’
+      1 srec_set_arch_mach.c:2:32: error: unknown type name ‘bfd’
+      1 srec_set_arch_mach.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_scan.c:2:23: error: unknown type name ‘bfd’
+      1 srec_scan.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_read_section.c:2:59: error: unknown type name ‘bfd_byte’
+      1 srec_read_section.c:2:41: error: unknown type name ‘asection’
+      1 srec_read_section.c:2:31: error: unknown type name ‘bfd’
+      1 srec_read_section.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_object_p.c:2:28: error: unknown type name ‘bfd’
+      1 srec_object_p.c:2:1: error: unknown type name ‘bfd_target’
+      1 srec_new_symbol.c:2:50: error: unknown type name ‘bfd_vma’
+      1 srec_new_symbol.c:2:29: error: unknown type name ‘bfd’
+      1 srec_new_symbol.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_mkobject.c:2:27: error: unknown type name ‘bfd’
+      1 srec_mkobject.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_init.c:6:15: error: expected expression before ‘:’ token
+      1 srec_init.c:5:16: error: expected ‘)’ before ‘:’ token
+      1 srec_get_section_contents.c:4:71: error: unknown type name ‘bfd_size_type’
+      1 srec_get_section_contents.c:4:55: error: unknown type name ‘file_ptr’
+      1 srec_get_section_contents.c:4:22: error: unknown type name ‘asection’
+      1 srec_get_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 srec_get_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 srec_get_byte.c:2:29: error: unknown type name ‘bfd_boolean’
+      1 srec_get_byte.c:2:19: error: unknown type name ‘bfd’
+      1 srec_bad_byte.c:2:48: error: unknown type name ‘bfd_boolean’
+      1 srec_bad_byte.c:2:30: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 srec_bad_byte.c:2:20: error: unknown type name ‘bfd’
+      1 sprintf.c:9:20: error: expected expression before ‘)’ token
+      1 sprintf.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 snprintf.c:4:24: error: unknown type name ‘size_t’
+      1 slurp_symtab.c:2:19: error: unknown type name ‘bfd’
+      1 setst.c:2:12: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 setlocale.c:9:29: error: expected expression before ‘)’ token
+      1 setlocale.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+      1 set_default_bfd_target.c:6:3: error: unknown type name ‘bfd_error_type’
+      1 set_default_bfd_target.c:5:3: error: unknown type name ‘bfd_boolean’
+      1 separate_debug_file_exists.c:2:51: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 separate_debug_file_exists.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 separate_alt_debug_file_exists.c:2:55: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 separate_alt_debug_file_exists.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 sbrk.c:4:13: error: unknown type name ‘intptr_t’
+      1 report.c:2:26: error: unknown type name ‘__va_list_tag’
+      1 realpath.c:9:29: error: expected expression before ‘)’ token
+      1 realpath.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 realloc.c:4:28: error: unknown type name ‘size_t’
+      1 readdir.c:4:1: error: unknown type name ‘dirent’
+      1 readdir.c:4:18: error: unknown type name ‘DIR’
+      1 qsort.c:4:54: error: unknown type name ‘__compar_fn_t’
+      1 qsort.c:4:40: error: unknown type name ‘size_t’
+      1 qsort.c:4:25: error: unknown type name ‘size_t’
+      1 process_file.c:9:3: error: unknown type name ‘undefined8’
+      1 process_file.c:8:3: error: unknown type name ‘off_t’
+      1 process_file.c:7:3: error: unknown type name ‘bfd_error_type’
+      1 process_file.c:6:3: error: unknown type name ‘bfd_boolean’
+      1 process_file.c:62:25: error: expected expression before ‘)’ token
+      1 process_file.c:60:9: error: ‘syms’ undeclared (first use in this function)
+      1 process_file.c:60:28: error: expected expression before ‘)’ token
+      1 process_file.c:60:18: error: ‘asymbol’ undeclared (first use in this function)
+      1 process_file.c:52:33: error: expected expression before ‘)’ token
+      1 process_file.c:48:28: error: expected expression before ‘)’ token
+      1 process_file.c:48:18: error: ‘asection’ undeclared (first use in this function); did you mean ‘section’?
+      1 process_file.c:40:20: error: ‘bfd_error_file_ambiguously_recognized’ undeclared (first use in this function)
+      1 process_file.c:38:24: error: request for member ‘filename’ in something not a structure or union
+      1 process_file.c:36:43: error: ‘bfd_object’ undeclared (first use in this function)
+      1 process_file.c:30:35: error: ‘bfd_archive’ undeclared (first use in this function)
+      1 process_file.c:27:7: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+      1 process_file.c:27:13: error: expected expression before ‘)’ token
+      1 process_file.c:23:23: error: expected expression before ‘)’ token
+      1 process_file.c:23:18: error: ‘bfd’ undeclared (first use in this function); did you mean ‘abfd’?
+      1 process_file.c:13:3: error: unknown type name ‘bfd’
+      1 process_file.c:12:3: error: unknown type name ‘asection’
+      1 print_arelt_descr.c:2:45: error: unknown type name ‘bfd_boolean’
+      1 print_arelt_descr.c:2:35: error: unknown type name ‘bfd’
+      1 print_arelt_descr.c:2:24: error: unknown type name ‘FILE’
+      1 parse_vma.c:8:3: error: unknown type name ‘bfd_vma’
+      1 parse_vma.c:5:3: error: unknown type name ‘undefined8’
+      1 parse_vma.c:2:1: error: unknown type name ‘bfd_vma’
+      1 opncls_bwrite.c:2:46: error: unknown type name ‘file_ptr’
+      1 opncls_bwrite.c:2:24: error: unknown type name ‘bfd’
+      1 opncls_bwrite.c:2:1: error: unknown type name ‘file_ptr’
+      1 opncls_btell.c:2:23: error: unknown type name ‘bfd’
+      1 opncls_btell.c:2:1: error: unknown type name ‘file_ptr’
+      1 opncls_bstat.c:2:28: error: unknown type name ‘stat’
+      1 opncls_bstat.c:2:18: error: unknown type name ‘bfd’
+      1 opncls_bseek.c:2:28: error: unknown type name ‘file_ptr’
+      1 opncls_bseek.c:2:18: error: unknown type name ‘bfd’
+      1 opncls_bread.c:2:43: error: unknown type name ‘file_ptr’
+      1 opncls_bread.c:2:23: error: unknown type name ‘bfd’
+      1 opncls_bread.c:2:1: error: unknown type name ‘file_ptr’
+      1 opncls_bmmap.c:3:36: error: unknown type name ‘bfd_size_type’
+      1 opncls_bmmap.c:2:79: error: unknown type name ‘file_ptr’
+      1 opncls_bmmap.c:2:42: error: unknown type name ‘bfd_size_type’
+      1 opncls_bmmap.c:2:21: error: unknown type name ‘bfd’
+      1 opncls_bflush.c:2:19: error: unknown type name ‘bfd’
+      1 opncls_bclose.c:2:19: error: unknown type name ‘bfd’
+      1 opendir.c:9:29: error: expected ‘)’ before ‘PTR_opendir_0075c0b0’
+      1 opendir.c:9:22: error: ‘code’ undeclared (first use in this function)
+      1 opendir.c:9:18: error: expected expression before ‘)’ token
+      1 opendir.c:9:13: error: ‘DIR’ undeclared (first use in this function)
+      1 opendir.c:7:3: error: unknown type name ‘DIR’
+      1 opendir.c:4:1: error: unknown type name ‘DIR’
+      1 non_fatal.c:5:35: error: unknown type name ‘undefined8’
+      1 non_fatal.c:5:15: error: unknown type name ‘undefined8’
+      1 non_fatal.c:4:69: error: unknown type name ‘undefined8’
+      1 non_fatal.c:4:49: error: unknown type name ‘undefined8’
+      1 non_fatal.c:4:29: error: unknown type name ‘undefined8’
+      1 non_fatal.c:3:72: error: unknown type name ‘undefined4’
+      1 non_fatal.c:3:53: error: unknown type name ‘undefined4’
+      1 non_fatal.c:3:34: error: unknown type name ‘undefined4’
+      1 non_fatal.c:3:15: error: unknown type name ‘undefined4’
+      1 non_fatal.c:2:73: error: unknown type name ‘undefined4’
+      1 non_fatal.c:2:54: error: unknown type name ‘undefined4’
+      1 non_fatal.c:2:35: error: unknown type name ‘undefined4’
+      1 non_fatal.c:2:16: error: unknown type name ‘undefined4’
+      1 mode_string.c:2:18: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 mmap.c:4:71: error: unknown type name ‘__off_t’
+      1 mmap.c:4:26: error: unknown type name ‘size_t’
+      1 mkstemps.c:9:20: error: expected expression before ‘)’ token
+      1 mkstemps.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 mkstemp.c:9:20: error: expected expression before ‘)’ token
+      1 mkstemp.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 mkdtemp.c:9:29: error: expected expression before ‘)’ token
+      1 mkdtemp.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 memset.c:4:33: error: unknown type name ‘size_t’
+      1 memmove.c:4:41: error: unknown type name ‘size_t’
+      1 memcpy.c:4:40: error: unknown type name ‘size_t’
+      1 memcmp.c:4:34: error: unknown type name ‘size_t’
+      1 memchr.c:4:33: error: unknown type name ‘size_t’
+      1 _maybe_make_executable.c:2:29: error: unknown type name ‘bfd’
+      1 mangle_name.c:2:20: error: unknown type name ‘bfd’
+      1 malloc.c:4:15: error: unknown type name ‘size_t’
+      1 main.c:7:3: error: unknown type name ‘undefined8’
+      1 main.c:32:58: error: ‘long_options’ undeclared (first use in this function)
+      1 main.c:22:3: error: ‘program_name’ undeclared (first use in this function)
+      1 main.c:197:12: error: ‘true’ undeclared (first use in this function)
+      1 main.c:193:7: error: ‘naddr’ undeclared (first use in this function)
+      1 main.c:192:7: error: ‘addr’ undeclared (first use in this function)
+      1 main.c:192:25: error: ‘optind’ undeclared (first use in this function)
+      1 main.c:186:7: error: ‘base_names’ undeclared (first use in this function)
+      1 main.c:183:7: error: ‘pretty_print’ undeclared (first use in this function)
+      1 main.c:177:7: error: ‘unwind_inlines’ undeclared (first use in this function)
+      1 main.c:174:7: error: ‘with_functions’ undeclared (first use in this function)
+      1 main.c:165:7: error: ‘with_addresses’ undeclared (first use in this function)
+      1 main.c:158:13: error: ‘stdout’ undeclared (first use in this function)
+      1 main.c:148:22: error: ‘unknown_demangling’ undeclared (first use in this function)
+      1 main.c:145:11: error: ‘optarg’ undeclared (first use in this function)
+      1 main.c:144:7: error: ‘do_demangle’ undeclared (first use in this function)
+      1 main.c:141:13: error: ‘stderr’ undeclared (first use in this function)
+      1 main.c:11:3: error: unknown type name ‘demangling_styles’
+      1 lseek.c:4:24: error: unknown type name ‘__off_t’
+      1 lseek.c:4:1: error: unknown type name ‘__off_t’
+      1 list_supported_targets.c:2:40: error: unknown type name ‘FILE’
+      1 list_supported_architectures.c:2:46: error: unknown type name ‘FILE’
+      1 list_matching_formats.c:9:10: error: ‘stdout’ undeclared (first use in this function)
+      1 list_matching_formats.c:12:11: error: ‘stderr’ undeclared (first use in this function)
+      1 list_matching_formats.c:10:12: error: ‘program_name’ undeclared (first use in this function)
+      1 is_valid_archive_path.c:6:3: error: unknown type name ‘bfd_boolean’
+      1 is_valid_archive_path.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 is32bit.c:2:21: error: unknown type name ‘bfd’
+      1 is32bit.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _IO_putc.c:4:22: error: unknown type name ‘_IO_FILE’
+      1 ihex_write_record.c:2:74: error: unknown type name ‘bfd_byte’
+      1 ihex_write_record.c:2:64: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 ihex_write_record.c:2:54: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 ihex_write_record.c:2:41: error: unknown type name ‘size_t’
+      1 ihex_write_record.c:2:31: error: unknown type name ‘bfd’
+      1 ihex_write_record.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_write_object_contents.c:2:40: error: unknown type name ‘bfd’
+      1 ihex_write_object_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_sizeof_headers.c:2:35: error: unknown type name ‘bfd_link_info’
+      1 ihex_sizeof_headers.c:2:25: error: unknown type name ‘bfd’
+      1 ihex_set_section_contents.c:4:71: error: unknown type name ‘bfd_size_type’
+      1 ihex_set_section_contents.c:4:55: error: unknown type name ‘file_ptr’
+      1 ihex_set_section_contents.c:4:22: error: unknown type name ‘asection’
+      1 ihex_set_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 ihex_set_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_set_arch_mach.c:2:64: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 ihex_set_arch_mach.c:2:42: error: unknown type name ‘bfd_architecture’
+      1 ihex_set_arch_mach.c:2:32: error: unknown type name ‘bfd’
+      1 ihex_set_arch_mach.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_scan.c:2:23: error: unknown type name ‘bfd’
+      1 ihex_scan.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_read_section.c:2:59: error: unknown type name ‘bfd_byte’
+      1 ihex_read_section.c:2:41: error: unknown type name ‘asection’
+      1 ihex_read_section.c:2:31: error: unknown type name ‘bfd’
+      1 ihex_read_section.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_object_p.c:2:28: error: unknown type name ‘bfd’
+      1 ihex_object_p.c:2:1: error: unknown type name ‘bfd_target’
+      1 ihex_mkobject.c:2:27: error: unknown type name ‘bfd’
+      1 ihex_mkobject.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_init.c:6:15: error: expected expression before ‘:’ token
+      1 ihex_init.c:5:16: error: expected ‘)’ before ‘:’ token
+      1 ihex_get_section_contents.c:4:71: error: unknown type name ‘bfd_size_type’
+      1 ihex_get_section_contents.c:4:55: error: unknown type name ‘file_ptr’
+      1 ihex_get_section_contents.c:4:22: error: unknown type name ‘asection’
+      1 ihex_get_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 ihex_get_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 ihex_get_byte.c:2:29: error: unknown type name ‘bfd_boolean’
+      1 ihex_get_byte.c:2:19: error: unknown type name ‘bfd’
+      1 ihex_bad_byte.c:2:48: error: unknown type name ‘bfd_boolean’
+      1 ihex_bad_byte.c:2:30: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 ihex_bad_byte.c:2:20: error: unknown type name ‘bfd’
+      1 higher_prime_number.c:2:27: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 higher_prime_number.c:2:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 getuid.c:9:20: error: expected expression before ‘)’ token
+      1 getuid.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 getuid.c:7:3: error: unknown type name ‘__uid_t’
+      1 getuid.c:4:1: error: unknown type name ‘__uid_t’
+      1 gettext.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 gettext.c:5:12: error: expected expression before ‘)’ token
+      1 getrlimit.c:4:46: error: unknown type name ‘rlimit’
+      1 getrlimit.c:4:15: error: unknown type name ‘__rlimit_resource_t’
+      1 getpagesize.c:9:20: error: expected expression before ‘)’ token
+      1 getpagesize.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 getopt_long.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 getopt_long.c:5:12: error: expected expression before ‘)’ token
+      1 getgid.c:9:20: error: expected expression before ‘)’ token
+      1 getgid.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 getgid.c:7:3: error: unknown type name ‘__gid_t’
+      1 getgid.c:4:1: error: unknown type name ‘__gid_t’
+      1 get_file_size.c:8:3: error: unknown type name ‘undefined8’
+      1 get_file_size.c:40:19: error: request for member ‘st_size’ in something not a structure or union
+      1 get_file_size.c:37:10: error: request for member ‘st_size’ in something not a structure or union
+      1 get_file_size.c:29:21: error: request for member ‘st_size’ in something not a structure or union
+      1 get_file_size.c:28:20: error: request for member ‘st_mode’ in something not a structure or union
+      1 get_file_size.c:2:1: error: unknown type name ‘off_t’
+      1 get_file_size.c:14:33: error: expected expression before ‘)’ token
+      1 get_file_size.c:11:3: error: unknown type name ‘stat’
+      1 getenv.c:9:29: error: expected expression before ‘)’ token
+      1 getenv.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 getcwd.c:4:27: error: unknown type name ‘size_t’
+      1 get_build_id_name.c:2:36: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 get_build_id_name.c:2:26: error: unknown type name ‘bfd’
+      1 get_build_id.c:2:29: error: unknown type name ‘bfd’
+      1 get_build_id.c:2:1: error: unknown type name ‘bfd_build_id’
+      1 get_alt_debug_link_info_shim.c:2:47: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 get_alt_debug_link_info_shim.c:2:37: error: unknown type name ‘bfd’
+      1 fwrite.c:4:52: error: unknown type name ‘FILE’
+      1 fwrite.c:4:41: error: unknown type name ‘size_t’
+      1 fwrite.c:4:27: error: unknown type name ‘size_t’
+      1 fwrite.c:4:1: error: unknown type name ‘size_t’
+      1 FUN_00401e10.c:6:6: error: ‘code’ undeclared (first use in this function)
+      1 FUN_00401e10.c:6:12: error: expected expression before ‘)’ token
+      1 ftypelet.c:2:15: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 ftello64.c:4:20: error: unknown type name ‘FILE’
+      1 ftello64.c:4:1: error: unknown type name ‘__off64_t’
+      1 ftell.c:4:12: error: unknown type name ‘FILE’
+      1 fseeko64.c:4:29: error: unknown type name ‘__off64_t’
+      1 fseeko64.c:4:14: error: unknown type name ‘FILE’
+      1 fseek.c:4:11: error: unknown type name ‘FILE’
+      1 free.c:10:12: error: ‘true’ undeclared (first use in this function)
+      1 fread.c:4:51: error: unknown type name ‘FILE’
+      1 fread.c:4:40: error: unknown type name ‘size_t’
+      1 fread.c:4:26: error: unknown type name ‘size_t’
+      1 fread.c:4:1: error: unknown type name ‘size_t’
+      1 fputs.c:4:21: error: unknown type name ‘FILE’
+      1 fputc.c:4:19: error: unknown type name ‘FILE’
+      1 fprintf.c:4:13: error: unknown type name ‘FILE’
+      1 fopen.c:9:30: error: expected ‘)’ before ‘PTR_fopen_0075c2d8’
+      1 fopen.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 fopen.c:9:19: error: expected expression before ‘)’ token
+      1 fopen.c:9:13: error: ‘FILE’ undeclared (first use in this function)
+      1 fopen.c:7:3: error: unknown type name ‘FILE’
+      1 fopen.c:4:1: error: unknown type name ‘FILE’
+      1 fopen64.c:9:30: error: expected ‘)’ before ‘PTR_fopen64_0075c1f0’
+      1 fopen64.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 fopen64.c:9:19: error: expected expression before ‘)’ token
+      1 fopen64.c:9:13: error: ‘FILE’ undeclared (first use in this function)
+      1 fopen64.c:7:3: error: unknown type name ‘FILE’
+      1 fopen64.c:4:1: error: unknown type name ‘FILE’
+      1 fnmatch.c:9:20: error: expected expression before ‘)’ token
+      1 fnmatch.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 find_target.c:9:60: error: expected expression before ‘)’ token
+      1 find_target.c:9:48: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘find_target’?
+      1 find_target.c:9:17: error: ‘bfd_target_vector’ undeclared (first use in this function)
+      1 find_target.c:7:3: error: unknown type name ‘targmatch’
+      1 find_target.c:6:3: error: unknown type name ‘bfd_target’
+      1 find_target.c:27:15: error: request for member ‘vector’ in something not a structure or union
+      1 find_target.c:25:40: error: expected expression before ‘)’ token
+      1 find_target.c:25:15: error: request for member ‘vector’ in something not a structure or union
+      1 find_target.c:2:1: error: unknown type name ‘bfd_target’
+      1 find_target.c:21:26: error: request for member ‘triplet’ in something not a structure or union
+      1 find_target.c:19:27: error: expected expression before ‘)’ token
+      1 find_target.c:17:14: error: request for member ‘triplet’ in something not a structure or union
+      1 find_target.c:16:10: error: ‘true’ undeclared (first use in this function)
+      1 find_target.c:15:11: error: ‘bfd_target_match’ undeclared (first use in this function)
+      1 find_target.c:10:34: error: request for member ‘name’ in something not a structure or union
+      1 find_separate_debug_file.c:4:42: error: unknown type name ‘check_func_type’
+      1 find_separate_debug_file.c:4:18: error: unknown type name ‘get_func_type’
+      1 find_separate_debug_file.c:3:56: error: unknown type name ‘bfd_boolean’
+      1 find_separate_debug_file.c:3:19: error: unknown type name ‘bfd’
+      1 find_offset_in_section.c:2:39: error: unknown type name ‘asection’
+      1 find_offset_in_section.c:2:29: error: unknown type name ‘bfd’
+      1 find_address_in_section.c:2:40: error: unknown type name ‘asection’
+      1 find_address_in_section.c:2:30: error: unknown type name ‘bfd’
+      1 fileno.c:4:12: error: unknown type name ‘FILE’
+      1 fgets.c:4:32: error: unknown type name ‘FILE’
+      1 ffs.c:9:20: error: expected expression before ‘)’ token
+      1 ffs.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 fflush.c:4:12: error: unknown type name ‘FILE’
+      1 ferror.c:4:12: error: unknown type name ‘FILE’
+      1 fdopen.c:9:30: error: expected ‘)’ before ‘PTR_fdopen_0075c2a0’
+      1 fdopen.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 fdopen.c:9:19: error: expected expression before ‘)’ token
+      1 fdopen.c:9:13: error: ‘FILE’ undeclared (first use in this function)
+      1 fdopen.c:7:3: error: unknown type name ‘FILE’
+      1 fdopen.c:4:1: error: unknown type name ‘FILE’
+      1 fcntl.c:9:20: error: expected expression before ‘)’ token
+      1 fcntl.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 fclose.c:4:12: error: unknown type name ‘FILE’
+      1 fatal.c:5:11: error: unknown type name ‘undefined8’
+      1 fatal.c:4:71: error: unknown type name ‘undefined8’
+      1 fatal.c:4:51: error: unknown type name ‘undefined8’
+      1 fatal.c:4:31: error: unknown type name ‘undefined8’
+      1 fatal.c:4:11: error: unknown type name ‘undefined8’
+      1 fatal.c:3:68: error: unknown type name ‘undefined4’
+      1 fatal.c:3:49: error: unknown type name ‘undefined4’
+      1 fatal.c:3:30: error: unknown type name ‘undefined4’
+      1 fatal.c:3:11: error: unknown type name ‘undefined4’
+      1 fatal.c:2:69: error: unknown type name ‘undefined4’
+      1 fatal.c:2:50: error: unknown type name ‘undefined4’
+      1 fatal.c:2:31: error: unknown type name ‘undefined4’
+      1 fatal.c:2:12: error: unknown type name ‘undefined4’
+      1 _exit.c:7:6: error: ‘code’ undeclared (first use in this function)
+      1 exit.c:7:6: error: ‘code’ undeclared (first use in this function)
+      1 _exit.c:7:12: error: expected expression before ‘)’ token
+      1 exit.c:7:12: error: expected expression before ‘)’ token
+      1 error_handler_internal.c:2:39: error: unknown type name ‘__va_list_tag’
+      1 __errno_location.c:9:28: error: expected expression before ‘)’ token
+      1 __errno_location.c:9:22: error: ‘code’ undeclared (first use in this function)
+      1 endian_string.c:2:22: error: unknown type name ‘bfd_endian’
+      1 do_info_size.c:2:37: error: unknown type name ‘display_target’
+      1 do_info_row.c:2:60: error: unknown type name ‘display_target’
+      1 do_info_row.c:2:41: error: unknown type name ‘bfd_architecture’
+      1 do_info_header.c:2:44: error: unknown type name ‘display_target’
+      1 do_display_target.c:2:23: error: unknown type name ‘bfd_target’
+      1 dlsym.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 dlsym.c:5:12: error: expected expression before ‘)’ token
+      1 dlopen.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 dlopen.c:5:12: error: expected expression before ‘)’ token
+      1 dlerror.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 dlerror.c:5:12: error: expected expression before ‘)’ token
+      1 display_target_tables.c:2:28: error: unknown type name ‘display_target’
+      1 display_target_list.c:2:26: error: unknown type name ‘display_target’
+      1 display_info.c:8:3: error: unknown type name ‘display_target’
+      1 display_info.c:21:13: error: request for member ‘error’ in something not a structure or union
+      1 display_info.c:14:10: error: request for member ‘error’ in something not a structure or union
+      1 dgettext.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 dgettext.c:5:12: error: expected expression before ‘)’ token
+      1 ctime.c:4:14: error: unknown type name ‘time_t’
+      1 closedir.c:4:14: error: unknown type name ‘DIR’
+      1 close.c:9:20: error: expected expression before ‘)’ token
+      1 close.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 chmod.c:4:24: error: unknown type name ‘__mode_t’
+      1 check_build_id_file.c:2:44: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 check_build_id_file.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 calloc.c:5:30: error: unknown type name ‘size_t’
+      1 calloc.c:5:15: error: unknown type name ‘size_t’
+      1 bsearch.c:4:70: error: unknown type name ‘__compar_fn_t’
+      1 bsearch.c:4:56: error: unknown type name ‘size_t’
+      1 bsearch.c:4:41: error: unknown type name ‘size_t’
+      1 bindtextdomain.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 bindtextdomain.c:5:12: error: expected expression before ‘)’ token
+      1 binary_sizeof_headers.c:2:37: error: unknown type name ‘bfd_link_info’
+      1 binary_sizeof_headers.c:2:27: error: unknown type name ‘bfd’
+      1 binary_set_section_contents.c:3:80: error: unknown type name ‘bfd_size_type’
+      1 binary_set_section_contents.c:3:64: error: unknown type name ‘file_ptr’
+      1 binary_set_section_contents.c:3:39: error: unknown type name ‘asection’
+      1 binary_set_section_contents.c:3:29: error: unknown type name ‘bfd’
+      1 binary_set_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 binary_object_p.c:2:30: error: unknown type name ‘bfd’
+      1 binary_object_p.c:2:1: error: unknown type name ‘bfd_target’
+      1 binary_mkobject.c:2:29: error: unknown type name ‘bfd’
+      1 binary_mkobject.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 binary_get_symtab_upper_bound.c:2:36: error: unknown type name ‘bfd’
+      1 binary_get_symbol_info.c:2:62: error: unknown type name ‘symbol_info’
+      1 binary_get_symbol_info.c:2:46: error: unknown type name ‘asymbol’
+      1 binary_get_symbol_info.c:2:29: error: unknown type name ‘bfd’
+      1 binary_get_section_contents.c:4:71: error: unknown type name ‘bfd_size_type’
+      1 binary_get_section_contents.c:4:55: error: unknown type name ‘file_ptr’
+      1 binary_get_section_contents.c:4:22: error: unknown type name ‘asection’
+      1 binary_get_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 binary_get_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 binary_canonicalize_symtab.c:2:43: error: unknown type name ‘asymbol’
+      1 binary_canonicalize_symtab.c:2:33: error: unknown type name ‘bfd’
+      1 bfd_zmalloc.c:2:20: error: unknown type name ‘bfd_size_type’
+      1 bfd_zmalloc2.c:2:41: error: unknown type name ‘bfd_size_type’
+      1 bfd_zmalloc2.c:2:21: error: unknown type name ‘bfd_size_type’
+      1 bfd_zalloc.c:2:29: error: unknown type name ‘bfd_size_type’
+      1 bfd_zalloc.c:2:19: error: unknown type name ‘bfd’
+      1 bfd_zalloc2.c:2:50: error: unknown type name ‘bfd_size_type’
+      1 bfd_zalloc2.c:2:30: error: unknown type name ‘bfd_size_type’
+      1 bfd_zalloc2.c:2:20: error: unknown type name ‘bfd’
+      1 _bfd_xcoff_stringtab_init.c:9:35: error: expected expression before ‘)’ token
+      1 _bfd_xcoff_stringtab_init.c:9:18: error: ‘bfd_strtab_hash’ undeclared (first use in this function)
+      1 _bfd_xcoff_stringtab_init.c:6:3: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_xcoff_stringtab_init.c:5:3: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_xcoff_stringtab_init.c:2:1: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_xcoff_stringtab_init.c:10:11: error: request for member ‘xcoff’ in something not a structure or union
+      1 bfd_write_bigendian_4byte_int.c:2:53: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_write_bigendian_4byte_int.c:2:43: error: unknown type name ‘bfd’
+      1 bfd_write_bigendian_4byte_int.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_warn_deprecated.c:8:12: error: ‘stdout’ undeclared (first use in this function)
+      1 _bfd_warn_deprecated.c:7:28: error: expected ‘)’ before ‘:’ token
+      1 _bfd_warn_deprecated.c:18:26: error: expected expression before ‘:’ token
+      1 _bfd_warn_deprecated.c:15:52: error: expected ‘)’ before ‘line’
+      1 _bfd_warn_deprecated.c:15:47: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+      1 _bfd_warn_deprecated.c:15:40: error: ‘ulong’ undeclared (first use in this function)
+      1 _bfd_warn_deprecated.c:11:15: error: ‘stderr’ undeclared (first use in this function)
+      1 _bfd_warn_deprecated.c:10:34: error: ‘DAT_0050cada’ undeclared (first use in this function)
+      1 bfd_void.c:2:15: error: unknown type name ‘bfd’
+      1 bfd_update_compression_header.c:2:65: error: unknown type name ‘asection’
+      1 bfd_update_compression_header.c:2:46: error: unknown type name ‘bfd_byte’
+      1 bfd_update_compression_header.c:2:36: error: unknown type name ‘bfd’
+      1 bfd_true.c:2:22: error: unknown type name ‘bfd’
+      1 bfd_true.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_target_list.c:9:3: error: unknown type name ‘bfd_size_type’
+      1 bfd_target_list.c:7:3: error: unknown type name ‘bfd_target’
+      1 bfd_target_list.c:24:30: error: request for member ‘name’ in something not a structure or union
+      1 bfd_target_list.c:22:62: error: expected expression before ‘)’ token
+      1 bfd_target_list.c:13:60: error: expected expression before ‘)’ token
+      1 bfd_target_list.c:13:48: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_target_list.c:13:17: error: ‘bfd_target_vector’ undeclared (first use in this function); did you mean ‘bfd_target_list’?
+      1 _bfd_stringtab_size.c:2:35: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_size.c:2:1: error: unknown type name ‘bfd_size_type’
+      1 _bfd_stringtab_init.c:8:3: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_init.c:7:3: error: unknown type name ‘bfd_size_type’
+      1 _bfd_stringtab_init.c:6:3: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_init.c:5:3: error: unknown type name ‘bfd_boolean’
+      1 _bfd_stringtab_init.c:24:15: error: request for member ‘xcoff’ in something not a structure or union
+      1 _bfd_stringtab_init.c:23:44: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:23:15: error: request for member ‘last’ in something not a structure or union
+      1 _bfd_stringtab_init.c:22:45: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:22:26: error: ‘strtab_hash_entry’ undeclared (first use in this function)
+      1 _bfd_stringtab_init.c:22:15: error: request for member ‘first’ in something not a structure or union
+      1 _bfd_stringtab_init.c:2:1: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_init.c:21:15: error: request for member ‘size’ in something not a structure or union
+      1 _bfd_stringtab_init.c:18:36: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:15:50: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:15:34: error: ‘bfd_hash_table’ undeclared (first use in this function)
+      1 _bfd_stringtab_init.c:12:34: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:11:37: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:10:32: error: expected expression before ‘)’ token
+      1 _bfd_stringtab_init.c:10:15: error: ‘bfd_strtab_hash’ undeclared (first use in this function)
+      1 _bfd_stringtab_free.c:2:26: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_emit.c:2:43: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_emit.c:2:33: error: unknown type name ‘bfd’
+      1 _bfd_stringtab_emit.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_stringtab_add.c:2:82: error: unknown type name ‘bfd_boolean’
+      1 _bfd_stringtab_add.c:2:65: error: unknown type name ‘bfd_boolean’
+      1 _bfd_stringtab_add.c:2:34: error: unknown type name ‘bfd_strtab_hash’
+      1 _bfd_stringtab_add.c:2:1: error: unknown type name ‘bfd_size_type’
+      1 bfd_sprintf_vma.c:2:42: error: unknown type name ‘bfd_vma’
+      1 bfd_sprintf_vma.c:2:22: error: unknown type name ‘bfd’
+      1 bfd_set_start_address.c:2:45: error: unknown type name ‘bfd_vma’
+      1 bfd_set_start_address.c:2:35: error: unknown type name ‘bfd’
+      1 bfd_set_start_address.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_section_size.c:2:56: error: unknown type name ‘bfd_size_type’
+      1 bfd_set_section_size.c:2:44: error: unknown type name ‘sec_ptr’
+      1 bfd_set_section_size.c:2:34: error: unknown type name ‘bfd’
+      1 bfd_set_section_size.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_section_flags.c:2:61: error: unknown type name ‘flagword’
+      1 bfd_set_section_flags.c:2:45: error: unknown type name ‘sec_ptr’
+      1 bfd_set_section_flags.c:2:35: error: unknown type name ‘bfd’
+      1 bfd_set_section_flags.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_section_contents.c:4:69: error: unknown type name ‘bfd_size_type’
+      1 bfd_set_section_contents.c:4:53: error: unknown type name ‘file_ptr’
+      1 bfd_set_section_contents.c:4:22: error: unknown type name ‘sec_ptr’
+      1 bfd_set_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_set_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_section_alignment.c:2:63: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_set_section_alignment.c:2:49: error: unknown type name ‘asection’
+      1 bfd_set_section_alignment.c:2:39: error: unknown type name ‘bfd’
+      1 bfd_set_section_alignment.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_reloc.c:2:70: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_set_reloc.c:2:51: error: unknown type name ‘arelent’
+      1 bfd_set_reloc.c:2:37: error: unknown type name ‘sec_ptr’
+      1 bfd_set_reloc.c:2:20: error: unknown type name ‘bfd’
+      1 _bfd_set_gp_value.c:2:34: error: unknown type name ‘bfd_vma’
+      1 _bfd_set_gp_value.c:2:24: error: unknown type name ‘bfd’
+      1 bfd_set_gp_size.c:2:32: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_set_gp_size.c:2:22: error: unknown type name ‘bfd’
+      1 bfd_set_format.c:2:38: error: unknown type name ‘bfd_format’
+      1 bfd_set_format.c:2:28: error: unknown type name ‘bfd’
+      1 bfd_set_format.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_file_flags.c:2:42: error: unknown type name ‘flagword’
+      1 bfd_set_file_flags.c:2:32: error: unknown type name ‘bfd’
+      1 bfd_set_file_flags.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_error_program_name.c:5:3: error: ‘_bfd_error_program_name’ undeclared (first use in this function); did you mean ‘bfd_set_error_program_name’?
+      1 bfd_set_error_handler.c:2:48: error: unknown type name ‘bfd_error_handler_type’
+      1 bfd_set_error_handler.c:2:1: error: unknown type name ‘bfd_error_handler_type’
+      1 bfd_set_error.c:7:20: error: unknown type name ‘bfd_error_type’
+      1 bfd_set_default_target.c:8:3: error: unknown type name ‘bfd_target’
+      1 bfd_set_default_target.c:7:3: error: unknown type name ‘bfd_target’
+      1 bfd_set_default_target.c:5:3: error: unknown type name ‘bfd_target’
+      1 bfd_set_default_target.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_default_target.c:20:40: error: expected expression before ‘)’ token
+      1 bfd_set_default_target.c:20:11: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+      1 bfd_set_default_target.c:16:30: error: expected expression before ‘)’ token
+      1 bfd_set_default_target.c:10:8: error: ‘bfd_default_vector’ undeclared (first use in this function)
+      1 bfd_set_default_target.c:10:46: error: expected expression before ‘)’ token
+      1 bfd_set_default_target.c:10:34: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_set_cacheable.c:2:41: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_cacheable.c:2:31: error: unknown type name ‘bfd’
+      1 bfd_set_cacheable.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_set_assert_handler.c:2:50: error: unknown type name ‘bfd_assert_handler_type’
+      1 bfd_set_assert_handler.c:2:1: error: unknown type name ‘bfd_assert_handler_type’
+      1 bfd_set_arch_info.c:2:34: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_set_arch_info.c:2:24: error: unknown type name ‘bfd’
+      1 bfd_sections_find_if.c:4:22: error: unknown type name ‘anon_subr_bfd_boolean_bfd_ptr_asection_ptr_void_ptr’
+      1 bfd_sections_find_if.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_sections_find_if.c:2:1: error: unknown type name ‘asection’
+      1 bfd_section_list_clear.c:2:29: error: unknown type name ‘bfd’
+      1 bfd_section_init.c:2:39: error: unknown type name ‘asection’
+      1 bfd_section_init.c:2:29: error: unknown type name ‘bfd’
+      1 bfd_section_init.c:2:1: error: unknown type name ‘asection’
+      1 bfd_section_hash_newfunc.c:2:65: error: unknown type name ‘bfd_hash_table’
+      1 bfd_section_hash_newfunc.c:2:43: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_section_hash_newfunc.c:2:1: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_scan_vma.c:5:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_scan_vma.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_scan_arch.c:9:9: error: ‘bfd_archures_list’ undeclared (first use in this function)
+      1 bfd_scan_arch.c:7:3: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_scan_arch.c:6:3: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_scan_arch.c:5:3: error: unknown type name ‘bfd_boolean’
+      1 bfd_scan_arch.c:2:1: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_scan_arch.c:21:12: error: ‘true’ undeclared (first use in this function)
+      1 bfd_scan_arch.c:15:19: error: request for member ‘scan’ in something not a structure or union
+      1 bfd_scan_arch.c:14:61: error: request for member ‘next’ in something not a structure or union
+      1 bfd_scan_arch.c:14:48: error: expected expression before ‘)’ token
+      1 bfd_scan_arch.c:12:35: error: expected expression before ‘)’ token
+      1 bfd_scan_arch.c:11:38: error: expected expression before ‘)’ token
+      1 bfd_scan_arch.c:11:18: error: ‘bfd_arch_info_type’ undeclared (first use in this function)
+      1 _bfd_safe_read_leb128.c:3:82: error: unknown type name ‘bfd_byte’
+      1 _bfd_safe_read_leb128.c:3:65: error: unknown type name ‘bfd_boolean’
+      1 _bfd_safe_read_leb128.c:3:45: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 _bfd_safe_read_leb128.c:3:30: error: unknown type name ‘bfd_byte’
+      1 _bfd_safe_read_leb128.c:3:20: error: unknown type name ‘bfd’
+      1 _bfd_safe_read_leb128.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_rename_section.c:2:35: error: unknown type name ‘sec_ptr’
+      1 bfd_rename_section.c:2:25: error: unknown type name ‘bfd’
+      1 bfd_release.c:2:18: error: unknown type name ‘bfd’
+      1 bfd_reinit.c:2:17: error: unknown type name ‘bfd’
+      1 bfd_record_phdr.c:5:16: error: unknown type name ‘asection’
+      1 bfd_record_phdr.c:4:83: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_record_phdr.c:4:56: error: unknown type name ‘bfd_boolean’
+      1 bfd_record_phdr.c:4:27: error: unknown type name ‘bfd_boolean’
+      1 bfd_record_phdr.c:4:16: error: unknown type name ‘bfd_vma’
+      1 bfd_record_phdr.c:3:77: error: unknown type name ‘bfd_boolean’
+      1 bfd_record_phdr.c:3:62: error: unknown type name ‘flagword’
+      1 bfd_record_phdr.c:3:38: error: unknown type name ‘bfd_boolean’
+      1 bfd_record_phdr.c:3:27: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_record_phdr.c:3:17: error: unknown type name ‘bfd’
+      1 bfd_record_phdr.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_realloc_or_free.c:2:38: error: unknown type name ‘bfd_size_type’
+      1 bfd_realloc.c:2:30: error: unknown type name ‘bfd_size_type’
+      1 bfd_realloc2.c:2:51: error: unknown type name ‘bfd_size_type’
+      1 bfd_realloc2.c:2:31: error: unknown type name ‘bfd_size_type’
+      1 _bfd_read_unsigned_leb128.c:2:59: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 _bfd_read_unsigned_leb128.c:2:45: error: unknown type name ‘bfd_byte’
+      1 _bfd_read_unsigned_leb128.c:2:35: error: unknown type name ‘bfd’
+      1 _bfd_read_unsigned_leb128.c:2:1: error: unknown type name ‘bfd_vma’
+      1 _bfd_read_signed_leb128.c:2:64: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 _bfd_read_signed_leb128.c:2:50: error: unknown type name ‘bfd_byte’
+      1 _bfd_read_signed_leb128.c:2:40: error: unknown type name ‘bfd’
+      1 _bfd_read_signed_leb128.c:2:1: error: unknown type name ‘bfd_signed_vma’
+      1 bfd_putl64.c:2:17: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_putl32.c:2:17: error: unknown type name ‘bfd_vma’
+      1 bfd_putl16.c:2:17: error: unknown type name ‘bfd_vma’
+      1 bfd_put_bits.c:2:54: error: unknown type name ‘bfd_boolean’
+      1 bfd_put_bits.c:2:19: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_putb64.c:2:17: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_putb32.c:2:17: error: unknown type name ‘bfd_vma’
+      1 bfd_putb16.c:2:17: error: unknown type name ‘bfd_vma’
+      1 bfd_printable_name.c:2:27: error: unknown type name ‘bfd’
+      1 bfd_printable_arch_mach.c:2:54: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_printable_arch_mach.c:2:32: error: unknown type name ‘bfd_architecture’
+      1 bfd_preserve_save.c:2:41: error: unknown type name ‘bfd_preserve’
+      1 bfd_preserve_save.c:2:31: error: unknown type name ‘bfd’
+      1 bfd_preserve_save.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_preserve_restore.c:2:37: error: unknown type name ‘bfd_preserve’
+      1 bfd_preserve_restore.c:2:27: error: unknown type name ‘bfd’
+      1 bfd_preserve_finish.c:2:36: error: unknown type name ‘bfd_preserve’
+      1 bfd_preserve_finish.c:2:26: error: unknown type name ‘bfd’
+      1 bfd_perror.c:8:10: error: ‘stdout’ undeclared (first use in this function)
+      1 bfd_perror.c:5:3: error: unknown type name ‘bfd_error_type’
+      1 bfd_perror.c:12:13: error: ‘stderr’ undeclared (first use in this function)
+      1 bfd_openw.c:9:3: error: unknown type name ‘bfd’
+      1 bfd_openw.c:8:3: error: unknown type name ‘FILE’
+      1 bfd_openw.c:6:3: error: unknown type name ‘bfd_target’
+      1 bfd_openw.c:5:3: error: unknown type name ‘bfd’
+      1 bfd_openw.c:30:22: error: expected expression before ‘)’ token
+      1 bfd_openw.c:27:28: error: expected expression before ‘)’ token
+      1 bfd_openw.c:27:22: error: ‘FILE’ undeclared (first use in this function)
+      1 bfd_openw.c:25:30: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_openw.c:25:11: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_openw.c:24:11: error: request for member ‘filename’ in something not a structure or union
+      1 bfd_openw.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_openw.c:20:20: error: expected expression before ‘)’ token
+      1 bfd_openw.c:18:32: error: expected expression before ‘)’ token
+      1 bfd_openw.c:18:20: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_openw.c:14:18: error: expected expression before ‘)’ token
+      1 bfd_openw.c:13:21: error: expected expression before ‘)’ token
+      1 bfd_openw.c:13:16: error: ‘bfd’ undeclared (first use in this function); did you mean ‘nbfd’?
+      1 bfd_openw.c:10:3: error: unknown type name ‘bfd_target’
+      1 bfd_openstreamr.c:9:3: error: unknown type name ‘FILE’
+      1 bfd_openstreamr.c:7:3: error: unknown type name ‘bfd_target’
+      1 bfd_openstreamr.c:6:3: error: unknown type name ‘bfd’
+      1 bfd_openstreamr.c:5:3: error: unknown type name ‘bfd_boolean’
+      1 bfd_openstreamr.c:31:22: error: expected expression before ‘)’ token
+      1 bfd_openstreamr.c:27:30: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_openstreamr.c:27:11: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_openstreamr.c:26:11: error: request for member ‘filename’ in something not a structure or union
+      1 bfd_openstreamr.c:24:11: error: request for member ‘iostream’ in something not a structure or union
+      1 bfd_openstreamr.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_openstreamr.c:21:20: error: expected expression before ‘)’ token
+      1 bfd_openstreamr.c:19:32: error: expected expression before ‘)’ token
+      1 bfd_openstreamr.c:19:20: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_openstreamr.c:15:18: error: expected expression before ‘)’ token
+      1 bfd_openstreamr.c:14:21: error: expected expression before ‘)’ token
+      1 bfd_openstreamr.c:14:16: error: ‘bfd’ undeclared (first use in this function); did you mean ‘nbfd’?
+      1 bfd_openstreamr.c:11:3: error: unknown type name ‘bfd_target’
+      1 bfd_openstreamr.c:10:3: error: unknown type name ‘bfd’
+      1 bfd_openr_iovec.c:6:22: error: unknown type name ‘anon_subr_int_bfd_ptr_void_ptr_stat_ptr’
+      1 bfd_openr_iovec.c:5:22: error: unknown type name ‘anon_subr_int_bfd_ptr_void_ptr’
+      1 bfd_openr_iovec.c:4:22: error: unknown type name ‘anon_subr_file_ptr_bfd_ptr_void_ptr_void_ptr_file_ptr_file_ptr’
+      1 bfd_openr_iovec.c:2:51: error: unknown type name ‘anon_subr_void_ptr_bfd_ptr_void_ptr’
+      1 bfd_openr_iovec.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_openr.c:5:3: error: unknown type name ‘bfd’
+      1 bfd_openr.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_octets_per_byte.c:2:26: error: unknown type name ‘bfd’
+      1 bfd_octets_per_byte.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_nullvoidptr.c:2:24: error: unknown type name ‘bfd’
+      1 _bfd_norelocs_get_reloc_upper_bound.c:2:52: error: unknown type name ‘asection’
+      1 _bfd_norelocs_get_reloc_upper_bound.c:2:42: error: unknown type name ‘bfd’
+      1 _bfd_norelocs_canonicalize_reloc.c:2:80: error: unknown type name ‘asymbol’
+      1 _bfd_norelocs_canonicalize_reloc.c:2:63: error: unknown type name ‘arelent’
+      1 _bfd_norelocs_canonicalize_reloc.c:2:49: error: unknown type name ‘asection’
+      1 _bfd_norelocs_canonicalize_reloc.c:2:39: error: unknown type name ‘bfd’
+      1 bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+      1 bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+      1 bfd_nonfatal_message.c:5:30: error: unknown type name ‘bfd’
+      1 bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+      1 bfd_nonfatal.c:5:3: error: unknown type name ‘bfd_error_type’
+      1 bfd_nonfatal.c:13:31: error: ‘program_name’ undeclared (first use in this function)
+      1 bfd_nonfatal.c:13:13: error: ‘stderr’ undeclared (first use in this function)
+      1 bfd_nonfatal.c:11:10: error: ‘stdout’ undeclared (first use in this function)
+      1 _bfd_nocore_core_file_pid.c:2:31: error: unknown type name ‘bfd’
+      1 _bfd_nocore_core_file_matches_executable_p.c:2:77: error: unknown type name ‘bfd’
+      1 _bfd_nocore_core_file_matches_executable_p.c:2:56: error: unknown type name ‘bfd’
+      1 _bfd_nocore_core_file_matches_executable_p.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_nocore_core_file_failing_signal.c:2:42: error: unknown type name ‘bfd’
+      1 _bfd_nocore_core_file_failing_command.c:2:46: error: unknown type name ‘bfd’
+      1 _bfd_new_bfd_contained_in.c:2:33: error: unknown type name ‘bfd’
+      1 _bfd_new_bfd_contained_in.c:2:1: error: unknown type name ‘bfd’
+      1 _bfd_new_bfd.c:9:3: error: unknown type name ‘bfd’
+      1 _bfd_new_bfd.c:8:3: error: unknown type name ‘objalloc’
+      1 _bfd_new_bfd.c:7:3: error: unknown type name ‘bfd’
+      1 _bfd_new_bfd.c:6:3: error: unknown type name ‘bfd_boolean’
+      1 _bfd_new_bfd.c:5:3: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 _bfd_new_bfd.c:38:23: error: expected expression before ‘)’ token
+      1 _bfd_new_bfd.c:35:58: error: ‘bfd_section_hash_newfunc’ undeclared (first use in this function)
+      1 _bfd_new_bfd.c:35:43: error: request for member ‘section_htab’ in something not a structure or union
+      1 _bfd_new_bfd.c:34:27: error: ‘bfd_default_arch_struct’ undeclared (first use in this function)
+      1 _bfd_new_bfd.c:34:12: error: request for member ‘arch_info’ in something not a structure or union
+      1 _bfd_new_bfd.c:31:21: error: expected expression before ‘)’ token
+      1 _bfd_new_bfd.c:28:14: error: request for member ‘memory’ in something not a structure or union
+      1 _bfd_new_bfd.c:27:10: error: request for member ‘memory’ in something not a structure or union
+      1 _bfd_new_bfd.c:23:12: error: request for member ‘id’ in something not a structure or union
+      1 _bfd_new_bfd.c:22:7: error: ‘bfd_reserved_id_counter’ undeclared (first use in this function)
+      1 _bfd_new_bfd.c:2:1: error: unknown type name ‘bfd’
+      1 _bfd_new_bfd.c:18:12: error: request for member ‘id’ in something not a structure or union
+      1 _bfd_new_bfd.c:17:15: error: ‘bfd_id_counter’ undeclared (first use in this function)
+      1 _bfd_new_bfd.c:16:9: error: ‘bfd_use_reserved_id’ undeclared (first use in this function)
+      1 _bfd_new_bfd.c:13:19: error: expected expression before ‘)’ token
+      1 _bfd_new_bfd.c:12:22: error: expected expression before ‘)’ token
+      1 _bfd_new_bfd.c:11:17: error: expected expression before ‘)’ token
+      1 _bfd_new_bfd.c:11:12: error: ‘bfd’ undeclared (first use in this function); did you mean ‘nbfd’?
+      1 _bfd_n1.c:2:14: error: unknown type name ‘bfd’
+      1 bfd_map_over_sections.c:3:27: error: unknown type name ‘anon_subr_void_bfd_ptr_asection_ptr_void_ptr’
+      1 bfd_map_over_sections.c:3:17: error: unknown type name ‘bfd’
+      1 bfd_malloc.c:2:19: error: unknown type name ‘bfd_size_type’
+      1 bfd_malloc_and_get_section.c:2:62: error: unknown type name ‘bfd_byte’
+      1 bfd_malloc_and_get_section.c:2:50: error: unknown type name ‘sec_ptr’
+      1 bfd_malloc_and_get_section.c:2:40: error: unknown type name ‘bfd’
+      1 bfd_malloc_and_get_section.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_malloc2.c:2:40: error: unknown type name ‘bfd_size_type’
+      1 bfd_malloc2.c:2:20: error: unknown type name ‘bfd_size_type’
+      1 bfd_make_writable.c:2:31: error: unknown type name ‘bfd’
+      1 bfd_make_writable.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_make_section_with_flags.c:2:61: error: unknown type name ‘flagword’
+      1 bfd_make_section_with_flags.c:2:40: error: unknown type name ‘bfd’
+      1 bfd_make_section_with_flags.c:2:1: error: unknown type name ‘asection’
+      1 bfd_make_section_old_way.c:2:37: error: unknown type name ‘bfd’
+      1 bfd_make_section_old_way.c:2:1: error: unknown type name ‘asection’
+      1 bfd_make_section.c:2:29: error: unknown type name ‘bfd’
+      1 bfd_make_section.c:2:1: error: unknown type name ‘asection’
+      1 bfd_make_section_anyway_with_flags.c:2:71: error: unknown type name ‘flagword’
+      1 bfd_make_section_anyway_with_flags.c:2:50: error: unknown type name ‘bfd’
+      1 bfd_make_section_anyway_with_flags.c:2:1: error: unknown type name ‘bfd_section’
+      1 bfd_make_section_anyway.c:2:39: error: unknown type name ‘bfd’
+      1 bfd_make_section_anyway.c:2:1: error: unknown type name ‘bfd_section’
+      1 bfd_make_readable.c:2:31: error: unknown type name ‘bfd’
+      1 bfd_make_readable.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_lookup_arch.c:2:60: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_lookup_arch.c:2:38: error: unknown type name ‘bfd_architecture’
+      1 bfd_lookup_arch.c:2:1: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_log2.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_log2.c:2:15: error: unknown type name ‘bfd_vma’
+      1 bfd_iterate_over_targets.c:2:39: error: unknown type name ‘anon_subr_int_bfd_target_ptr_void_ptr’
+      1 bfd_iterate_over_targets.c:2:1: error: unknown type name ‘bfd_target’
+      1 bfd_hash_traverse.c:2:46: error: unknown type name ‘anon_subr_bfd_boolean_bfd_hash_entry_ptr_void_ptr’
+      1 bfd_hash_traverse.c:2:24: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_table_init_n.c:8:24: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_hash_table_init_n.c:8:11: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_hash_table_init_n.c:7:11: error: unknown type name ‘anon_subr_bfd_hash_entry_ptr_bfd_hash_entry_ptr_bfd_hash_table_ptr_char_ptr’
+      1 bfd_hash_table_init_n.c:6:12: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_table_init_n.c:4:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_hash_table_init.c:5:29: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_hash_table_init.c:4:20: error: unknown type name ‘anon_subr_bfd_hash_entry_ptr_bfd_hash_entry_ptr_bfd_hash_table_ptr_char_ptr’
+      1 bfd_hash_table_init.c:3:21: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_table_init.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_hash_table_free.c:2:26: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_set_default_size.c:2:33: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_hash_set_default_size.c:2:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_hash_replace.c:2:65: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_replace.c:2:45: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_replace.c:2:23: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_rename.c:2:57: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_rename.c:2:22: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_newfunc.c:2:57: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_newfunc.c:2:35: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_newfunc.c:2:1: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_lookup.c:3:71: error: unknown type name ‘bfd_boolean’
+      1 bfd_hash_lookup.c:3:52: error: unknown type name ‘bfd_boolean’
+      1 bfd_hash_lookup.c:3:17: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_lookup.c:2:1: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_insert.c:2:69: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_hash_insert.c:2:34: error: unknown type name ‘bfd_hash_table’
+      1 bfd_hash_insert.c:2:1: error: unknown type name ‘bfd_hash_entry’
+      1 bfd_hash_hash.c:2:34: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_hash_hash.c:2:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_hash_allocate.c:2:48: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_hash_allocate.c:2:26: error: unknown type name ‘bfd_hash_table’
+      1 bfd_get_unique_section_name.c:2:36: error: unknown type name ‘bfd’
+      1 bfd_get_target_info.c:3:49: error: unknown type name ‘bfd_boolean’
+      1 bfd_get_target_info.c:3:39: error: unknown type name ‘bfd’
+      1 bfd_get_target_info.c:2:1: error: unknown type name ‘bfd_target’
+      1 bfd_get_sign_extend_vma.c:2:29: error: unknown type name ‘bfd’
+      1 bfd_get_section_contents.c:4:69: error: unknown type name ‘bfd_size_type’
+      1 bfd_get_section_contents.c:4:53: error: unknown type name ‘file_ptr’
+      1 bfd_get_section_contents.c:4:22: error: unknown type name ‘sec_ptr’
+      1 bfd_get_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_get_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_get_section_by_name_if.c:4:33: error: unknown type name ‘anon_subr_bfd_boolean_bfd_ptr_asection_ptr_void_ptr’
+      1 bfd_get_section_by_name_if.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_get_section_by_name_if.c:2:1: error: unknown type name ‘asection’
+      1 bfd_get_section_by_name.c:2:36: error: unknown type name ‘bfd’
+      1 bfd_get_section_by_name.c:2:1: error: unknown type name ‘asection’
+      1 bfd_get_reloc_upper_bound.c:2:42: error: unknown type name ‘sec_ptr’
+      1 bfd_get_reloc_upper_bound.c:2:32: error: unknown type name ‘bfd’
+      1 bfd_get_relocated_section_contents.c:5:35: error: unknown type name ‘asymbol’
+      1 bfd_get_relocated_section_contents.c:5:11: error: unknown type name ‘bfd_boolean’
+      1 bfd_get_relocated_section_contents.c:4:74: error: unknown type name ‘bfd_byte’
+      1 bfd_get_relocated_section_contents.c:4:47: error: unknown type name ‘bfd_link_order’
+      1 bfd_get_relocated_section_contents.c:4:22: error: unknown type name ‘bfd_link_info’
+      1 bfd_get_relocated_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_get_relocated_section_contents.c:2:1: error: unknown type name ‘bfd_byte’
+      1 bfd_get_next_section_id.c:5:10: error: ‘section_id’ undeclared (first use in this function)
+      1 bfd_get_next_section_by_name.c:2:51: error: unknown type name ‘asection’
+      1 bfd_get_next_section_by_name.c:2:41: error: unknown type name ‘bfd’
+      1 bfd_get_next_section_by_name.c:2:1: error: unknown type name ‘asection’
+      1 bfd_get_mach.c:2:20: error: unknown type name ‘bfd’
+      1 bfd_get_mach.c:2:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_getl_signed_64.c:9:11: error: void value not ignored as it ought to be
+      1 bfd_getl_signed_64.c:6:3: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getl_signed_64.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getl_signed_64.c:2:1: error: unknown type name ‘bfd_int64_t’
+      1 bfd_getl_signed_32.c:9:12: error: ‘ulong’ undeclared (first use in this function)
+      1 bfd_getl_signed_32.c:6:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_getl_signed_32.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getl_signed_32.c:2:1: error: unknown type name ‘bfd_signed_vma’
+      1 bfd_getl_signed_16.c:8:22: error: void value not ignored as it ought to be
+      1 bfd_getl_signed_16.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getl_signed_16.c:2:1: error: unknown type name ‘bfd_signed_vma’
+      1 bfd_get_linker_section.c:2:35: error: unknown type name ‘bfd’
+      1 bfd_get_linker_section.c:2:1: error: unknown type name ‘asection’
+      1 bfd_getl64.c:9:10: error: void value not ignored as it ought to be
+      1 bfd_getl64.c:6:3: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getl64.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getl64.c:2:1: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getl32.c:9:11: error: ‘ulong’ undeclared (first use in this function)
+      1 bfd_getl32.c:6:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_getl32.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getl32.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_getl16.c:8:22: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+      1 bfd_getl16.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getl16.c:2:1: error: unknown type name ‘bfd_vma’
+      1 _bfd_get_gp_value.c:2:27: error: unknown type name ‘bfd’
+      1 _bfd_get_gp_value.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_get_gp_size.c:2:22: error: unknown type name ‘bfd’
+      1 bfd_get_gp_size.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_get_error.c:5:10: error: ‘bfd_error’ undeclared (first use in this function); did you mean ‘bfd_get_error’?
+      1 bfd_get_error.c:2:1: error: unknown type name ‘bfd_error_type’
+      1 bfd_get_debug_link_info.c:2:42: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_get_debug_link_info.c:2:32: error: unknown type name ‘bfd’
+      1 bfd_get_compression_header_size.c:2:47: error: unknown type name ‘asection’
+      1 bfd_get_compression_header_size.c:2:37: error: unknown type name ‘bfd’
+      1 bfd_getb_signed_64.c:9:90: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+      1 bfd_getb_signed_64.c:9:74: error: invalid use of void expression
+      1 bfd_getb_signed_64.c:6:3: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getb_signed_64.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getb_signed_64.c:2:1: error: unknown type name ‘bfd_int64_t’
+      1 bfd_getb_signed_64.c:15:33: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_64.c:14:80: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_64.c:14:51: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_64.c:13:60: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_64.c:12:69: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_64.c:11:78: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_32.c:9:47: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_32.c:9:41: error: ‘byte’ undeclared (first use in this function)
+      1 bfd_getb_signed_32.c:9:13: error: ‘ulong’ undeclared (first use in this function)
+      1 bfd_getb_signed_32.c:6:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_getb_signed_32.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getb_signed_32.c:2:1: error: unknown type name ‘bfd_signed_vma’
+      1 bfd_getb_signed_32.c:10:64: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_32.c:10:27: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_16.c:8:47: error: expected expression before ‘)’ token
+      1 bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+      1 bfd_getb_signed_16.c:8:31: error: invalid use of void expression
+      1 bfd_getb_signed_16.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getb_signed_16.c:2:1: error: unknown type name ‘bfd_signed_vma’
+      1 bfd_get_bits.c:2:44: error: unknown type name ‘bfd_boolean’
+      1 bfd_get_bits.c:2:1: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getb64.c:9:89: error: expected expression before ‘)’ token
+      1 bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+      1 bfd_getb64.c:9:73: error: invalid use of void expression
+      1 bfd_getb64.c:6:3: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getb64.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getb64.c:2:1: error: unknown type name ‘bfd_uint64_t’
+      1 bfd_getb64.c:15:32: error: expected expression before ‘)’ token
+      1 bfd_getb64.c:14:79: error: expected expression before ‘)’ token
+      1 bfd_getb64.c:14:50: error: expected expression before ‘)’ token
+      1 bfd_getb64.c:13:59: error: expected expression before ‘)’ token
+      1 bfd_getb64.c:12:68: error: expected expression before ‘)’ token
+      1 bfd_getb64.c:11:77: error: expected expression before ‘)’ token
+      1 bfd_getb32.c:9:45: error: expected expression before ‘)’ token
+      1 bfd_getb32.c:9:39: error: ‘byte’ undeclared (first use in this function)
+      1 bfd_getb32.c:9:11: error: ‘ulong’ undeclared (first use in this function)
+      1 bfd_getb32.c:6:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_getb32.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getb32.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_getb32.c:10:62: error: expected expression before ‘)’ token
+      1 bfd_getb32.c:10:25: error: expected expression before ‘)’ token
+      1 bfd_getb16.c:8:27: error: expected ‘;’ before ‘CONCAT11’
+      1 bfd_getb16.c:8:22: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+      1 bfd_getb16.c:5:3: error: unknown type name ‘bfd_byte’
+      1 bfd_getb16.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_get_arch_size.c:2:23: error: unknown type name ‘bfd’
+      1 bfd_get_archive_filename.c:2:33: error: unknown type name ‘bfd’
+      1 bfd_get_arch_info.c:2:40: error: unknown type name ‘bfd’
+      1 bfd_get_arch_info.c:2:1: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_get_arch.c:2:31: error: unknown type name ‘bfd’
+      1 bfd_get_arch.c:2:1: error: unknown type name ‘bfd_architecture’
+      1 bfd_get_alt_debug_link_info.c:2:73: error: unknown type name ‘bfd_byte’
+      1 bfd_get_alt_debug_link_info.c:2:46: error: unknown type name ‘bfd_size_type’
+      1 bfd_get_alt_debug_link_info.c:2:36: error: unknown type name ‘bfd’
+      1 _bfd_generic_set_section_contents.c:4:69: error: unknown type name ‘bfd_size_type’
+      1 _bfd_generic_set_section_contents.c:4:53: error: unknown type name ‘file_ptr’
+      1 _bfd_generic_set_section_contents.c:4:22: error: unknown type name ‘sec_ptr’
+      1 _bfd_generic_set_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 _bfd_generic_set_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_generic_new_section_hook.c:2:53: error: unknown type name ‘asection’
+      1 _bfd_generic_new_section_hook.c:2:43: error: unknown type name ‘bfd’
+      1 _bfd_generic_new_section_hook.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_generic_is_local_label_name.c:2:45: error: unknown type name ‘bfd’
+      1 bfd_generic_is_local_label_name.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_generic_is_group_section.c:2:52: error: unknown type name ‘asection’
+      1 bfd_generic_is_group_section.c:2:42: error: unknown type name ‘bfd’
+      1 bfd_generic_is_group_section.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_generic_init_private_section_data.c:4:62: error: unknown type name ‘bfd_link_info’
+      1 _bfd_generic_init_private_section_data.c:4:47: error: unknown type name ‘asection’
+      1 _bfd_generic_init_private_section_data.c:4:37: error: unknown type name ‘bfd’
+      1 _bfd_generic_init_private_section_data.c:4:22: error: unknown type name ‘asection’
+      1 _bfd_generic_init_private_section_data.c:4:12: error: unknown type name ‘bfd’
+      1 _bfd_generic_init_private_section_data.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_generic_get_section_contents_in_window.c:4:68: error: unknown type name ‘bfd_size_type’
+      1 _bfd_generic_get_section_contents_in_window.c:4:52: error: unknown type name ‘file_ptr’
+      1 _bfd_generic_get_section_contents_in_window.c:4:38: error: unknown type name ‘bfd_window’
+      1 _bfd_generic_get_section_contents_in_window.c:4:22: error: unknown type name ‘sec_ptr’
+      1 _bfd_generic_get_section_contents_in_window.c:4:12: error: unknown type name ‘bfd’
+      1 _bfd_generic_get_section_contents_in_window.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_generic_get_section_contents.c:4:69: error: unknown type name ‘bfd_size_type’
+      1 _bfd_generic_get_section_contents.c:4:53: error: unknown type name ‘file_ptr’
+      1 _bfd_generic_get_section_contents.c:4:22: error: unknown type name ‘sec_ptr’
+      1 _bfd_generic_get_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 _bfd_generic_get_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_generic_discard_group.c:2:49: error: unknown type name ‘asection’
+      1 bfd_generic_discard_group.c:2:39: error: unknown type name ‘bfd’
+      1 bfd_generic_discard_group.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_free_cached_info.c:2:35: error: unknown type name ‘bfd’
+      1 _bfd_free_cached_info.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_fprintf_vma.c:2:45: error: unknown type name ‘bfd_vma’
+      1 bfd_fprintf_vma.c:2:22: error: unknown type name ‘bfd’
+      1 bfd_format_string.c:2:26: error: unknown type name ‘bfd_format’
+      1 bfd_fopen.c:9:3: error: unknown type name ‘FILE’
+      1 bfd_fopen.c:8:3: error: unknown type name ‘FILE’
+      1 bfd_fopen.c:7:3: error: unknown type name ‘bfd_target’
+      1 bfd_fopen.c:6:3: error: unknown type name ‘bfd’
+      1 bfd_fopen.c:62:34: error: request for member ‘field_0x47’ in something not a structure or union
+      1 bfd_fopen.c:62:15: error: request for member ‘field_0x47’ in something not a structure or union
+      1 bfd_fopen.c:59:24: error: expected expression before ‘)’ token
+      1 bfd_fopen.c:54:34: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_fopen.c:54:15: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_fopen.c:5:3: error: unknown type name ‘bfd_boolean’
+      1 bfd_fopen.c:51:34: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_fopen.c:51:15: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_fopen.c:48:34: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_fopen.c:48:15: error: request for member ‘field_0x44’ in something not a structure or union
+      1 bfd_fopen.c:46:13: error: request for member ‘filename’ in something not a structure or union
+      1 bfd_fopen.c:42:22: error: expected expression before ‘)’ token
+      1 bfd_fopen.c:39:15: error: request for member ‘iostream’ in something not a structure or union
+      1 bfd_fopen.c:37:13: error: request for member ‘iostream’ in something not a structure or union
+      1 bfd_fopen.c:33:13: error: request for member ‘iostream’ in something not a structure or union
+      1 bfd_fopen.c:28:20: error: expected expression before ‘)’ token
+      1 bfd_fopen.c:23:32: error: expected expression before ‘)’ token
+      1 bfd_fopen.c:23:20: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_fopen.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_fopen.c:19:18: error: expected expression before ‘)’ token
+      1 bfd_fopen.c:15:21: error: expected expression before ‘)’ token
+      1 bfd_fopen.c:15:16: error: ‘bfd’ undeclared (first use in this function); did you mean ‘nbfd’?
+      1 bfd_fopen.c:12:3: error: unknown type name ‘bfd_target’
+      1 bfd_fopen.c:11:3: error: unknown type name ‘bfd’
+      1 bfd_follow_gnu_debuglink.c:2:33: error: unknown type name ‘bfd’
+      1 bfd_follow_gnu_debugaltlink.c:2:36: error: unknown type name ‘bfd’
+      1 bfd_follow_build_id_debuglink.c:2:38: error: unknown type name ‘bfd’
+      1 bfd_flavour_name.c:2:25: error: unknown type name ‘bfd_flavour’
+      1 bfd_find_target.c:2:48: error: unknown type name ‘bfd’
+      1 bfd_find_target.c:2:1: error: unknown type name ‘bfd_target’
+      1 _bfd_find_arch_match.c:6:3: error: unknown type name ‘size_t’
+      1 _bfd_find_arch_match.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_fill_in_gnu_debuglink_section.c:2:57: error: unknown type name ‘bfd_section’
+      1 bfd_fill_in_gnu_debuglink_section.c:2:47: error: unknown type name ‘bfd’
+      1 bfd_fill_in_gnu_debuglink_section.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_fdopenr.c:8:3: error: unknown type name ‘bfd’
+      1 bfd_fdopenr.c:6:3: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_fdopenr.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_fdopenr.c:21:20: error: expected expression before ‘)’ token
+      1 bfd_fdopenr.c:21:15: error: ‘bfd’ undeclared (first use in this function); did you mean ‘fd’?
+      1 bfd_false.c:2:23: error: unknown type name ‘bfd’
+      1 bfd_false.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 _bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+      1 _bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+      1 _bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+      1 _bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+      1 _bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+      1 _bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+      1 _bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+      1 bfd_errmsg.c:2:19: error: unknown type name ‘bfd_error_type’
+      1 bfd_emul_set_maxpagesize.c:2:42: error: unknown type name ‘bfd_vma’
+      1 bfd_emul_set_commonpagesize.c:2:45: error: unknown type name ‘bfd_vma’
+      1 bfd_emul_get_maxpagesize.c:9:39: error: expected expression before ‘)’ token
+      1 bfd_emul_get_maxpagesize.c:9:34: error: ‘bfd’ undeclared (first use in this function)
+      1 bfd_emul_get_maxpagesize.c:7:3: error: unknown type name ‘bfd_target’
+      1 bfd_emul_get_maxpagesize.c:6:3: error: unknown type name ‘bfd_vma’
+      1 bfd_emul_get_maxpagesize.c:5:3: error: unknown type name ‘bfd_target’
+      1 bfd_emul_get_maxpagesize.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_emul_get_maxpagesize.c:14:38: error: request for member ‘backend_data’ in something not a structure or union
+      1 bfd_emul_get_maxpagesize.c:14:24: error: expected expression before ‘)’ token
+      1 bfd_emul_get_maxpagesize.c:14:15: error: ‘bfd_vma’ undeclared (first use in this function)
+      1 bfd_emul_get_maxpagesize.c:10:60: error: ‘bfd_target_elf_flavour’ undeclared (first use in this function)
+      1 bfd_emul_get_maxpagesize.c:10:47: error: request for member ‘flavour’ in something not a structure or union
+      1 bfd_emul_get_maxpagesize.c:10:31: error: expected expression before ‘)’ token
+      1 bfd_emul_get_maxpagesize.c:10:19: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_emul_get_commonpagesize.c:9:39: error: expected expression before ‘)’ token
+      1 bfd_emul_get_commonpagesize.c:9:34: error: ‘bfd’ undeclared (first use in this function)
+      1 bfd_emul_get_commonpagesize.c:7:3: error: unknown type name ‘bfd_target’
+      1 bfd_emul_get_commonpagesize.c:6:3: error: unknown type name ‘bfd_vma’
+      1 bfd_emul_get_commonpagesize.c:5:3: error: unknown type name ‘bfd_target’
+      1 bfd_emul_get_commonpagesize.c:2:1: error: unknown type name ‘bfd_vma’
+      1 bfd_emul_get_commonpagesize.c:14:38: error: request for member ‘backend_data’ in something not a structure or union
+      1 bfd_emul_get_commonpagesize.c:14:24: error: expected expression before ‘)’ token
+      1 bfd_emul_get_commonpagesize.c:14:15: error: ‘bfd_vma’ undeclared (first use in this function)
+      1 bfd_emul_get_commonpagesize.c:10:60: error: ‘bfd_target_elf_flavour’ undeclared (first use in this function)
+      1 bfd_emul_get_commonpagesize.c:10:47: error: request for member ‘flavour’ in something not a structure or union
+      1 bfd_emul_get_commonpagesize.c:10:31: error: expected expression before ‘)’ token
+      1 bfd_emul_get_commonpagesize.c:10:19: error: ‘bfd_target’ undeclared (first use in this function); did you mean ‘target’?
+      1 bfd_elf_set_pagesize.c:2:70: error: unknown type name ‘bfd_target’
+      1 bfd_elf_set_pagesize.c:2:46: error: unknown type name ‘bfd_vma’
+      1 bfd_elf_set_pagesize.c:2:27: error: unknown type name ‘bfd_target’
+      1 _bfd_dummy_target.c:2:32: error: unknown type name ‘bfd’
+      1 _bfd_dummy_target.c:2:1: error: unknown type name ‘bfd_target’
+      1 bfd_demangle.c:2:21: error: unknown type name ‘bfd’
+      1 _bfd_delete_bfd.c:2:22: error: unknown type name ‘bfd’
+      1 bfd_default_set_arch_mach.c:2:71: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_default_set_arch_mach.c:2:49: error: unknown type name ‘bfd_architecture’
+      1 bfd_default_set_arch_mach.c:2:39: error: unknown type name ‘bfd’
+      1 bfd_default_set_arch_mach.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_default_scan.c:2:30: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_default_scan.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_default_compatible.c:2:67: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_default_compatible.c:2:45: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_default_compatible.c:2:1: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_create_gnu_debuglink_section.c:2:45: error: unknown type name ‘bfd’
+      1 bfd_create_gnu_debuglink_section.c:2:1: error: unknown type name ‘asection’
+      1 bfd_create.c:2:33: error: unknown type name ‘bfd’
+      1 bfd_create.c:2:1: error: unknown type name ‘bfd’
+      1 bfd_convert_section_size.c:2:73: error: unknown type name ‘bfd_size_type’
+      1 bfd_convert_section_size.c:2:63: error: unknown type name ‘bfd’
+      1 bfd_convert_section_size.c:2:50: error: unknown type name ‘sec_ptr’
+      1 bfd_convert_section_size.c:2:40: error: unknown type name ‘bfd’
+      1 bfd_convert_section_size.c:2:1: error: unknown type name ‘bfd_size_type’
+      1 bfd_convert_section_contents.c:4:60: error: unknown type name ‘bfd_size_type’
+      1 bfd_convert_section_contents.c:4:45: error: unknown type name ‘bfd_byte’
+      1 bfd_convert_section_contents.c:4:35: error: unknown type name ‘bfd’
+      1 bfd_convert_section_contents.c:4:22: error: unknown type name ‘sec_ptr’
+      1 bfd_convert_section_contents.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_convert_section_contents.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_close.c:2:23: error: unknown type name ‘bfd’
+      1 bfd_close.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_close_all_done.c:2:32: error: unknown type name ‘bfd’
+      1 bfd_close_all_done.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_check_format_matches.c:2:48: error: unknown type name ‘bfd_format’
+      1 bfd_check_format_matches.c:2:38: error: unknown type name ‘bfd’
+      1 bfd_check_format_matches.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_check_format.c:2:40: error: unknown type name ‘bfd_format’
+      1 bfd_check_format.c:2:30: error: unknown type name ‘bfd’
+      1 bfd_check_format.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_check_compression_header.c:4:55: error: unknown type name ‘bfd_size_type’
+      1 bfd_check_compression_header.c:4:41: error: unknown type name ‘asection’
+      1 bfd_check_compression_header.c:4:22: error: unknown type name ‘bfd_byte’
+      1 bfd_check_compression_header.c:4:12: error: unknown type name ‘bfd’
+      1 bfd_check_compression_header.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_canonicalize_reloc.c:2:72: error: unknown type name ‘asymbol’
+      1 bfd_canonicalize_reloc.c:2:53: error: unknown type name ‘arelent’
+      1 bfd_canonicalize_reloc.c:2:39: error: unknown type name ‘sec_ptr’
+      1 bfd_canonicalize_reloc.c:2:29: error: unknown type name ‘bfd’
+      1 bfd_calc_gnu_debuglink_crc32.c:2:57: error: unknown type name ‘bfd_size_type’
+      1 bfd_calc_gnu_debuglink_crc32.c:2:46: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 bfd_calc_gnu_debuglink_crc32.c:2:36: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_calc_gnu_debuglink_crc32.c:2:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_assert.c:9:30: error: ‘DAT_0050c6f6’ undeclared (first use in this function)
+      1 bfd_assert.c:8:12: error: ‘_bfd_assert_handler’ undeclared (first use in this function)
+      1 bfd_assert.c:5:3: error: unknown type name ‘bfd_assert_handler_type’
+      1 bfd_assert.c:10:4: error: called object is not a function or function pointer
+      1 bfd_arch_mach_octets_per_byte.c:2:58: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 bfd_arch_mach_octets_per_byte.c:2:36: error: unknown type name ‘bfd_architecture’
+      1 bfd_arch_mach_octets_per_byte.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_arch_list.c:9:3: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_arch_list.c:8:3: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_arch_list.c:28:25: error: request for member ‘printable_name’ in something not a structure or union
+      1 bfd_arch_list.c:27:71: error: request for member ‘next’ in something not a structure or union
+      1 bfd_arch_list.c:27:54: error: expected expression before ‘)’ token
+      1 bfd_arch_list.c:26:64: error: expected expression before ‘)’ token
+      1 bfd_arch_list.c:16:61: error: request for member ‘next’ in something not a structure or union
+      1 bfd_arch_list.c:16:48: error: expected expression before ‘)’ token
+      1 bfd_arch_list.c:15:62: error: expected expression before ‘)’ token
+      1 bfd_arch_list.c:15:42: error: ‘bfd_arch_info_type’ undeclared (first use in this function)
+      1 bfd_arch_list.c:15:14: error: ‘bfd_archures_list’ undeclared (first use in this function); did you mean ‘bfd_arch_list’?
+      1 bfd_arch_list.c:11:3: error: unknown type name ‘bfd_size_type’
+      1 bfd_arch_list.c:10:3: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_arch_get_compatible.c:2:66: error: unknown type name ‘bfd_boolean’
+      1 bfd_arch_get_compatible.c:2:56: error: unknown type name ‘bfd’
+      1 bfd_arch_get_compatible.c:2:46: error: unknown type name ‘bfd’
+      1 bfd_arch_get_compatible.c:2:1: error: unknown type name ‘bfd_arch_info_type’
+      1 bfd_arch_default_fill.c:2:75: error: unknown type name ‘bfd_boolean’
+      1 bfd_arch_default_fill.c:2:50: error: unknown type name ‘bfd_boolean’
+      1 bfd_arch_default_fill.c:2:30: error: unknown type name ‘bfd_size_type’
+      1 bfd_arch_bits_per_byte.c:2:29: error: unknown type name ‘bfd’
+      1 bfd_arch_bits_per_byte.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_arch_bits_per_address.c:2:32: error: unknown type name ‘bfd’
+      1 bfd_arch_bits_per_address.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_alt_mach_code.c:2:31: error: unknown type name ‘bfd’
+      1 bfd_alt_mach_code.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 bfd_alloc.c:2:28: error: unknown type name ‘bfd_size_type’
+      1 bfd_alloc.c:2:18: error: unknown type name ‘bfd’
+      1 bfd_alloc2.c:2:49: error: unknown type name ‘bfd_size_type’
+      1 bfd_alloc2.c:2:29: error: unknown type name ‘bfd_size_type’
+      1 bfd_alloc2.c:2:19: error: unknown type name ‘bfd’
+      1 _bfd_abort.c:8:23: error: ‘DAT_0050c6f6’ undeclared (first use in this function)
+      1 _bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+      1 bfd_0u.c:2:1: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 bfd_0u.c:2:13: error: unknown type name ‘bfd’
+      1 bfd_0l.c:2:13: error: unknown type name ‘bfd’
+      1 bfd_0.c:2:11: error: unknown type name ‘bfd’
+      1 atoi.c:9:20: error: expected expression before ‘)’ token
+      1 atoi.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 __assert_fail.c:4:51: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 asprintf.c:9:20: error: expected expression before ‘)’ token
+      1 asprintf.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 access.c:9:20: error: expected expression before ‘)’ token
+      1 access.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 abort.c:7:6: error: ‘code’ undeclared (first use in this function)
+      1 abort.c:7:12: error: expected expression before ‘)’ token

@@ -1,0 +1,214 @@
+      214
+      2    48 |         fprintf(stderr,"%s: error: @-file refers to a directory\n",**argvp);
+      1 xstrdup.c:5:3: error: unknown type name ‘size_t’
+      1 xrealloc.c:2:30: error: unknown type name ‘size_t’
+      1 xmalloc_set_program_name.c:6:7: error: ‘first_break’ undeclared (first use in this function)
+      1 xmalloc_set_program_name.c:5:3: error: ‘name’ undeclared (first use in this function)
+      1 xmalloc_failed.c:2:21: error: unknown type name ‘size_t’
+      1 xmalloc.c:2:16: error: unknown type name ‘size_t’
+      1 xexit.c:5:7: error: ‘_xexit_cleanup’ undeclared (first use in this function)
+      1 xexit.c:5:42: error: expected expression before ‘)’ token
+      1 xexit.c:5:26: error: ‘anon_subr_void’ undeclared (first use in this function)
+      1 xcalloc.c:2:29: error: unknown type name ‘size_t’
+      1 xcalloc.c:2:16: error: unknown type name ‘size_t’
+      1 writeargv.c:2:27: error: unknown type name ‘FILE’
+      1 warn.c:5:10: error: unknown type name ‘undefined8’
+      1 warn.c:4:70: error: unknown type name ‘undefined8’
+      1 warn.c:4:50: error: unknown type name ‘undefined8’
+      1 warn.c:4:30: error: unknown type name ‘undefined8’
+      1 warn.c:4:10: error: unknown type name ‘undefined8’
+      1 warn.c:3:67: error: unknown type name ‘undefined4’
+      1 warn.c:3:48: error: unknown type name ‘undefined4’
+      1 warn.c:3:29: error: unknown type name ‘undefined4’
+      1 warn.c:3:10: error: unknown type name ‘undefined4’
+      1 warn.c:2:68: error: unknown type name ‘undefined4’
+      1 warn.c:2:49: error: unknown type name ‘undefined4’
+      1 warn.c:2:30: error: unknown type name ‘undefined4’
+      1 warn.c:2:11: error: unknown type name ‘undefined4’
+      1 vfprintf.c:4:39: error: unknown type name ‘__gnuc_va_list’
+      1 vfprintf.c:4:14: error: unknown type name ‘FILE’
+      1 usage.c:2:12: error: unknown type name ‘FILE’
+      1 update_elf_header.c:2:39: error: unknown type name ‘FILE’
+      1 textdomain.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 textdomain.c:5:12: error: expected expression before ‘)’ token
+      1 strtoul.c:9:20: error: expected expression before ‘)’ token
+      1 strtoul.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strtoul.c:7:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 strtoul.c:4:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 strncmp.c:4:35: error: unknown type name ‘size_t’
+      1 strlen.c:9:20: error: expected expression before ‘)’ token
+      1 strlen.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strlen.c:7:3: error: unknown type name ‘size_t’
+      1 strlen.c:4:1: error: unknown type name ‘size_t’
+      1 strerror.c:9:29: error: expected expression before ‘)’ token
+      1 strerror.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strdup.c:9:29: error: expected expression before ‘)’ token
+      1 strdup.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 strcmp.c:9:20: error: expected expression before ‘)’ token
+      1 strcmp.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 strcasecmp.c:9:20: error: expected expression before ‘)’ token
+      1 strcasecmp.c:9:14: error: ‘code’ undeclared (first use in this function)
+      1 stat.c:2:23: error: unknown type name ‘stat’
+      1 __stack_chk_fail.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 __stack_chk_fail.c:5:12: error: expected expression before ‘)’ token
+      1 snprintf.c:4:24: error: unknown type name ‘size_t’
+      1 setup_nested_archive.c:2:26: error: unknown type name ‘archive_info’
+      1 setup_archive.c:3:18: error: unknown type name ‘bfd_boolean’
+      1 setup_archive.c:2:65: error: unknown type name ‘bfd_boolean’
+      1 setup_archive.c:2:54: error: unknown type name ‘FILE’
+      1 setup_archive.c:2:19: error: unknown type name ‘archive_info’
+      1 setlocale.c:9:29: error: expected expression before ‘)’ token
+      1 setlocale.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 sbrk.c:4:13: error: unknown type name ‘intptr_t’
+      1 rewind.c:4:13: error: unknown type name ‘FILE’
+      1 release_archive.c:2:22: error: unknown type name ‘archive_info’
+      1 realloc.c:4:28: error: unknown type name ‘size_t’
+      1 process_object.c:2:36: error: unknown type name ‘FILE’
+      1 process_file.c:9:3: error: unknown type name ‘size_t’
+      1 process_file.c:8:3: error: unknown type name ‘undefined8’
+      1 process_file.c:7:3: error: unknown type name ‘FILE’
+      1 process_file.c:40:51: error: expected expression before ‘)’ token
+      1 process_file.c:39:13: error: ‘archive_file_size’ undeclared (first use in this function)
+      1 process_file.c:38:13: error: ‘archive_file_offset’ undeclared (first use in this function)
+      1 process_file.c:34:52: error: expected expression before ‘)’ token
+      1 process_file.c:29:50: error: expected expression before ‘)’ token
+      1 process_file.c:19:28: error: expected expression before ‘)’ token
+      1 process_file.c:19:22: error: ‘FILE’ undeclared (first use in this function)
+      1 process_file.c:16:39: error: expected expression before ‘)’ token
+      1 process_file.c:16:33: error: ‘stat’ undeclared (first use in this function)
+      1 process_file.c:12:3: error: unknown type name ‘FILE’
+      1 process_archive_index_and_symbols.c:3:75: error: unknown type name ‘bfd_boolean’
+      1 process_archive_index_and_symbols.c:3:54: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 process_archive_index_and_symbols.c:3:35: error: unknown type name ‘archive_info’
+      1 process_archive_index_and_symbols.c:2:1: error: unknown type name ‘bfd_boolean’
+      1 process_archive.c:2:48: error: unknown type name ‘bfd_boolean’
+      1 process_archive.c:2:37: error: unknown type name ‘FILE’
+      1 only_whitespace.c:8:34: error: ‘_sch_istable’ undeclared (first use in this function)
+      1 memmove.c:4:41: error: unknown type name ‘size_t’
+      1 memcpy.c:4:40: error: unknown type name ‘size_t’
+      1 memcmp.c:4:34: error: unknown type name ‘size_t’
+      1 malloc.c:4:15: error: unknown type name ‘size_t’
+      1 make_qualified_name.c:2:47: error: unknown type name ‘archive_info’
+      1 make_qualified_name.c:2:28: error: unknown type name ‘archive_info’
+      1 main.c:90:12: error: ‘true’ undeclared (first use in this function)
+      1 main.c:79:7: error: ‘input_elf_osabi’ undeclared (first use in this function)
+      1 main.c:67:7: error: ‘input_elf_type’ undeclared (first use in this function)
+      1 main.c:61:7: error: ‘output_elf_class’ undeclared (first use in this function)
+      1 main.c:5:3: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 main.c:52:30: error: ‘ELF_CLASS_UNKNOWN’ undeclared (first use in this function)
+      1 main.c:51:7: error: ‘input_elf_class’ undeclared (first use in this function)
+      1 main.c:47:7: error: ‘input_elf_machine’ undeclared (first use in this function)
+      1 main.c:47:39: error: ‘optarg’ undeclared (first use in this function)
+      1 main.c:44:21: error: ‘program_name’ undeclared (first use in this function)
+      1 main.c:39:13: error: ‘stdout’ undeclared (first use in this function)
+      1 main.c:34:13: error: ‘stderr’ undeclared (first use in this function)
+      1 main.c:23:70: error: ‘output_elf_osabi’ undeclared (first use in this function)
+      1 main.c:23:42: error: ‘output_elf_type’ undeclared (first use in this function)
+      1 main.c:23:13: error: ‘output_elf_machine’ undeclared (first use in this function)
+      1 main.c:22:12: error: ‘optind’ undeclared (first use in this function)
+      1 main.c:20:56: error: ‘options’ undeclared (first use in this function)
+      1 main.c:20:43: error: ‘DAT_00405dd2’ undeclared (first use in this function)
+      1 _IO_getc.c:4:14: error: unknown type name ‘_IO_FILE’
+      1 gettext.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 gettext.c:5:12: error: expected expression before ‘)’ token
+      1 getopt_long.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 getopt_long.c:5:12: error: expected expression before ‘)’ token
+      1 get_file_header.c:2:21: error: unknown type name ‘FILE’
+      1 get_archive_member_name.c:2:51: error: unknown type name ‘archive_info’
+      1 get_archive_member_name.c:2:32: error: unknown type name ‘archive_info’
+      1 get_archive_member_name_at.c:2:67: error: unknown type name ‘archive_info’
+      1 get_archive_member_name_at.c:2:54: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 get_archive_member_name_at.c:2:35: error: unknown type name ‘archive_info’
+      1 fwrite.c:4:52: error: unknown type name ‘FILE’
+      1 fwrite.c:4:41: error: unknown type name ‘size_t’
+      1 fwrite.c:4:27: error: unknown type name ‘size_t’
+      1 fwrite.c:4:1: error: unknown type name ‘size_t’
+      1 FUN_00400ee0.c:6:6: error: ‘code’ undeclared (first use in this function)
+      1 FUN_00400ee0.c:6:12: error: expected expression before ‘)’ token
+      1 ftell.c:4:12: error: unknown type name ‘FILE’
+      1 fseek.c:4:11: error: unknown type name ‘FILE’
+      1 free.c:7:6: error: ‘code’ undeclared (first use in this function)
+      1 free.c:7:12: error: expected expression before ‘)’ token
+      1 fread.c:4:51: error: unknown type name ‘FILE’
+      1 fread.c:4:40: error: unknown type name ‘size_t’
+      1 fread.c:4:26: error: unknown type name ‘size_t’
+      1 fread.c:4:1: error: unknown type name ‘size_t’
+      1 fputc.c:4:19: error: unknown type name ‘FILE’
+      1 fprintf.c:4:13: error: unknown type name ‘FILE’
+      1 fopen.c:9:30: error: expected ‘)’ before ‘PTR_fopen_00608130’
+      1 fopen.c:9:23: error: ‘code’ undeclared (first use in this function)
+      1 fopen.c:9:19: error: expected expression before ‘)’ token
+      1 fopen.c:9:13: error: ‘FILE’ undeclared (first use in this function)
+      1 fopen.c:7:3: error: unknown type name ‘FILE’
+      1 fopen.c:4:1: error: unknown type name ‘FILE’
+      1 fflush.c:4:12: error: unknown type name ‘FILE’
+      1 ferror.c:4:12: error: unknown type name ‘FILE’
+      1 fclose.c:4:12: error: unknown type name ‘FILE’
+      1 expandargv.c:9:3: error: unknown type name ‘size_t’
+      1 expandargv.c:8:3: error: unknown type name ‘FILE’
+      1 expandargv.c:53:30: error: expected expression before ‘)’ token
+      1 expandargv.c:53:24: error: ‘FILE’ undeclared (first use in this function)
+      1 expandargv.c:48:17: error: ‘stderr’ undeclared (first use in this function)
+      1 expandargv.c:47:14: error: request for member ‘st_mode’ in something not a structure or union
+      1 expandargv.c:45:36: error: expected expression before ‘)’ token
+      1 expandargv.c:30:10: error: ‘true’ undeclared (first use in this function)
+      1 expandargv.c:24:3: error: unknown type name ‘stat’
+      1 expandargv.c:23:3: error: unknown type name ‘size_t’
+      1 expandargv.c:20:3: error: unknown type name ‘FILE’
+      1 expandargv.c:18:3: error: unknown type name ‘size_t’
+      1 expandargv.c:15:3: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 expandargv.c:11:3: error: unknown type name ‘size_t’
+      1 exit.c:7:6: error: ‘code’ undeclared (first use in this function)
+      1 exit.c:7:12: error: expected expression before ‘)’ token
+      1 error.c:5:11: error: unknown type name ‘undefined8’
+      1 error.c:4:71: error: unknown type name ‘undefined8’
+      1 error.c:4:51: error: unknown type name ‘undefined8’
+      1 error.c:4:31: error: unknown type name ‘undefined8’
+      1 error.c:4:11: error: unknown type name ‘undefined8’
+      1 error.c:3:68: error: unknown type name ‘undefined4’
+      1 error.c:3:49: error: unknown type name ‘undefined4’
+      1 error.c:3:30: error: unknown type name ‘undefined4’
+      1 error.c:3:11: error: unknown type name ‘undefined4’
+      1 error.c:2:69: error: unknown type name ‘undefined4’
+      1 error.c:2:50: error: unknown type name ‘undefined4’
+      1 error.c:2:31: error: unknown type name ‘undefined4’
+      1 error.c:2:12: error: unknown type name ‘undefined4’
+      1 __errno_location.c:9:28: error: expected expression before ‘)’ token
+      1 __errno_location.c:9:22: error: ‘code’ undeclared (first use in this function)
+      1 elf_type.c:6:3: error: unknown type name ‘undefined8’
+      1 elf_osabi.c:7:3: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 elf_osabi.c:6:3: error: unknown type name ‘undefined8’
+      1 elf_osabi.c:16:30: error: ‘osabis’ undeclared (first use in this function); did you mean ‘osabi’?
+      1 elf_osabi.c:10:10: error: ‘true’ undeclared (first use in this function)
+      1 elf_machine.c:6:3: error: unknown type name ‘undefined8’
+      1 elf_class.c:6:12: error: ‘ELF_CLASS_32’ undeclared (first use in this function)
+      1 elf_class.c:2:1: error: unknown type name ‘elfclass’
+      1 elf_class.c:21:14: error: ‘ELF_CLASS_64’ undeclared (first use in this function)
+      1 elf_class.c:10:14: error: ‘ELF_CLASS_BOTH’ undeclared (first use in this function)
+      1 dos_lbasename.c:9:9: error: ‘_sch_istable’ undeclared (first use in this function)
+      1 consume_whitespace.c:5:11: error: ‘_sch_istable’ undeclared (first use in this function)
+      1 check_file.c:2:32: error: unknown type name ‘stat’
+      1 calloc.c:4:30: error: unknown type name ‘size_t’
+      1 calloc.c:4:15: error: unknown type name ‘size_t’
+      1 byte_put_little_endian.c:2:42: error: unknown type name ‘elf_vma’
+      1 byte_put_little_endian.c:2:29: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 byte_put_big_endian.c:2:39: error: unknown type name ‘elf_vma’
+      1 byte_put_big_endian.c:2:26: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 byte_get_signed.c:2:25: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 byte_get_signed.c:2:1: error: unknown type name ‘elf_vma’
+      1 byte_get_little_endian.c:2:32: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 byte_get_little_endian.c:2:1: error: unknown type name ‘elf_vma’
+      1 byte_get_big_endian.c:2:29: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 byte_get_big_endian.c:2:1: error: unknown type name ‘elf_vma’
+      1 byte_get_64.c:2:45: error: unknown type name ‘elf_vma’
+      1 byte_get_64.c:2:31: error: unknown type name ‘elf_vma’
+      1 byte_get_64.c:2:18: error: unknown type name ‘uchar’; did you mean ‘char’?
+      1 buildargv.c:6:3: error: unknown type name ‘size_t’
+      1 buildargv.c:45:19: error: ‘_sch_istable’ undeclared (first use in this function)
+      1 bindtextdomain.c:5:6: error: ‘code’ undeclared (first use in this function)
+      1 bindtextdomain.c:5:12: error: expected expression before ‘)’ token
+      1 __assert_fail.c:4:51: error: unknown type name ‘uint’; did you mean ‘int’?
+      1 adjust_relative_path.c:2:56: error: unknown type name ‘ulong’; did you mean ‘long’?
+      1 abort.c:7:6: error: ‘code’ undeclared (first use in this function)
+      1 abort.c:7:12: error: expected expression before ‘)’ token
+      1    90 |   fprintf(stderr,"%s: error: too many @-files encountered\n",**argvp);
