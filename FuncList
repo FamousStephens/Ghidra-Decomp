@@ -1,0 +1,1646 @@
+process_file.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+warn.c:2:11: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:2:30: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:2:49: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:2:68: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:3:10: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:3:29: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:3:48: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:3:67: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:4:10: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:4:30: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:4:50: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:4:70: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:5:10: error: unknown type name ‘undefined8’
+    5 |          undefined8 param_14)
+elf_type.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+elf_machine.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+elf_osabi.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+error.c:2:12: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:2:31: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:2:50: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:2:69: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+open_inarch.c:11:3: error: unknown type name ‘undefined8’
+   11 |   undefined8 uVar7;
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                 *(undefined *)((long)p + 2)),
+   12 |                                                        *(undefined *)((long)p + 3)),
+   13 |                                               *(undefined *)((long)p + 4)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                    *(undefined *)((long)p + 7)) ^ 0x8000000000000000) + 0x8000000000000000;
+ranlib_touch.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+    6 |                undefined8 param_14)
+set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+smart_rename.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+parse_vma.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+adjust_relative_path.c:87:7: error: ‘undefined4’ undeclared (first use in this function)
+   87 |     *(undefined4 *)newp = 0x2f2e2e;
+   87 |     *(undefined4 *)newp = 0x2f2e2e;
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                *(undefined *)((long)p + 2)),
+   12 |                                                       *(undefined *)((long)p + 3)),
+   13 |                                              *(undefined *)((long)p + 4)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                   *(undefined *)((long)p + 7));
+_bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+decode_options.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+main.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+_bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+get_file_size.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+fatal.c:2:12: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:31: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:50: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:69: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+yyparse.c:18:3: error: unknown type name ‘undefined8’
+   18 |   undefined8 *yyval;
+yyparse.c:94:18: error: ‘undefined8’ undeclared (first use in this function)
+   94 |         yyval = (undefined8 *)yyvsp[(int)(1 - uVar2)];
+   94 |         yyval = (undefined8 *)yyvsp[(int)(1 - uVar2)];
+  148 |           yyval = (undefined8 *)*yyvsp;
+  151 |           yyval = (undefined8 *)0x0;
+  154 |           yyval = (undefined8 *)yyvsp[-1];
+  157 |           yyval = (undefined8 *)0x0;
+  160 |           yyval = (undefined8 *)malloc(0x10);
+  165 |           yyval = (undefined8 *)0x0;
+non_fatal.c:2:16: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:35: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:54: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:73: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+non_fatal.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                 *(undefined *)((long)p + 2)),
+   12 |                                                        *(undefined *)((long)p + 3)),
+   13 |                                               *(undefined *)((long)p + 4)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                    *(undefined *)((long)p + 7)) ^ 0x8000000000000000) + 0x8000000000000000;
+bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+    6 |                undefined8 param_14)
+set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+parse_vma.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                *(undefined *)((long)p + 2)),
+   12 |                                                       *(undefined *)((long)p + 3)),
+   13 |                                              *(undefined *)((long)p + 4)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                   *(undefined *)((long)p + 7));
+_bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+get_file_size.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+fatal.c:2:12: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:31: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:50: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:69: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+non_fatal.c:2:16: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:35: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:54: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:73: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+non_fatal.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+process_file.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                 *(undefined *)((long)p + 2)),
+   12 |                                                        *(undefined *)((long)p + 3)),
+   13 |                                               *(undefined *)((long)p + 4)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                    *(undefined *)((long)p + 7)) ^ 0x8000000000000000) + 0x8000000000000000;
+bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+    6 |                undefined8 param_14)
+set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+parse_vma.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                *(undefined *)((long)p + 2)),
+   12 |                                                       *(undefined *)((long)p + 3)),
+   13 |                                              *(undefined *)((long)p + 4)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                   *(undefined *)((long)p + 7));
+_bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+main.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+_bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+get_file_size.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+fatal.c:2:12: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:31: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:50: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:69: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+non_fatal.c:2:16: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:35: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:54: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:73: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+non_fatal.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+dot_cfi_sections.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+dwarf2_directive_file.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+get_symbol_name.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+as_tsktsk.c:2:16: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:2:35: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:2:54: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:2:73: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_tsktsk.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_tsktsk.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_tsktsk.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+as_tsktsk.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+dot_cfi_fde_data.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+as_bad.c:2:13: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:2:32: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:2:51: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:2:70: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:3:12: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:3:31: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:3:50: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:3:69: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:4:13: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:4:33: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:4:53: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:4:73: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:5:12: error: unknown type name ‘undefined8’
+    5 |            undefined8 param_14)
+parse_args.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+s_ifc.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+listing_print.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+out_file_list.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+output_file_close.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+input_file_open.c:10:3: error: unknown type name ‘undefined8’
+   10 |   undefined8 uVar6;
+cond_finish_check.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+input_scrub_next_buffer.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+print_dependencies.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+dwarf2_directive_loc_mark_labels.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+listing_psize.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+input_file_give_next_buffer.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+dwarf2_directive_loc.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar2;
+as_bad_where.c:2:19: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:2:38: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:2:57: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:2:76: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:3:18: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_bad_where.c:3:37: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_bad_where.c:3:56: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_bad_where.c:3:75: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    4 |                  char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13,
+as_bad_where.c:4:61: error: unknown type name ‘undefined8’
+    4 |                  char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13,
+as_bad_where.c:4:81: error: unknown type name ‘undefined8’
+    4 |                  char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13,
+as_bad_where.c:5:18: error: unknown type name ‘undefined8’
+    5 |                  undefined8 param_14)
+as_warn_where.c:2:20: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:2:39: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:2:58: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:2:77: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:3:19: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn_where.c:3:38: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn_where.c:3:57: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn_where.c:3:76: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    4 |                   char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13
+as_warn_where.c:4:62: error: unknown type name ‘undefined8’
+    4 |                   char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13
+as_warn_where.c:4:82: error: unknown type name ‘undefined8’
+    4 |                   char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13
+as_warn_where.c:5:20: error: unknown type name ‘undefined8’
+    5 |                   ,undefined8 param_14)
+dot_cfi_endproc.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+emit_line.c:2:16: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:2:35: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:2:54: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:2:73: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+emit_line.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+emit_line.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+emit_line.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    4 |               list_info_type *param_9,char *param_10,undefined8 param_11,undefined8 param_12,
+emit_line.c:4:54: error: unknown type name ‘undefined8’
+    4 |               list_info_type *param_9,char *param_10,undefined8 param_11,undefined8 param_12,
+emit_line.c:4:74: error: unknown type name ‘undefined8’
+    4 |               list_info_type *param_9,char *param_10,undefined8 param_11,undefined8 param_12,
+emit_line.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+emit_line.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+delete_macro.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar2;
+main.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+s_else.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+cfi_add_CFA_undefined.c:2:28: error: unknown type name ‘uint’; did you mean ‘int’?
+    2 | void cfi_add_CFA_undefined(uint regno)
+operatorf.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+dwarf2_finish.c:76:9: error: ‘undefined4’ undeclared (first use in this function)
+   76 |       *(undefined4 *)&str_seg->field_0xc4 = 1;
+   76 |       *(undefined4 *)&str_seg->field_0xc4 = 1;
+output_file_create.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+as_warn.c:2:14: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:2:33: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:2:52: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:2:71: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:3:13: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:3:32: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:3:51: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:3:70: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:4:27: error: unknown type name ‘undefined8’
+    4 |             char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_warn.c:4:47: error: unknown type name ‘undefined8’
+    4 |             char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_warn.c:4:67: error: unknown type name ‘undefined8’
+    4 |             char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_warn.c:5:13: error: unknown type name ‘undefined8’
+    5 |             undefined8 param_13,undefined8 param_14)
+as_warn.c:5:33: error: unknown type name ‘undefined8’
+    5 |             undefined8 param_13,undefined8 param_14)
+listing_title.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+dot_cfi_val_encoded_addr.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+s_endif.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar1;
+s_if.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+cfi_parse_separator.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+s_ifeqs.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+dot_cfi_startproc.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+dot_cfi_lsda.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+s_ifdef.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar4;
+dot_cfi_inline_lsda.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+s_elseif.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+cfi_finish.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+dot_cfi_personality.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+cfi_parse_reg.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+dot_cfi.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar2;
+dot_cfi.c:51:11: warning: implicit declaration of function ‘cfi_add_CFA_undefined’ [-Wimplicit-function-declaration]
+   51 |           cfi_add_CFA_undefined(uVar1);
+dot_cfi_personality_id.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+as_fatal.c:2:15: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:2:34: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:2:53: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:2:72: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:3:14: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:3:33: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:3:52: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:3:71: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:4:28: error: unknown type name ‘undefined8’
+    4 |              char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_fatal.c:4:48: error: unknown type name ‘undefined8’
+    4 |              char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_fatal.c:4:68: error: unknown type name ‘undefined8’
+    4 |              char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_fatal.c:5:14: error: unknown type name ‘undefined8’
+    5 |              undefined8 param_13,undefined8 param_14)
+as_fatal.c:5:34: error: unknown type name ‘undefined8’
+    5 |              undefined8 param_13,undefined8 param_14)
+cfi_add_CFA_restore_state.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar1;
+dot_cfi_escape.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+list_symbol_table.c:15:3: error: unknown type name ‘undefined8’
+   15 |   undefined8 uVar10;
+   10 |   out_buf._0_8_ = *(undefined8 *)(arg + 0x10);
+app_pop.c:10:21: error: ‘undefined8’ undeclared (first use in this function)
+   10 |   out_buf._0_8_ = *(undefined8 *)(arg + 0x10);
+   10 |   out_buf._0_8_ = *(undefined8 *)(arg + 0x10);
+   11 |   out_buf._8_8_ = *(undefined8 *)(arg + 0x18);
+app_pop.c:12:22: error: ‘undefined4’ undeclared (first use in this function)
+   12 |   out_buf._16_4_ = *(undefined4 *)(arg + 0x20);
+   12 |   out_buf._16_4_ = *(undefined4 *)(arg + 0x20);
+app_push.c:13:5: error: ‘undefined8’ undeclared (first use in this function)
+   13 |   *(undefined8 *)(piVar1 + 4) = out_buf._0_8_;
+   13 |   *(undefined8 *)(piVar1 + 4) = out_buf._0_8_;
+   13 |   *(undefined8 *)(piVar1 + 4) = out_buf._0_8_;
+   14 |   *(undefined8 *)(piVar1 + 6) = out_buf._8_8_;
+   18 |     *(undefined8 *)(piVar1 + 10) = 0;
+assemble_one.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+process_file.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+warn.c:2:11: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:2:30: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:2:49: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:2:68: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+warn.c:3:10: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:3:29: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:3:48: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:3:67: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+warn.c:4:10: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:4:30: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:4:50: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:4:70: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+warn.c:5:10: error: unknown type name ‘undefined8’
+    5 |          undefined8 param_14)
+elf_type.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+elf_machine.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+elf_osabi.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+error.c:2:12: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:2:31: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:2:50: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:2:69: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+error.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+error.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+error.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+open_inarch.c:11:3: error: unknown type name ‘undefined8’
+   11 |   undefined8 uVar7;
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                 *(undefined *)((long)p + 2)),
+   12 |                                                        *(undefined *)((long)p + 3)),
+   13 |                                               *(undefined *)((long)p + 4)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                    *(undefined *)((long)p + 7)) ^ 0x8000000000000000) + 0x8000000000000000;
+ranlib_touch.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+    6 |                undefined8 param_14)
+set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+smart_rename.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+parse_vma.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+adjust_relative_path.c:87:7: error: ‘undefined4’ undeclared (first use in this function)
+   87 |     *(undefined4 *)newp = 0x2f2e2e;
+   87 |     *(undefined4 *)newp = 0x2f2e2e;
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                *(undefined *)((long)p + 2)),
+   12 |                                                       *(undefined *)((long)p + 3)),
+   13 |                                              *(undefined *)((long)p + 4)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                   *(undefined *)((long)p + 7));
+_bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+decode_options.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+main.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+_bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+get_file_size.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+fatal.c:2:12: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:31: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:50: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:69: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+yyparse.c:18:3: error: unknown type name ‘undefined8’
+   18 |   undefined8 *yyval;
+yyparse.c:94:18: error: ‘undefined8’ undeclared (first use in this function)
+   94 |         yyval = (undefined8 *)yyvsp[(int)(1 - uVar2)];
+   94 |         yyval = (undefined8 *)yyvsp[(int)(1 - uVar2)];
+  148 |           yyval = (undefined8 *)*yyvsp;
+  151 |           yyval = (undefined8 *)0x0;
+  154 |           yyval = (undefined8 *)yyvsp[-1];
+  157 |           yyval = (undefined8 *)0x0;
+  160 |           yyval = (undefined8 *)malloc(0x10);
+  165 |           yyval = (undefined8 *)0x0;
+non_fatal.c:2:16: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:35: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:54: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:73: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+non_fatal.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                 *(undefined *)((long)p + 2)),
+   12 |                                                        *(undefined *)((long)p + 3)),
+   13 |                                               *(undefined *)((long)p + 4)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                    *(undefined *)((long)p + 7)) ^ 0x8000000000000000) + 0x8000000000000000;
+bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+    6 |                undefined8 param_14)
+set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+parse_vma.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                *(undefined *)((long)p + 2)),
+   12 |                                                       *(undefined *)((long)p + 3)),
+   13 |                                              *(undefined *)((long)p + 4)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                   *(undefined *)((long)p + 7));
+_bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+get_file_size.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+fatal.c:2:12: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:31: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:50: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:69: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+non_fatal.c:2:16: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:35: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:54: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:73: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+non_fatal.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+    8 |   return (long)(int)(uint)CONCAT11(*p,*(undefined *)((long)p + 1));
+process_file.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb_signed_64.c:9:79: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return (CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                 *(undefined *)((long)p + 2)),
+   12 |                                                        *(undefined *)((long)p + 3)),
+   13 |                                               *(undefined *)((long)p + 4)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                      *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                    *(undefined *)((long)p + 7)) ^ 0x8000000000000000) + 0x8000000000000000;
+bfd_nonfatal_message.c:3:17: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:36: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:55: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:3:74: error: unknown type name ‘undefined4’
+    3 |                (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+bfd_nonfatal_message.c:4:16: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:35: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:54: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+bfd_nonfatal_message.c:4:73: error: unknown type name ‘undefined4’
+    4 |                undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:5:75: error: unknown type name ‘undefined8’
+    5 |                char *param_9,bfd *param_10,char **param_11,char *param_12,undefined8 param_13,
+bfd_nonfatal_message.c:6:16: error: unknown type name ‘undefined8’
+    6 |                undefined8 param_14)
+set_default_bfd_target.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+parse_vma.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+bfd_getb64.c:9:78: error: ‘undefined’ undeclared (first use in this function)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+    9 |   return CONCAT71(CONCAT61(CONCAT51(CONCAT41(CONCAT31(CONCAT21(CONCAT11(*p,*(undefined *)
+   11 |                                                                *(undefined *)((long)p + 2)),
+   12 |                                                       *(undefined *)((long)p + 3)),
+   13 |                                              *(undefined *)((long)p + 4)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   14 |                                     *(undefined *)((long)p + 5)),*(undefined *)((long)p + 6)),
+   15 |                   *(undefined *)((long)p + 7));
+_bfd_error_handler.c:2:25: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:44: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:63: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:2:82: error: unknown type name ‘undefined4’
+    2 | void _bfd_error_handler(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+_bfd_error_handler.c:3:24: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:43: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:62: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:3:81: error: unknown type name ‘undefined4’
+    3 |                        undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+_bfd_error_handler.c:4:38: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:58: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:4:78: error: unknown type name ‘undefined8’
+    4 |                        char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+_bfd_error_handler.c:5:24: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+_bfd_error_handler.c:5:44: error: unknown type name ‘undefined8’
+    5 |                        undefined8 param_13,undefined8 param_14)
+main.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+_bfd_abort.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+bfd_getb_signed_16.c:8:36: error: ‘undefined’ undeclared (first use in this function)
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+    8 |   return (long)(int)(CONCAT11(*p,*(undefined *)((long)p + 1)) ^ 0x8000) + -0x8000;
+get_file_size.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+fatal.c:2:12: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:31: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:50: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:2:69: error: unknown type name ‘undefined4’
+    2 | void fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+fatal.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+fatal.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+fatal.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+non_fatal.c:2:16: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:35: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:54: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:2:73: error: unknown type name ‘undefined4’
+    2 | void non_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+non_fatal.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+non_fatal.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+non_fatal.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+non_fatal.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+dot_cfi_sections.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+dwarf2_directive_file.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+get_symbol_name.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+as_tsktsk.c:2:16: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:2:35: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:2:54: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:2:73: error: unknown type name ‘undefined4’
+    2 | void as_tsktsk(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_tsktsk.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_tsktsk.c:4:29: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_tsktsk.c:4:49: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_tsktsk.c:4:69: error: unknown type name ‘undefined8’
+    4 |               char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_tsktsk.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+as_tsktsk.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+dot_cfi_fde_data.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+as_bad.c:2:13: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:2:32: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:2:51: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:2:70: error: unknown type name ‘undefined4’
+    2 | void as_bad(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad.c:3:12: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:3:31: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:3:50: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:3:69: error: unknown type name ‘undefined4’
+    3 |            undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9
+as_bad.c:4:13: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:4:33: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:4:53: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:4:73: error: unknown type name ‘undefined8’
+    4 |            ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+as_bad.c:5:12: error: unknown type name ‘undefined8’
+    5 |            undefined8 param_14)
+parse_args.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+s_ifc.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+listing_print.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+out_file_list.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+output_file_close.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+input_file_open.c:10:3: error: unknown type name ‘undefined8’
+   10 |   undefined8 uVar6;
+cond_finish_check.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+input_scrub_next_buffer.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+print_dependencies.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+dwarf2_directive_loc_mark_labels.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+listing_psize.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+input_file_give_next_buffer.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar5;
+dwarf2_directive_loc.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar2;
+as_bad_where.c:2:19: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:2:38: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:2:57: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:2:76: error: unknown type name ‘undefined4’
+    2 | void as_bad_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_bad_where.c:3:18: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_bad_where.c:3:37: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_bad_where.c:3:56: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_bad_where.c:3:75: error: unknown type name ‘undefined4’
+    3 |                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    4 |                  char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13,
+as_bad_where.c:4:61: error: unknown type name ‘undefined8’
+    4 |                  char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13,
+as_bad_where.c:4:81: error: unknown type name ‘undefined8’
+    4 |                  char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13,
+as_bad_where.c:5:18: error: unknown type name ‘undefined8’
+    5 |                  undefined8 param_14)
+as_warn_where.c:2:20: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:2:39: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:2:58: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:2:77: error: unknown type name ‘undefined4’
+    2 | void as_warn_where(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn_where.c:3:19: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn_where.c:3:38: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn_where.c:3:57: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn_where.c:3:76: error: unknown type name ‘undefined4’
+    3 |                   undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    4 |                   char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13
+as_warn_where.c:4:62: error: unknown type name ‘undefined8’
+    4 |                   char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13
+as_warn_where.c:4:82: error: unknown type name ‘undefined8’
+    4 |                   char *param_9,uint param_10,char *param_11,undefined8 param_12,undefined8 param_13
+as_warn_where.c:5:20: error: unknown type name ‘undefined8’
+    5 |                   ,undefined8 param_14)
+dot_cfi_endproc.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+emit_line.c:2:16: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:2:35: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:2:54: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:2:73: error: unknown type name ‘undefined4’
+    2 | void emit_line(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+emit_line.c:3:15: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+emit_line.c:3:34: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+emit_line.c:3:53: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+emit_line.c:3:72: error: unknown type name ‘undefined4’
+    3 |               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+    4 |               list_info_type *param_9,char *param_10,undefined8 param_11,undefined8 param_12,
+emit_line.c:4:54: error: unknown type name ‘undefined8’
+    4 |               list_info_type *param_9,char *param_10,undefined8 param_11,undefined8 param_12,
+emit_line.c:4:74: error: unknown type name ‘undefined8’
+    4 |               list_info_type *param_9,char *param_10,undefined8 param_11,undefined8 param_12,
+emit_line.c:5:15: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+emit_line.c:5:35: error: unknown type name ‘undefined8’
+    5 |               undefined8 param_13,undefined8 param_14)
+delete_macro.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar2;
+main.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+s_else.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+cfi_add_CFA_undefined.c:2:28: error: unknown type name ‘uint’; did you mean ‘int’?
+    2 | void cfi_add_CFA_undefined(uint regno)
+operatorf.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+dwarf2_finish.c:76:9: error: ‘undefined4’ undeclared (first use in this function)
+   76 |       *(undefined4 *)&str_seg->field_0xc4 = 1;
+   76 |       *(undefined4 *)&str_seg->field_0xc4 = 1;
+output_file_create.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+as_warn.c:2:14: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:2:33: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:2:52: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:2:71: error: unknown type name ‘undefined4’
+    2 | void as_warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_warn.c:3:13: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:3:32: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:3:51: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:3:70: error: unknown type name ‘undefined4’
+    3 |             undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_warn.c:4:27: error: unknown type name ‘undefined8’
+    4 |             char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_warn.c:4:47: error: unknown type name ‘undefined8’
+    4 |             char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_warn.c:4:67: error: unknown type name ‘undefined8’
+    4 |             char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_warn.c:5:13: error: unknown type name ‘undefined8’
+    5 |             undefined8 param_13,undefined8 param_14)
+as_warn.c:5:33: error: unknown type name ‘undefined8’
+    5 |             undefined8 param_13,undefined8 param_14)
+listing_title.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+dot_cfi_val_encoded_addr.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+s_endif.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar1;
+s_if.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+cfi_parse_separator.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+s_ifeqs.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+dot_cfi_startproc.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+dot_cfi_lsda.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+s_ifdef.c:9:3: error: unknown type name ‘undefined8’
+    9 |   undefined8 uVar4;
+dot_cfi_inline_lsda.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+s_elseif.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+cfi_finish.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+dot_cfi_personality.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar4;
+cfi_parse_reg.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+dot_cfi.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar2;
+dot_cfi.c:51:11: warning: implicit declaration of function ‘cfi_add_CFA_undefined’ [-Wimplicit-function-declaration]
+   51 |           cfi_add_CFA_undefined(uVar1);
+dot_cfi_personality_id.c:5:3: error: unknown type name ‘undefined8’
+    5 |   undefined8 uVar1;
+as_fatal.c:2:15: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:2:34: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:2:53: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:2:72: error: unknown type name ‘undefined4’
+    2 | void as_fatal(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+as_fatal.c:3:14: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:3:33: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:3:52: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:3:71: error: unknown type name ‘undefined4’
+    3 |              undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+as_fatal.c:4:28: error: unknown type name ‘undefined8’
+    4 |              char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_fatal.c:4:48: error: unknown type name ‘undefined8’
+    4 |              char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_fatal.c:4:68: error: unknown type name ‘undefined8’
+    4 |              char *param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,
+as_fatal.c:5:14: error: unknown type name ‘undefined8’
+    5 |              undefined8 param_13,undefined8 param_14)
+as_fatal.c:5:34: error: unknown type name ‘undefined8’
+    5 |              undefined8 param_13,undefined8 param_14)
+cfi_add_CFA_restore_state.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar1;
+dot_cfi_escape.c:7:3: error: unknown type name ‘undefined8’
+    7 |   undefined8 uVar3;
+list_symbol_table.c:15:3: error: unknown type name ‘undefined8’
+   15 |   undefined8 uVar10;
+   10 |   out_buf._0_8_ = *(undefined8 *)(arg + 0x10);
+app_pop.c:10:21: error: ‘undefined8’ undeclared (first use in this function)
+   10 |   out_buf._0_8_ = *(undefined8 *)(arg + 0x10);
+   10 |   out_buf._0_8_ = *(undefined8 *)(arg + 0x10);
+   11 |   out_buf._8_8_ = *(undefined8 *)(arg + 0x18);
+app_pop.c:12:22: error: ‘undefined4’ undeclared (first use in this function)
+   12 |   out_buf._16_4_ = *(undefined4 *)(arg + 0x20);
+   12 |   out_buf._16_4_ = *(undefined4 *)(arg + 0x20);
+app_push.c:13:5: error: ‘undefined8’ undeclared (first use in this function)
+   13 |   *(undefined8 *)(piVar1 + 4) = out_buf._0_8_;
+   13 |   *(undefined8 *)(piVar1 + 4) = out_buf._0_8_;
+   13 |   *(undefined8 *)(piVar1 + 4) = out_buf._0_8_;
+   14 |   *(undefined8 *)(piVar1 + 6) = out_buf._8_8_;
+   18 |     *(undefined8 *)(piVar1 + 10) = 0;
+assemble_one.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;

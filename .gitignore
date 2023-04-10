@@ -10,3 +10,4 @@ out/*
 JSONBinaries/*
 dgl/*
 header_files/*
+.vscode/*
