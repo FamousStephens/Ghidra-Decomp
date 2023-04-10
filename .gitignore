@@ -1,4 +1,5 @@
 DecompiledFuncs/*
+DecompiledFuncs/gcc*
 ghidra_*_PUBLIC
 ghidra_*_PUBLIC/
 GhidraProjects/*
@@ -7,3 +8,5 @@ out/*
 *.bin
 *.csv
 JSONBinaries/*
+dgl/*
+header_files/*
