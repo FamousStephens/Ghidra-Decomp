@@ -1,0 +1,1221 @@
+abort.c: In function ‘abort’:
+abort.c:7:6: error: ‘code’ undeclared (first use in this function)
+    7 |   (*(code *)PTR_abort_00608028)();
+      |      ^~~~
+abort.c:7:6: note: each undeclared identifier is reported only once for each function it appears in
+abort.c:7:12: error: expected expression before ‘)’ token
+    7 |   (*(code *)PTR_abort_00608028)();
+      |            ^
+abort.c:8:3: warning: function declared ‘noreturn’ has a ‘return’ statement
+    8 |   return;
+      |   ^~~~~~
+abort.c:8:3: warning: ‘noreturn’ function does return
+    8 |   return;
+      |   ^
+adjust_relative_path.c:2:56: error: unknown type name ‘ulong’; did you mean ‘long’?
+    2 | char * adjust_relative_path(char *file_name,char *name,ulong name_len)
+      |                                                        ^~~~~
+      |                                                        long
+__assert_fail.c:4:51: error: unknown type name ‘uint’; did you mean ‘int’?
+    4 | void __assert_fail(char *__assertion,char *__file,uint __line,char *__function)
+      |                                                   ^~~~
+      |                                                   int
+bindtextdomain.c: In function ‘bindtextdomain’:
+bindtextdomain.c:5:6: error: ‘code’ undeclared (first use in this function)
+    5 |   (*(code *)PTR_bindtextdomain_00608060)();
+      |      ^~~~
+bindtextdomain.c:5:6: note: each undeclared identifier is reported only once for each function it appears in
+bindtextdomain.c:5:12: error: expected expression before ‘)’ token
+    5 |   (*(code *)PTR_bindtextdomain_00608060)();
+      |            ^
+buildargv.c: In function ‘buildargv’:
+buildargv.c:6:3: error: unknown type name ‘size_t’
+    6 |   size_t sVar2;
+      |   ^~~~~~
+buildargv.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+buildargv.c:27:13: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   27 |     sVar2 = strlen(input);
+      |             ^~~~~~
+buildargv.c:27:13: warning: incompatible implicit declaration of built-in function ‘strlen’
+buildargv.c:1:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+  +++ |+#include <string.h>
+    1 | 
+buildargv.c:28:23: warning: implicit declaration of function ‘xmalloc’ [-Wimplicit-function-declaration]
+   28 |     copybuf = (char *)xmalloc(sVar2 + 1);
+      |                       ^~~~~~~
+buildargv.c:28:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   28 |     copybuf = (char *)xmalloc(sVar2 + 1);
+      |               ^
+buildargv.c:30:7: warning: implicit declaration of function ‘consume_whitespace’ [-Wimplicit-function-declaration]
+   30 |       consume_whitespace(local_60);
+      |       ^~~~~~~~~~~~~~~~~~
+buildargv.c:34:19: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   34 |           nargv = (char **)xmalloc(0x40);
+      |                   ^
+buildargv.c:38:28: warning: implicit declaration of function ‘xrealloc’ [-Wimplicit-function-declaration]
+   38 |           nargv = (char **)xrealloc(argv,(long)maxargc * 8);
+      |                            ^~~~~~~~
+buildargv.c:38:19: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   38 |           nargv = (char **)xrealloc(argv,(long)maxargc * 8);
+      |                   ^
+buildargv.c:45:19: error: ‘_sch_istable’ undeclared (first use in this function)
+   45 |              (((((_sch_istable[(int)((int)*local_60[0] & 0xff)] & 0x40) == 0 || (squote != 0)) ||
+      |                   ^~~~~~~~~~~~
+buildargv.c:45:19: note: each undeclared identifier is reported only once for each function it appears in
+buildargv.c:89:16: warning: implicit declaration of function ‘xstrdup’ [-Wimplicit-function-declaration]
+   89 |       pcVar3 = xstrdup(copybuf);
+      |                ^~~~~~~
+buildargv.c:89:14: warning: assignment to ‘char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   89 |       pcVar3 = xstrdup(copybuf);
+      |              ^
+buildargv.c:95:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   95 |     free(copybuf);
+      |     ^~~~
+buildargv.c:95:5: warning: incompatible implicit declaration of built-in function ‘free’
+buildargv.c:1:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+  +++ |+#include <stdlib.h>
+    1 | 
+byte_get_64.c:2:18: error: unknown type name ‘uchar’; did you mean ‘char’?
+    2 | void byte_get_64(uchar *field,elf_vma *high,elf_vma *low)
+      |                  ^~~~~
+      |                  char
+byte_get_64.c:2:31: error: unknown type name ‘elf_vma’
+    2 | void byte_get_64(uchar *field,elf_vma *high,elf_vma *low)
+      |                               ^~~~~~~
+byte_get_64.c:2:45: error: unknown type name ‘elf_vma’
+    2 | void byte_get_64(uchar *field,elf_vma *high,elf_vma *low)
+      |                                             ^~~~~~~
+byte_get_big_endian.c:2:1: error: unknown type name ‘elf_vma’
+    2 | elf_vma byte_get_big_endian(uchar *field,int size)
+      | ^~~~~~~
+byte_get_big_endian.c:2:29: error: unknown type name ‘uchar’; did you mean ‘char’?
+    2 | elf_vma byte_get_big_endian(uchar *field,int size)
+      |                             ^~~~~
+      |                             char
+byte_get_little_endian.c:2:1: error: unknown type name ‘elf_vma’
+    2 | elf_vma byte_get_little_endian(uchar *field,int size)
+      | ^~~~~~~
+byte_get_little_endian.c:2:32: error: unknown type name ‘uchar’; did you mean ‘char’?
+    2 | elf_vma byte_get_little_endian(uchar *field,int size)
+      |                                ^~~~~
+      |                                char
+byte_get_signed.c:2:1: error: unknown type name ‘elf_vma’
+    2 | elf_vma byte_get_signed(uchar *field,int size)
+      | ^~~~~~~
+byte_get_signed.c:2:25: error: unknown type name ‘uchar’; did you mean ‘char’?
+    2 | elf_vma byte_get_signed(uchar *field,int size)
+      |                         ^~~~~
+      |                         char
+byte_put_big_endian.c:2:26: error: unknown type name ‘uchar’; did you mean ‘char’?
+    2 | void byte_put_big_endian(uchar *field,elf_vma value,int size)
+      |                          ^~~~~
+      |                          char
+byte_put_big_endian.c:2:39: error: unknown type name ‘elf_vma’
+    2 | void byte_put_big_endian(uchar *field,elf_vma value,int size)
+      |                                       ^~~~~~~
+byte_put_little_endian.c:2:29: error: unknown type name ‘uchar’; did you mean ‘char’?
+    2 | void byte_put_little_endian(uchar *field,elf_vma value,int size)
+      |                             ^~~~~
+      |                             char
+byte_put_little_endian.c:2:42: error: unknown type name ‘elf_vma’
+    2 | void byte_put_little_endian(uchar *field,elf_vma value,int size)
+      |                                          ^~~~~~~
+calloc.c:4:15: error: unknown type name ‘size_t’
+    4 | void * calloc(size_t __nmemb,size_t __size)
+      |               ^~~~~~
+calloc.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+calloc.c:4:30: error: unknown type name ‘size_t’
+    4 | void * calloc(size_t __nmemb,size_t __size)
+      |                              ^~~~~~
+calloc.c:4:30: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+check_file.c:2:32: error: unknown type name ‘stat’
+    2 | int check_file(char *file_name,stat *statbuf_p)
+      |                                ^~~~
+consume_whitespace.c: In function ‘consume_whitespace’:
+consume_whitespace.c:5:11: error: ‘_sch_istable’ undeclared (first use in this function)
+    5 |   while ((_sch_istable[(int)((int)**input & 0xff)] & 0x40) != 0) {
+      |           ^~~~~~~~~~~~
+consume_whitespace.c:5:11: note: each undeclared identifier is reported only once for each function it appears in
+dos_lbasename.c: In function ‘dos_lbasename’:
+dos_lbasename.c:9:9: error: ‘_sch_istable’ undeclared (first use in this function)
+    9 |   if (((_sch_istable[(int)((int)*name & 0xff)] & 0x88) != 0) && (name[1] == ':')) {
+      |         ^~~~~~~~~~~~
+dos_lbasename.c:9:9: note: each undeclared identifier is reported only once for each function it appears in
+dupargv.c: In function ‘dupargv’:
+dupargv.c:16:24: warning: implicit declaration of function ‘xmalloc’ [-Wimplicit-function-declaration]
+   16 |     ppcVar1 = (char **)xmalloc((long)(argc + 1) << 3);
+      |                        ^~~~~~~
+dupargv.c:16:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   16 |     ppcVar1 = (char **)xmalloc((long)(argc + 1) << 3);
+      |               ^
+dupargv.c:18:16: warning: implicit declaration of function ‘xstrdup’ [-Wimplicit-function-declaration]
+   18 |       pcVar2 = xstrdup(argv[argc]);
+      |                ^~~~~~~
+dupargv.c:18:14: warning: assignment to ‘char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   18 |       pcVar2 = xstrdup(argv[argc]);
+      |              ^
+elf_class.c:2:1: error: unknown type name ‘elfclass’
+    2 | elfclass elf_class(int mach)
+      | ^~~~~~~~
+elf_class.c: In function ‘elf_class’:
+elf_class.c:6:12: error: ‘ELF_CLASS_32’ undeclared (first use in this function)
+    6 |     return ELF_CLASS_32;
+      |            ^~~~~~~~~~~~
+elf_class.c:6:12: note: each undeclared identifier is reported only once for each function it appears in
+elf_class.c:10:14: error: ‘ELF_CLASS_BOTH’ undeclared (first use in this function)
+   10 |       return ELF_CLASS_BOTH;
+      |              ^~~~~~~~~~~~~~
+elf_class.c:21:14: error: ‘ELF_CLASS_64’ undeclared (first use in this function)
+   21 |       return ELF_CLASS_64;
+      |              ^~~~~~~~~~~~
+elf_machine.c: In function ‘elf_machine’:
+elf_machine.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+      |   ^~~~~~~~~~
+elf_machine.c:8:11: warning: implicit declaration of function ‘strcasecmp’ [-Wimplicit-function-declaration]
+    8 |   iVar1 = strcasecmp(mach,"i386");
+      |           ^~~~~~~~~~
+elf_machine.c:43:25: warning: implicit declaration of function ‘gettext’ [-Wimplicit-function-declaration]
+   43 |                 uVar2 = gettext("Unknown machine type: %s\n");
+      |                         ^~~~~~~
+elf_machine.c:43:25: warning: incompatible implicit declaration of built-in function ‘gettext’
+elf_machine.c:43:23: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   43 |                 uVar2 = gettext("Unknown machine type: %s\n");
+      |                       ^
+elf_machine.c:44:17: warning: implicit declaration of function ‘error’ [-Wimplicit-function-declaration]
+   44 |                 error(uVar2,mach);
+      |                 ^~~~~
+elf_osabi.c: In function ‘elf_osabi’:
+elf_osabi.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+      |   ^~~~~~~~~~
+elf_osabi.c:7:3: error: unknown type name ‘uint’; did you mean ‘int’?
+    7 |   uint i;
+      |   ^~~~
+      |   int
+elf_osabi.c:10:10: error: ‘true’ undeclared (first use in this function)
+   10 |   while( true ) {
+      |          ^~~~
+elf_osabi.c:10:10: note: each undeclared identifier is reported only once for each function it appears in
+elf_osabi.c:12:15: warning: implicit declaration of function ‘gettext’ [-Wimplicit-function-declaration]
+   12 |       uVar2 = gettext("Unknown OSABI: %s\n");
+      |               ^~~~~~~
+elf_osabi.c:12:15: warning: incompatible implicit declaration of built-in function ‘gettext’
+elf_osabi.c:12:13: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   12 |       uVar2 = gettext("Unknown OSABI: %s\n");
+      |             ^
+elf_osabi.c:13:7: warning: implicit declaration of function ‘error’ [-Wimplicit-function-declaration]
+   13 |       error(uVar2,osabi);
+      |       ^~~~~
+elf_osabi.c:16:13: warning: implicit declaration of function ‘strcasecmp’ [-Wimplicit-function-declaration]
+   16 |     iVar1 = strcasecmp(osabi,osabis[i].name);
+      |             ^~~~~~~~~~
+elf_osabi.c:16:30: error: ‘osabis’ undeclared (first use in this function); did you mean ‘osabi’?
+   16 |     iVar1 = strcasecmp(osabi,osabis[i].name);
+      |                              ^~~~~~
+      |                              osabi
+elf_type.c: In function ‘elf_type’:
+elf_type.c:6:3: error: unknown type name ‘undefined8’
+    6 |   undefined8 uVar2;
+      |   ^~~~~~~~~~
+elf_type.c:8:11: warning: implicit declaration of function ‘strcasecmp’ [-Wimplicit-function-declaration]
+    8 |   iVar1 = strcasecmp(type,"rel");
+      |           ^~~~~~~~~~
+elf_type.c:28:19: warning: implicit declaration of function ‘gettext’ [-Wimplicit-function-declaration]
+   28 |           uVar2 = gettext("Unknown type: %s\n");
+      |                   ^~~~~~~
+elf_type.c:28:19: warning: incompatible implicit declaration of built-in function ‘gettext’
+elf_type.c:28:17: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |           uVar2 = gettext("Unknown type: %s\n");
+      |                 ^
+elf_type.c:29:11: warning: implicit declaration of function ‘error’ [-Wimplicit-function-declaration]
+   29 |           error(uVar2,type);
+      |           ^~~~~
+__errno_location.c: In function ‘__errno_location’:
+__errno_location.c:9:22: error: ‘code’ undeclared (first use in this function)
+    9 |   piVar1 = (int *)(*(code *)PTR___errno_location_00608030)();
+      |                      ^~~~
+__errno_location.c:9:22: note: each undeclared identifier is reported only once for each function it appears in
+__errno_location.c:9:28: error: expected expression before ‘)’ token
+    9 |   piVar1 = (int *)(*(code *)PTR___errno_location_00608030)();
+      |                            ^
+error.c:2:12: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |            ^~~~~~~~~~
+error.c:2:31: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |                               ^~~~~~~~~~
+error.c:2:50: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |                                                  ^~~~~~~~~~
+error.c:2:69: error: unknown type name ‘undefined4’
+    2 | void error(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |                                                                     ^~~~~~~~~~
+error.c:3:11: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |           ^~~~~~~~~~
+error.c:3:30: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |                              ^~~~~~~~~~
+error.c:3:49: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |                                                 ^~~~~~~~~~
+error.c:3:68: error: unknown type name ‘undefined4’
+    3 |           undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |                                                                    ^~~~~~~~~~
+error.c:4:11: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |           ^~~~~~~~~~
+error.c:4:31: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |                               ^~~~~~~~~~
+error.c:4:51: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |                                                   ^~~~~~~~~~
+error.c:4:71: error: unknown type name ‘undefined8’
+    4 |           undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |                                                                       ^~~~~~~~~~
+error.c:5:11: error: unknown type name ‘undefined8’
+    5 |           undefined8 param_14)
+      |           ^~~~~~~~~~
+exit.c: In function ‘exit’:
+exit.c:7:6: error: ‘code’ undeclared (first use in this function)
+    7 |   (*(code *)PTR_exit_00608148)();
+      |      ^~~~
+exit.c:7:6: note: each undeclared identifier is reported only once for each function it appears in
+exit.c:7:12: error: expected expression before ‘)’ token
+    7 |   (*(code *)PTR_exit_00608148)();
+      |            ^
+exit.c:8:3: warning: function declared ‘noreturn’ has a ‘return’ statement
+    8 |   return;
+      |   ^~~~~~
+exit.c:8:3: warning: ‘noreturn’ function does return
+    8 |   return;
+      |   ^
+expandargv.c: In function ‘expandargv’:
+expandargv.c:8:3: error: unknown type name ‘FILE’
+    8 |   FILE *__stream;
+      |   ^~~~
+expandargv.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+expandargv.c:9:3: error: unknown type name ‘size_t’
+    9 |   size_t __n;
+      |   ^~~~~~
+expandargv.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+expandargv.c:11:3: error: unknown type name ‘size_t’
+   11 |   size_t sVar5;
+      |   ^~~~~~
+expandargv.c:11:3: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+expandargv.c:15:3: error: unknown type name ‘uint’; did you mean ‘int’?
+   15 |   uint iteration_limit;
+      |   ^~~~
+      |   int
+expandargv.c:18:3: error: unknown type name ‘size_t’
+   18 |   size_t file_argc;
+      |   ^~~~~~
+expandargv.c:18:3: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+expandargv.c:20:3: error: unknown type name ‘FILE’
+   20 |   FILE *f;
+      |   ^~~~
+expandargv.c:20:3: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+expandargv.c:23:3: error: unknown type name ‘size_t’
+   23 |   size_t len;
+      |   ^~~~~~
+expandargv.c:23:3: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+expandargv.c:24:3: error: unknown type name ‘stat’
+   24 |   stat sb;
+      |   ^~~~
+expandargv.c:30:10: error: ‘true’ undeclared (first use in this function)
+   30 |   while( true ) {
+      |          ^~~~
+expandargv.c:30:10: note: each undeclared identifier is reported only once for each function it appears in
+expandargv.c:37:11: warning: implicit declaration of function ‘__stack_chk_fail’ [-Wimplicit-function-declaration]
+   37 |           __stack_chk_fail();
+      |           ^~~~~~~~~~~~~~~~
+expandargv.c:45:13: warning: implicit declaration of function ‘stat’ [-Wimplicit-function-declaration]
+   45 |     iVar3 = stat(pcVar4 + 1,(stat *)&sb);
+      |             ^~~~
+expandargv.c:45:36: error: expected expression before ‘)’ token
+   45 |     iVar3 = stat(pcVar4 + 1,(stat *)&sb);
+      |                                    ^
+expandargv.c:47:14: error: request for member ‘st_mode’ in something not a structure or union
+   47 |       if ((sb.st_mode & 0xf000) == 0x4000) {
+      |              ^
+expandargv.c:48:9: warning: implicit declaration of function ‘fprintf’ [-Wimplicit-function-declaration]
+   48 |         fprintf(stderr,"%s: error: @-file refers to a directory\n",**argvp);
+      |         ^~~~~~~
+expandargv.c:48:9: warning: incompatible implicit declaration of built-in function ‘fprintf’
+expandargv.c:48:9: note: include ‘<stdio.h>’ or provide a declaration of ‘fprintf’
+expandargv.c:48:17: error: ‘stderr’ undeclared (first use in this function)
+   48 |         fprintf(stderr,"%s: error: @-file refers to a directory\n",**argvp);
+      |                 ^~~~~~
+expandargv.c:48:17: note: ‘stderr’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+expandargv.c:50:9: warning: implicit declaration of function ‘xexit’ [-Wimplicit-function-declaration]
+   50 |         xexit(1);
+      |         ^~~~~
+expandargv.c:52:18: warning: implicit declaration of function ‘fopen’ [-Wimplicit-function-declaration]
+   52 |       __stream = fopen(pcVar4 + 1,"r");
+      |                  ^~~~~
+expandargv.c:52:18: note: ‘fopen’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+expandargv.c:52:16: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   52 |       __stream = fopen(pcVar4 + 1,"r");
+      |                ^
+expandargv.c:53:24: error: ‘FILE’ undeclared (first use in this function)
+   53 |       if (__stream != (FILE *)0x0) {
+      |                        ^~~~
+expandargv.c:53:24: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+expandargv.c:53:30: error: expected expression before ‘)’ token
+   53 |       if (__stream != (FILE *)0x0) {
+      |                              ^
+expandargv.c:54:17: warning: implicit declaration of function ‘fseek’ [-Wimplicit-function-declaration]
+   54 |         iVar3 = fseek(__stream,0,2);
+      |                 ^~~~~
+expandargv.c:55:38: warning: implicit declaration of function ‘ftell’ [-Wimplicit-function-declaration]
+   55 |         if (((iVar3 != -1) && (__n = ftell(__stream), __n != 0xffffffffffffffff)) &&
+      |                                      ^~~~~
+expandargv.c:57:28: warning: implicit declaration of function ‘xmalloc’ [-Wimplicit-function-declaration]
+   57 |           pcVar4 = (char *)xmalloc(__n + 1);
+      |                            ^~~~~~~
+expandargv.c:57:20: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   57 |           pcVar4 = (char *)xmalloc(__n + 1);
+      |                    ^
+expandargv.c:58:19: warning: implicit declaration of function ‘fread’ [-Wimplicit-function-declaration]
+   58 |           sVar5 = fread(pcVar4,1,__n,__stream);
+      |                   ^~~~~
+expandargv.c:59:42: warning: implicit declaration of function ‘ferror’ [-Wimplicit-function-declaration]
+   59 |           if ((sVar5 == __n) || (iVar3 = ferror(__stream), iVar3 == 0)) {
+      |                                          ^~~~~~
+expandargv.c:61:21: warning: implicit declaration of function ‘only_whitespace’ [-Wimplicit-function-declaration]
+   61 |             iVar3 = only_whitespace(pcVar4);
+      |                     ^~~~~~~~~~~~~~~
+expandargv.c:63:27: warning: implicit declaration of function ‘buildargv’ [-Wimplicit-function-declaration]
+   63 |               file_argv = buildargv(pcVar4);
+      |                           ^~~~~~~~~
+expandargv.c:63:25: warning: assignment to ‘char **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   63 |               file_argv = buildargv(pcVar4);
+      |                         ^
+expandargv.c:66:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   66 |               file_argv = (char **)xmalloc(8);
+      |                           ^
+expandargv.c:69:23: warning: implicit declaration of function ‘dupargv’ [-Wimplicit-function-declaration]
+   69 |             ppcVar6 = dupargv(*argvp);
+      |                       ^~~~~~~
+expandargv.c:69:21: warning: assignment to ‘char **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   69 |             ppcVar6 = dupargv(*argvp);
+      |                     ^
+expandargv.c:73:32: warning: implicit declaration of function ‘xrealloc’ [-Wimplicit-function-declaration]
+   73 |             ppcVar6 = (char **)xrealloc(*argvp,(file_argc + (long)*argcp + 1) * 8);
+      |                                ^~~~~~~~
+expandargv.c:73:23: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   73 |             ppcVar6 = (char **)xrealloc(*argvp,(file_argc + (long)*argcp + 1) * 8);
+      |                       ^
+expandargv.c:75:13: warning: implicit declaration of function ‘memmove’ [-Wimplicit-function-declaration]
+   75 |             memmove(*argvp + file_argc + (long)iVar1,*argvp + (long)iVar1 + 1,
+      |             ^~~~~~~
+expandargv.c:75:13: warning: incompatible implicit declaration of built-in function ‘memmove’
+expandargv.c:1:1: note: include ‘<string.h>’ or provide a declaration of ‘memmove’
+  +++ |+#include <string.h>
+    1 | 
+expandargv.c:77:13: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+   77 |             memcpy(*argvp + iVar1,file_argv,file_argc * 8);
+      |             ^~~~~~
+expandargv.c:77:13: warning: incompatible implicit declaration of built-in function ‘memcpy’
+expandargv.c:77:13: note: include ‘<string.h>’ or provide a declaration of ‘memcpy’
+expandargv.c:79:13: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   79 |             free(file_argv);
+      |             ^~~~
+expandargv.c:79:13: warning: incompatible implicit declaration of built-in function ‘free’
+expandargv.c:1:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+  +++ |+#include <stdlib.h>
+    1 | 
+expandargv.c:85:9: warning: implicit declaration of function ‘fclose’ [-Wimplicit-function-declaration]
+   85 |         fclose(__stream);
+      |         ^~~~~~
+expandargv.c:90:3: warning: incompatible implicit declaration of built-in function ‘fprintf’
+   90 |   fprintf(stderr,"%s: error: too many @-files encountered\n",**argvp);
+      |   ^~~~~~~
+expandargv.c:90:3: note: include ‘<stdio.h>’ or provide a declaration of ‘fprintf’
+fclose.c:4:12: error: unknown type name ‘FILE’
+    4 | int fclose(FILE *__stream)
+      |            ^~~~
+fclose.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+ferror.c:4:12: error: unknown type name ‘FILE’
+    4 | int ferror(FILE *__stream)
+      |            ^~~~
+ferror.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+fflush.c:4:12: error: unknown type name ‘FILE’
+    4 | int fflush(FILE *__stream)
+      |            ^~~~
+fflush.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+fopen.c:4:1: error: unknown type name ‘FILE’
+    4 | FILE * fopen(char *__filename,char *__modes)
+      | ^~~~
+fopen.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+fopen.c: In function ‘fopen’:
+fopen.c:7:3: error: unknown type name ‘FILE’
+    7 |   FILE *pFVar1;
+      |   ^~~~
+fopen.c:7:3: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+fopen.c:9:13: error: ‘FILE’ undeclared (first use in this function)
+    9 |   pFVar1 = (FILE *)(*(code *)PTR_fopen_00608130)();
+      |             ^~~~
+fopen.c:9:13: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+fopen.c:9:13: note: each undeclared identifier is reported only once for each function it appears in
+fopen.c:9:19: error: expected expression before ‘)’ token
+    9 |   pFVar1 = (FILE *)(*(code *)PTR_fopen_00608130)();
+      |                   ^
+fopen.c:9:23: error: ‘code’ undeclared (first use in this function)
+    9 |   pFVar1 = (FILE *)(*(code *)PTR_fopen_00608130)();
+      |                       ^~~~
+fopen.c:9:30: error: expected ‘)’ before ‘PTR_fopen_00608130’
+    9 |   pFVar1 = (FILE *)(*(code *)PTR_fopen_00608130)();
+      |                              ^~~~~~~~~~~~~~~~~~
+      |                              )
+fprintf.c:4:13: error: unknown type name ‘FILE’
+    4 | int fprintf(FILE *__stream,char *__format,...)
+      |             ^~~~
+fprintf.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+fputc.c:4:19: error: unknown type name ‘FILE’
+    4 | int fputc(int __c,FILE *__stream)
+      |                   ^~~~
+fputc.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+fread.c:4:1: error: unknown type name ‘size_t’
+    4 | size_t fread(void *__ptr,size_t __size,size_t __n,FILE *__stream)
+      | ^~~~~~
+fread.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+fread.c:4:26: error: unknown type name ‘size_t’
+    4 | size_t fread(void *__ptr,size_t __size,size_t __n,FILE *__stream)
+      |                          ^~~~~~
+fread.c:4:26: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+fread.c:4:40: error: unknown type name ‘size_t’
+    4 | size_t fread(void *__ptr,size_t __size,size_t __n,FILE *__stream)
+      |                                        ^~~~~~
+fread.c:4:40: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+fread.c:4:51: error: unknown type name ‘FILE’
+    4 | size_t fread(void *__ptr,size_t __size,size_t __n,FILE *__stream)
+      |                                                   ^~~~
+fread.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+freeargv.c: In function ‘freeargv’:
+freeargv.c:10:7: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   10 |       free(*ppcVar1);
+      |       ^~~~
+freeargv.c:10:7: warning: incompatible implicit declaration of built-in function ‘free’
+freeargv.c:1:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+  +++ |+#include <stdlib.h>
+    1 | 
+freeargv.c:12:5: warning: incompatible implicit declaration of built-in function ‘free’
+   12 |     free(vector);
+      |     ^~~~
+freeargv.c:12:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+free.c: In function ‘free’:
+free.c:7:6: error: ‘code’ undeclared (first use in this function)
+    7 |   (*(code *)PTR_free_00608018)();
+      |      ^~~~
+free.c:7:6: note: each undeclared identifier is reported only once for each function it appears in
+free.c:7:12: error: expected expression before ‘)’ token
+    7 |   (*(code *)PTR_free_00608018)();
+      |            ^
+fseek.c:4:11: error: unknown type name ‘FILE’
+    4 | int fseek(FILE *__stream,long __off,int __whence)
+      |           ^~~~
+fseek.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+ftell.c:4:12: error: unknown type name ‘FILE’
+    4 | long ftell(FILE *__stream)
+      |            ^~~~
+ftell.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+FUN_00400ee0.c: In function ‘FUN_00400ee0’:
+FUN_00400ee0.c:6:6: error: ‘code’ undeclared (first use in this function)
+    6 |   (*(code *)PTR_00608010)();
+      |      ^~~~
+FUN_00400ee0.c:6:6: note: each undeclared identifier is reported only once for each function it appears in
+FUN_00400ee0.c:6:12: error: expected expression before ‘)’ token
+    6 |   (*(code *)PTR_00608010)();
+      |            ^
+fwrite.c:4:1: error: unknown type name ‘size_t’
+    4 | size_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)
+      | ^~~~~~
+fwrite.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+fwrite.c:4:27: error: unknown type name ‘size_t’
+    4 | size_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)
+      |                           ^~~~~~
+fwrite.c:4:27: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+fwrite.c:4:41: error: unknown type name ‘size_t’
+    4 | size_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)
+      |                                         ^~~~~~
+fwrite.c:4:41: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+fwrite.c:4:52: error: unknown type name ‘FILE’
+    4 | size_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)
+      |                                                    ^~~~
+fwrite.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+get_archive_member_name_at.c:2:35: error: unknown type name ‘archive_info’
+    2 | char * get_archive_member_name_at(archive_info *arch,ulong offset,archive_info *nested_arch)
+      |                                   ^~~~~~~~~~~~
+get_archive_member_name_at.c:2:54: error: unknown type name ‘ulong’; did you mean ‘long’?
+    2 | char * get_archive_member_name_at(archive_info *arch,ulong offset,archive_info *nested_arch)
+      |                                                      ^~~~~
+      |                                                      long
+get_archive_member_name_at.c:2:67: error: unknown type name ‘archive_info’
+    2 | char * get_archive_member_name_at(archive_info *arch,ulong offset,archive_info *nested_arch)
+      |                                                                   ^~~~~~~~~~~~
+get_archive_member_name.c:2:32: error: unknown type name ‘archive_info’
+    2 | char * get_archive_member_name(archive_info *arch,archive_info *nested_arch)
+      |                                ^~~~~~~~~~~~
+get_archive_member_name.c:2:51: error: unknown type name ‘archive_info’
+    2 | char * get_archive_member_name(archive_info *arch,archive_info *nested_arch)
+      |                                                   ^~~~~~~~~~~~
+get_file_header.c:2:21: error: unknown type name ‘FILE’
+    2 | int get_file_header(FILE *file)
+      |                     ^~~~
+get_file_header.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+getopt_long.c: In function ‘getopt_long’:
+getopt_long.c:5:6: error: ‘code’ undeclared (first use in this function)
+    5 |   (*(code *)PTR_getopt_long_00608078)();
+      |      ^~~~
+getopt_long.c:5:6: note: each undeclared identifier is reported only once for each function it appears in
+getopt_long.c:5:12: error: expected expression before ‘)’ token
+    5 |   (*(code *)PTR_getopt_long_00608078)();
+      |            ^
+gettext.c:2:6: warning: conflicting types for built-in function ‘gettext’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+    2 | void gettext(void)
+      |      ^~~~~~~
+gettext.c: In function ‘gettext’:
+gettext.c:5:6: error: ‘code’ undeclared (first use in this function)
+    5 |   (*(code *)PTR_gettext_00608080)();
+      |      ^~~~
+gettext.c:5:6: note: each undeclared identifier is reported only once for each function it appears in
+gettext.c:5:12: error: expected expression before ‘)’ token
+    5 |   (*(code *)PTR_gettext_00608080)();
+      |            ^
+_IO_getc.c:4:14: error: unknown type name ‘_IO_FILE’
+    4 | int _IO_getc(_IO_FILE *__fp)
+      |              ^~~~~~~~
+lbasename.c: In function ‘lbasename’:
+lbasename.c:7:12: warning: implicit declaration of function ‘unix_lbasename’; did you mean ‘lbasename’? [-Wimplicit-function-declaration]
+    7 |   pcVar1 = unix_lbasename(name);
+      |            ^~~~~~~~~~~~~~
+      |            lbasename
+lbasename.c:7:10: warning: assignment to ‘char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+    7 |   pcVar1 = unix_lbasename(name);
+      |          ^
+main.c: In function ‘main’:
+main.c:5:3: error: unknown type name ‘uint’; did you mean ‘int’?
+    5 |   uint uVar1;
+      |   ^~~~
+      |   int
+main.c:14:3: warning: implicit declaration of function ‘setlocale’ [-Wimplicit-function-declaration]
+   14 |   setlocale(5,"");
+      |   ^~~~~~~~~
+main.c:16:3: warning: implicit declaration of function ‘bindtextdomain’ [-Wimplicit-function-declaration]
+   16 |   bindtextdomain("binutils","/home/vali/dataset/build/gcc/64/O0/binutils/share/locale");
+      |   ^~~~~~~~~~~~~~
+main.c:17:3: warning: implicit declaration of function ‘textdomain’ [-Wimplicit-function-declaration]
+   17 |   textdomain("binutils");
+      |   ^~~~~~~~~~
+main.c:18:3: warning: implicit declaration of function ‘expandargv’ [-Wimplicit-function-declaration]
+   18 |   expandargv(local_1c,&local_28);
+      |   ^~~~~~~~~~
+main.c:20:9: warning: implicit declaration of function ‘getopt_long’ [-Wimplicit-function-declaration]
+   20 |     c = getopt_long(local_1c[0],local_28,&DAT_00405dd2,options,0);
+      |         ^~~~~~~~~~~
+main.c:20:43: error: ‘DAT_00405dd2’ undeclared (first use in this function)
+   20 |     c = getopt_long(local_1c[0],local_28,&DAT_00405dd2,options,0);
+      |                                           ^~~~~~~~~~~~
+main.c:20:43: note: each undeclared identifier is reported only once for each function it appears in
+main.c:20:56: error: ‘options’ undeclared (first use in this function)
+   20 |     c = getopt_long(local_1c[0],local_28,&DAT_00405dd2,options,0);
+      |                                                        ^~~~~~~
+main.c:22:12: error: ‘optind’ undeclared (first use in this function)
+   22 |       if ((optind != local_1c[0]) &&
+      |            ^~~~~~
+main.c:23:13: error: ‘output_elf_machine’ undeclared (first use in this function)
+   23 |          (((output_elf_machine != -1 || (output_elf_type != -1)) || (output_elf_osabi != -1)))) {
+      |             ^~~~~~~~~~~~~~~~~~
+main.c:23:42: error: ‘output_elf_type’ undeclared (first use in this function)
+   23 |          (((output_elf_machine != -1 || (output_elf_type != -1)) || (output_elf_osabi != -1)))) {
+      |                                          ^~~~~~~~~~~~~~~
+main.c:23:70: error: ‘output_elf_osabi’ undeclared (first use in this function)
+   23 |          (((output_elf_machine != -1 || (output_elf_type != -1)) || (output_elf_osabi != -1)))) {
+      |                                                                      ^~~~~~~~~~~~~~~~
+main.c:28:19: warning: implicit declaration of function ‘process_file’ [-Wimplicit-function-declaration]
+   28 |           uVar1 = process_file(local_28[lVar2]);
+      |                   ^~~~~~~~~~~~
+main.c:34:7: warning: implicit declaration of function ‘usage’ [-Wimplicit-function-declaration]
+   34 |       usage(stderr,1);
+      |       ^~~~~
+main.c:34:13: error: ‘stderr’ undeclared (first use in this function)
+   34 |       usage(stderr,1);
+      |             ^~~~~~
+main.c:1:1: note: ‘stderr’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+main.c:39:13: error: ‘stdout’ undeclared (first use in this function)
+   39 |       usage(stdout,0);
+      |             ^~~~~~
+main.c:39:13: note: ‘stdout’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+main.c:44:7: warning: implicit declaration of function ‘print_version’ [-Wimplicit-function-declaration]
+   44 |       print_version(program_name);
+      |       ^~~~~~~~~~~~~
+main.c:44:21: error: ‘program_name’ undeclared (first use in this function)
+   44 |       print_version(program_name);
+      |                     ^~~~~~~~~~~~
+main.c:47:7: error: ‘input_elf_machine’ undeclared (first use in this function)
+   47 |       input_elf_machine = elf_machine(optarg);
+      |       ^~~~~~~~~~~~~~~~~
+main.c:47:27: warning: implicit declaration of function ‘elf_machine’ [-Wimplicit-function-declaration]
+   47 |       input_elf_machine = elf_machine(optarg);
+      |                           ^~~~~~~~~~~
+main.c:47:39: error: ‘optarg’ undeclared (first use in this function)
+   47 |       input_elf_machine = elf_machine(optarg);
+      |                                       ^~~~~~
+main.c:51:7: error: ‘input_elf_class’ undeclared (first use in this function)
+   51 |       input_elf_class = elf_class(input_elf_machine);
+      |       ^~~~~~~~~~~~~~~
+main.c:51:25: warning: implicit declaration of function ‘elf_class’ [-Wimplicit-function-declaration]
+   51 |       input_elf_class = elf_class(input_elf_machine);
+      |                         ^~~~~~~~~
+main.c:52:30: error: ‘ELF_CLASS_UNKNOWN’ undeclared (first use in this function)
+   52 |       if (input_elf_class == ELF_CLASS_UNKNOWN) {
+      |                              ^~~~~~~~~~~~~~~~~
+main.c:61:7: error: ‘output_elf_class’ undeclared (first use in this function)
+   61 |       output_elf_class = elf_class(output_elf_machine);
+      |       ^~~~~~~~~~~~~~~~
+main.c:67:7: error: ‘input_elf_type’ undeclared (first use in this function)
+   67 |       input_elf_type = elf_type(optarg);
+      |       ^~~~~~~~~~~~~~
+main.c:67:24: warning: implicit declaration of function ‘elf_type’ [-Wimplicit-function-declaration]
+   67 |       input_elf_type = elf_type(optarg);
+      |                        ^~~~~~~~
+main.c:79:7: error: ‘input_elf_osabi’ undeclared (first use in this function)
+   79 |       input_elf_osabi = elf_osabi(optarg);
+      |       ^~~~~~~~~~~~~~~
+main.c:79:25: warning: implicit declaration of function ‘elf_osabi’ [-Wimplicit-function-declaration]
+   79 |       input_elf_osabi = elf_osabi(optarg);
+      |                         ^~~~~~~~~
+main.c:90:12: error: ‘true’ undeclared (first use in this function)
+   90 |   } while( true );
+      |            ^~~~
+make_qualified_name.c:2:28: error: unknown type name ‘archive_info’
+    2 | char * make_qualified_name(archive_info *arch,archive_info *nested_arch,char *member_name)
+      |                            ^~~~~~~~~~~~
+make_qualified_name.c:2:47: error: unknown type name ‘archive_info’
+    2 | char * make_qualified_name(archive_info *arch,archive_info *nested_arch,char *member_name)
+      |                                               ^~~~~~~~~~~~
+malloc.c:4:15: error: unknown type name ‘size_t’
+    4 | void * malloc(size_t __size)
+      |               ^~~~~~
+malloc.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+memcmp.c:4:34: error: unknown type name ‘size_t’
+    4 | int memcmp(void *__s1,void *__s2,size_t __n)
+      |                                  ^~~~~~
+memcmp.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+memcpy.c:4:40: error: unknown type name ‘size_t’
+    4 | void * memcpy(void *__dest,void *__src,size_t __n)
+      |                                        ^~~~~~
+memcpy.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+memmove.c:4:41: error: unknown type name ‘size_t’
+    4 | void * memmove(void *__dest,void *__src,size_t __n)
+      |                                         ^~~~~~
+memmove.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+only_whitespace.c: In function ‘only_whitespace’:
+only_whitespace.c:8:34: error: ‘_sch_istable’ undeclared (first use in this function)
+    8 |   while ((*local_10 != '\0' && ((_sch_istable[(int)((int)*local_10 & 0xff)] & 0x40) != 0))) {
+      |                                  ^~~~~~~~~~~~
+only_whitespace.c:8:34: note: each undeclared identifier is reported only once for each function it appears in
+print_version.c: In function ‘print_version’:
+print_version.c:7:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    7 |   printf("GNU %s %s\n",name,"(GNU Binutils) 2.28.51.20170317");
+      |   ^~~~~~
+print_version.c:7:3: warning: incompatible implicit declaration of built-in function ‘printf’
+print_version.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | 
+print_version.c:8:20: warning: implicit declaration of function ‘gettext’ [-Wimplicit-function-declaration]
+    8 |   pcVar1 = (char *)gettext("Copyright (C) 2017 Free Software Foundation, Inc.\n");
+      |                    ^~~~~~~
+print_version.c:8:20: warning: incompatible implicit declaration of built-in function ‘gettext’
+print_version.c:9:3: warning: format not a string literal and no format arguments [-Wformat-security]
+    9 |   printf(pcVar1);
+      |   ^~~~~~
+print_version.c:13:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   13 |   printf(pcVar1);
+      |   ^~~~~~
+print_version.c:15:3: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   15 |   exit(0);
+      |   ^~~~
+print_version.c:15:3: warning: incompatible implicit declaration of built-in function ‘exit’
+print_version.c:1:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+  +++ |+#include <stdlib.h>
+    1 | 
+process_archive.c:2:37: error: unknown type name ‘FILE’
+    2 | int process_archive(char *file_name,FILE *file,bfd_boolean is_thin_archive)
+      |                                     ^~~~
+process_archive.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+process_archive.c:2:48: error: unknown type name ‘bfd_boolean’
+    2 | int process_archive(char *file_name,FILE *file,bfd_boolean is_thin_archive)
+      |                                                ^~~~~~~~~~~
+process_archive_index_and_symbols.c:2:1: error: unknown type name ‘bfd_boolean’
+    2 | bfd_boolean
+      | ^~~~~~~~~~~
+process_archive_index_and_symbols.c:3:35: error: unknown type name ‘archive_info’
+    3 | process_archive_index_and_symbols(archive_info *arch,uint sizeof_ar_index,bfd_boolean read_symbols)
+      |                                   ^~~~~~~~~~~~
+process_archive_index_and_symbols.c:3:54: error: unknown type name ‘uint’; did you mean ‘int’?
+    3 | process_archive_index_and_symbols(archive_info *arch,uint sizeof_ar_index,bfd_boolean read_symbols)
+      |                                                      ^~~~
+      |                                                      int
+process_archive_index_and_symbols.c:3:75: error: unknown type name ‘bfd_boolean’
+    3 | process_archive_index_and_symbols(archive_info *arch,uint sizeof_ar_index,bfd_boolean read_symbols)
+      |                                                                           ^~~~~~~~~~~
+process_file.c: In function ‘process_file’:
+process_file.c:7:3: error: unknown type name ‘FILE’
+    7 |   FILE *__stream;
+      |   ^~~~
+process_file.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+process_file.c:8:3: error: unknown type name ‘undefined8’
+    8 |   undefined8 uVar3;
+      |   ^~~~~~~~~~
+process_file.c:9:3: error: unknown type name ‘size_t’
+    9 |   size_t sVar4;
+      |   ^~~~~~
+process_file.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+process_file.c:12:3: error: unknown type name ‘FILE’
+   12 |   FILE *file;
+      |   ^~~~
+process_file.c:12:3: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+process_file.c:16:11: warning: implicit declaration of function ‘check_file’ [-Wimplicit-function-declaration]
+   16 |   iVar2 = check_file(file_name,(stat *)0x0);
+      |           ^~~~~~~~~~
+process_file.c:16:33: error: ‘stat’ undeclared (first use in this function)
+   16 |   iVar2 = check_file(file_name,(stat *)0x0);
+      |                                 ^~~~
+process_file.c:16:33: note: each undeclared identifier is reported only once for each function it appears in
+process_file.c:16:39: error: expected expression before ‘)’ token
+   16 |   iVar2 = check_file(file_name,(stat *)0x0);
+      |                                       ^
+process_file.c:18:16: warning: implicit declaration of function ‘fopen’ [-Wimplicit-function-declaration]
+   18 |     __stream = fopen(file_name,"r+b");
+      |                ^~~~~
+process_file.c:18:16: note: ‘fopen’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+process_file.c:18:14: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   18 |     __stream = fopen(file_name,"r+b");
+      |              ^
+process_file.c:19:22: error: ‘FILE’ undeclared (first use in this function)
+   19 |     if (__stream == (FILE *)0x0) {
+      |                      ^~~~
+process_file.c:19:22: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+process_file.c:19:28: error: expected expression before ‘)’ token
+   19 |     if (__stream == (FILE *)0x0) {
+      |                            ^
+process_file.c:20:15: warning: implicit declaration of function ‘gettext’ [-Wimplicit-function-declaration]
+   20 |       uVar3 = gettext("Input file \'%s\' is not readable\n");
+      |               ^~~~~~~
+process_file.c:20:15: warning: incompatible implicit declaration of built-in function ‘gettext’
+process_file.c:20:13: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   20 |       uVar3 = gettext("Input file \'%s\' is not readable\n");
+      |             ^
+process_file.c:21:7: warning: implicit declaration of function ‘error’ [-Wimplicit-function-declaration]
+   21 |       error(uVar3,file_name);
+      |       ^~~~~
+process_file.c:25:15: warning: implicit declaration of function ‘fread’ [-Wimplicit-function-declaration]
+   25 |       sVar4 = fread(armag,8,1,__stream);
+      |               ^~~~~
+process_file.c:27:17: warning: implicit declaration of function ‘memcmp’ [-Wimplicit-function-declaration]
+   27 |         iVar2 = memcmp(armag,"!<arch>\n",8);
+      |                 ^~~~~~
+process_file.c:27:42: warning: ‘memcmp’ argument 3 type is ‘int’ where ‘long unsigned int’ is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+   27 |         iVar2 = memcmp(armag,"!<arch>\n",8);
+      |                                          ^
+<built-in>: note: built-in ‘memcmp’ declared here
+process_file.c:29:17: warning: implicit declaration of function ‘process_archive’; did you mean ‘process_file’? [-Wimplicit-function-declaration]
+   29 |           ret = process_archive(file_name,(FILE *)__stream,0);
+      |                 ^~~~~~~~~~~~~~~
+      |                 process_file
+process_file.c:29:50: error: expected expression before ‘)’ token
+   29 |           ret = process_archive(file_name,(FILE *)__stream,0);
+      |                                                  ^
+process_file.c:32:44: warning: ‘memcmp’ argument 3 type is ‘int’ where ‘long unsigned int’ is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+   32 |           iVar2 = memcmp(armag,"!<thin>\n",8);
+      |                                            ^
+<built-in>: note: built-in ‘memcmp’ declared here
+process_file.c:34:52: error: expected expression before ‘)’ token
+   34 |             ret = process_archive(file_name,(FILE *)__stream,1);
+      |                                                    ^
+process_file.c:37:13: warning: implicit declaration of function ‘rewind’ [-Wimplicit-function-declaration]
+   37 |             rewind(__stream);
+      |             ^~~~~~
+process_file.c:38:13: error: ‘archive_file_offset’ undeclared (first use in this function)
+   38 |             archive_file_offset = 0;
+      |             ^~~~~~~~~~~~~~~~~~~
+process_file.c:39:13: error: ‘archive_file_size’ undeclared (first use in this function)
+   39 |             archive_file_size = 0;
+      |             ^~~~~~~~~~~~~~~~~
+process_file.c:40:19: warning: implicit declaration of function ‘process_object’; did you mean ‘process_file’? [-Wimplicit-function-declaration]
+   40 |             ret = process_object(file_name,(FILE *)__stream);
+      |                   ^~~~~~~~~~~~~~
+      |                   process_file
+process_file.c:40:51: error: expected expression before ‘)’ token
+   40 |             ret = process_object(file_name,(FILE *)__stream);
+      |                                                   ^
+process_file.c:43:9: warning: implicit declaration of function ‘fclose’ [-Wimplicit-function-declaration]
+   43 |         fclose(__stream);
+      |         ^~~~~~
+process_file.c:46:17: warning: incompatible implicit declaration of built-in function ‘gettext’
+   46 |         uVar3 = gettext("%s: Failed to read file\'s magic number\n");
+      |                 ^~~~~~~
+process_file.c:46:15: warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   46 |         uVar3 = gettext("%s: Failed to read file\'s magic number\n");
+      |               ^
+process_file.c:58:5: warning: implicit declaration of function ‘__stack_chk_fail’ [-Wimplicit-function-declaration]
+   58 |     __stack_chk_fail();
+      |     ^~~~~~~~~~~~~~~~
+process_object.c:2:36: error: unknown type name ‘FILE’
+    2 | int process_object(char *file_name,FILE *file)
+      |                                    ^~~~
+process_object.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+realloc.c:4:28: error: unknown type name ‘size_t’
+    4 | void * realloc(void *__ptr,size_t __size)
+      |                            ^~~~~~
+realloc.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+release_archive.c:2:22: error: unknown type name ‘archive_info’
+    2 | void release_archive(archive_info *arch)
+      |                      ^~~~~~~~~~~~
+rewind.c:4:13: error: unknown type name ‘FILE’
+    4 | void rewind(FILE *__stream)
+      |             ^~~~
+rewind.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+sbrk.c:4:13: error: unknown type name ‘intptr_t’
+    4 | void * sbrk(intptr_t __delta)
+      |             ^~~~~~~~
+setlocale.c: In function ‘setlocale’:
+setlocale.c:9:23: error: ‘code’ undeclared (first use in this function)
+    9 |   pcVar1 = (char *)(*(code *)PTR_setlocale_00608120)();
+      |                       ^~~~
+setlocale.c:9:23: note: each undeclared identifier is reported only once for each function it appears in
+setlocale.c:9:29: error: expected expression before ‘)’ token
+    9 |   pcVar1 = (char *)(*(code *)PTR_setlocale_00608120)();
+      |                             ^
+setup_archive.c:2:19: error: unknown type name ‘archive_info’
+    2 | int setup_archive(archive_info *arch,char *file_name,FILE *file,bfd_boolean is_thin_archive,
+      |                   ^~~~~~~~~~~~
+setup_archive.c:2:54: error: unknown type name ‘FILE’
+    2 | int setup_archive(archive_info *arch,char *file_name,FILE *file,bfd_boolean is_thin_archive,
+      |                                                      ^~~~
+setup_archive.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+setup_archive.c:2:65: error: unknown type name ‘bfd_boolean’
+    2 | int setup_archive(archive_info *arch,char *file_name,FILE *file,bfd_boolean is_thin_archive,
+      |                                                                 ^~~~~~~~~~~
+setup_archive.c:3:18: error: unknown type name ‘bfd_boolean’
+    3 |                  bfd_boolean read_symbols)
+      |                  ^~~~~~~~~~~
+setup_nested_archive.c:2:26: error: unknown type name ‘archive_info’
+    2 | int setup_nested_archive(archive_info *nested_arch,char *member_file_name)
+      |                          ^~~~~~~~~~~~
+snprintf.c:4:24: error: unknown type name ‘size_t’
+    4 | int snprintf(char *__s,size_t __maxlen,char *__format,...)
+      |                        ^~~~~~
+snprintf.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+__stack_chk_fail.c: In function ‘__stack_chk_fail’:
+__stack_chk_fail.c:5:6: error: ‘code’ undeclared (first use in this function)
+    5 |   (*(code *)PTR___stack_chk_fail_00608070)();
+      |      ^~~~
+__stack_chk_fail.c:5:6: note: each undeclared identifier is reported only once for each function it appears in
+__stack_chk_fail.c:5:12: error: expected expression before ‘)’ token
+    5 |   (*(code *)PTR___stack_chk_fail_00608070)();
+      |            ^
+stat.c:2:23: error: unknown type name ‘stat’
+    2 | int stat(char *__file,stat *__buf)
+      |                       ^~~~
+strcasecmp.c: In function ‘strcasecmp’:
+strcasecmp.c:9:14: error: ‘code’ undeclared (first use in this function)
+    9 |   iVar1 = (*(code *)PTR_strcasecmp_00608020)();
+      |              ^~~~
+strcasecmp.c:9:14: note: each undeclared identifier is reported only once for each function it appears in
+strcasecmp.c:9:20: error: expected expression before ‘)’ token
+    9 |   iVar1 = (*(code *)PTR_strcasecmp_00608020)();
+      |                    ^
+strcmp.c: In function ‘strcmp’:
+strcmp.c:9:14: error: ‘code’ undeclared (first use in this function)
+    9 |   iVar1 = (*(code *)PTR_strcmp_006080d0)();
+      |              ^~~~
+strcmp.c:9:14: note: each undeclared identifier is reported only once for each function it appears in
+strcmp.c:9:20: error: expected expression before ‘)’ token
+    9 |   iVar1 = (*(code *)PTR_strcmp_006080d0)();
+      |                    ^
+strdup.c: In function ‘strdup’:
+strdup.c:9:23: error: ‘code’ undeclared (first use in this function)
+    9 |   pcVar1 = (char *)(*(code *)PTR_strdup_00608158)();
+      |                       ^~~~
+strdup.c:9:23: note: each undeclared identifier is reported only once for each function it appears in
+strdup.c:9:29: error: expected expression before ‘)’ token
+    9 |   pcVar1 = (char *)(*(code *)PTR_strdup_00608158)();
+      |                             ^
+strerror.c: In function ‘strerror’:
+strerror.c:9:23: error: ‘code’ undeclared (first use in this function)
+    9 |   pcVar1 = (char *)(*(code *)PTR_strerror_00608160)();
+      |                       ^~~~
+strerror.c:9:23: note: each undeclared identifier is reported only once for each function it appears in
+strerror.c:9:29: error: expected expression before ‘)’ token
+    9 |   pcVar1 = (char *)(*(code *)PTR_strerror_00608160)();
+      |                             ^
+strlen.c:4:1: error: unknown type name ‘size_t’
+    4 | size_t strlen(char *__s)
+      | ^~~~~~
+strlen.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+strlen.c:4:8: warning: conflicting types for built-in function ‘strlen’; expected ‘long unsigned int(const char *)’ [-Wbuiltin-declaration-mismatch]
+    4 | size_t strlen(char *__s)
+      |        ^~~~~~
+strlen.c:1:1: note: ‘strlen’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | 
+strlen.c: In function ‘strlen’:
+strlen.c:7:3: error: unknown type name ‘size_t’
+    7 |   size_t sVar1;
+      |   ^~~~~~
+strlen.c:7:3: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+strlen.c:9:14: error: ‘code’ undeclared (first use in this function)
+    9 |   sVar1 = (*(code *)PTR_strlen_00608068)();
+      |              ^~~~
+strlen.c:9:14: note: each undeclared identifier is reported only once for each function it appears in
+strlen.c:9:20: error: expected expression before ‘)’ token
+    9 |   sVar1 = (*(code *)PTR_strlen_00608068)();
+      |                    ^
+strncmp.c:4:35: error: unknown type name ‘size_t’
+    4 | int strncmp(char *__s1,char *__s2,size_t __n)
+      |                                   ^~~~~~
+strncmp.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+strtoul.c:4:1: error: unknown type name ‘ulong’; did you mean ‘long’?
+    4 | ulong strtoul(char *__nptr,char **__endptr,int __base)
+      | ^~~~~
+      | long
+strtoul.c: In function ‘strtoul’:
+strtoul.c:7:3: error: unknown type name ‘ulong’; did you mean ‘long’?
+    7 |   ulong uVar1;
+      |   ^~~~~
+      |   long
+strtoul.c:9:14: error: ‘code’ undeclared (first use in this function)
+    9 |   uVar1 = (*(code *)PTR_strtoul_00608140)();
+      |              ^~~~
+strtoul.c:9:14: note: each undeclared identifier is reported only once for each function it appears in
+strtoul.c:9:20: error: expected expression before ‘)’ token
+    9 |   uVar1 = (*(code *)PTR_strtoul_00608140)();
+      |                    ^
+textdomain.c: In function ‘textdomain’:
+textdomain.c:5:6: error: ‘code’ undeclared (first use in this function)
+    5 |   (*(code *)PTR_textdomain_00608050)();
+      |      ^~~~
+textdomain.c:5:6: note: each undeclared identifier is reported only once for each function it appears in
+textdomain.c:5:12: error: expected expression before ‘)’ token
+    5 |   (*(code *)PTR_textdomain_00608050)();
+      |            ^
+update_elf_header.c:2:39: error: unknown type name ‘FILE’
+    2 | int update_elf_header(char *file_name,FILE *file)
+      |                                       ^~~~
+update_elf_header.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+usage.c:2:12: error: unknown type name ‘FILE’
+    2 | void usage(FILE *stream,int exit_status)
+      |            ^~~~
+usage.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+vfprintf.c:4:14: error: unknown type name ‘FILE’
+    4 | int vfprintf(FILE *__s,char *__format,__gnuc_va_list __arg)
+      |              ^~~~
+vfprintf.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+vfprintf.c:4:39: error: unknown type name ‘__gnuc_va_list’
+    4 | int vfprintf(FILE *__s,char *__format,__gnuc_va_list __arg)
+      |                                       ^~~~~~~~~~~~~~
+warn.c:2:11: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |           ^~~~~~~~~~
+warn.c:2:30: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |                              ^~~~~~~~~~
+warn.c:2:49: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |                                                 ^~~~~~~~~~
+warn.c:2:68: error: unknown type name ‘undefined4’
+    2 | void warn(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+      |                                                                    ^~~~~~~~~~
+warn.c:3:10: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |          ^~~~~~~~~~
+warn.c:3:29: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |                             ^~~~~~~~~~
+warn.c:3:48: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |                                                ^~~~~~~~~~
+warn.c:3:67: error: unknown type name ‘undefined4’
+    3 |          undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,char *param_9,
+      |                                                                   ^~~~~~~~~~
+warn.c:4:10: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |          ^~~~~~~~~~
+warn.c:4:30: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |                              ^~~~~~~~~~
+warn.c:4:50: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |                                                  ^~~~~~~~~~
+warn.c:4:70: error: unknown type name ‘undefined8’
+    4 |          undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,
+      |                                                                      ^~~~~~~~~~
+warn.c:5:10: error: unknown type name ‘undefined8’
+    5 |          undefined8 param_14)
+      |          ^~~~~~~~~~
+writeargv.c:2:27: error: unknown type name ‘FILE’
+    2 | int writeargv(char **argv,FILE *f)
+      |                           ^~~~
+writeargv.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+xcalloc.c:2:16: error: unknown type name ‘size_t’
+    2 | void * xcalloc(size_t nelem,size_t elsize)
+      |                ^~~~~~
+xcalloc.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+xcalloc.c:2:29: error: unknown type name ‘size_t’
+    2 | void * xcalloc(size_t nelem,size_t elsize)
+      |                             ^~~~~~
+xcalloc.c:2:29: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+xexit.c: In function ‘xexit’:
+xexit.c:5:7: error: ‘_xexit_cleanup’ undeclared (first use in this function)
+    5 |   if (_xexit_cleanup != (anon_subr_void *)0x0) {
+      |       ^~~~~~~~~~~~~~
+xexit.c:5:7: note: each undeclared identifier is reported only once for each function it appears in
+xexit.c:5:26: error: ‘anon_subr_void’ undeclared (first use in this function)
+    5 |   if (_xexit_cleanup != (anon_subr_void *)0x0) {
+      |                          ^~~~~~~~~~~~~~
+xexit.c:5:42: error: expected expression before ‘)’ token
+    5 |   if (_xexit_cleanup != (anon_subr_void *)0x0) {
+      |                                          ^
+xexit.c:9:3: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+    9 |   exit(code);
+      |   ^~~~
+xexit.c:9:3: warning: incompatible implicit declaration of built-in function ‘exit’
+xexit.c:1:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+  +++ |+#include <stdlib.h>
+    1 | 
+xmalloc.c:2:16: error: unknown type name ‘size_t’
+    2 | void * xmalloc(size_t size)
+      |                ^~~~~~
+xmalloc.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+xmalloc_failed.c:2:21: error: unknown type name ‘size_t’
+    2 | void xmalloc_failed(size_t size)
+      |                     ^~~~~~
+xmalloc_failed.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+xmalloc_set_program_name.c: In function ‘xmalloc_set_program_name’:
+xmalloc_set_program_name.c:5:3: error: ‘name’ undeclared (first use in this function)
+    5 |   name = s;
+      |   ^~~~
+xmalloc_set_program_name.c:5:3: note: each undeclared identifier is reported only once for each function it appears in
+xmalloc_set_program_name.c:6:7: error: ‘first_break’ undeclared (first use in this function)
+    6 |   if (first_break == (char *)0x0) {
+      |       ^~~~~~~~~~~
+xmalloc_set_program_name.c:7:27: warning: implicit declaration of function ‘sbrk’ [-Wimplicit-function-declaration]
+    7 |     first_break = (char *)sbrk(0);
+      |                           ^~~~
+xmalloc_set_program_name.c:7:19: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+    7 |     first_break = (char *)sbrk(0);
+      |                   ^
+xrealloc.c:2:30: error: unknown type name ‘size_t’
+    2 | void * xrealloc(void *oldmem,size_t size)
+      |                              ^~~~~~
+xrealloc.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+xstrdup.c: In function ‘xstrdup’:
+xstrdup.c:5:3: error: unknown type name ‘size_t’
+    5 |   size_t sVar1;
+      |   ^~~~~~
+xstrdup.c:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+  +++ |+#include <stddef.h>
+    1 | 
+xstrdup.c:9:11: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+    9 |   sVar1 = strlen(s);
+      |           ^~~~~~
+xstrdup.c:9:11: warning: incompatible implicit declaration of built-in function ‘strlen’
+xstrdup.c:1:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+  +++ |+#include <string.h>
+    1 | 
+xstrdup.c:10:12: warning: implicit declaration of function ‘xmalloc’ [-Wimplicit-function-declaration]
+   10 |   __dest = xmalloc(sVar1 + 1);
+      |            ^~~~~~~
+xstrdup.c:10:10: warning: assignment to ‘void *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   10 |   __dest = xmalloc(sVar1 + 1);
+      |          ^
+xstrdup.c:11:20: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+   11 |   pcVar2 = (char *)memcpy(__dest,s,sVar1 + 1);
+      |                    ^~~~~~
+xstrdup.c:11:20: warning: incompatible implicit declaration of built-in function ‘memcpy’
+xstrdup.c:11:20: note: include ‘<string.h>’ or provide a declaration of ‘memcpy’
