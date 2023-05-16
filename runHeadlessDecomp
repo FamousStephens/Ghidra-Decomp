@@ -8,7 +8,7 @@ PROJECT_DIR=./GhidraProjects/
 rm -r DecompiledFuncs/*
 
 # Path to Executables Folder that contains Binaries to be analyzed 
-BINARIES_DIR=./Binaries/Execs/
+BINARIES_DIR=./Binaries/Samples/
 
 # Path to Ghidra Script Folder, that contains script to Decompile all Functions to files, and other scripts as need be
 SCRIPT_DIR=./GhidraScripts/
