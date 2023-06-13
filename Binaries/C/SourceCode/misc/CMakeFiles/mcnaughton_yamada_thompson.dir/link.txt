@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/mcnaughton_yamada_thompson.dir/mcnaughton_yamada_thompson.c.o  -o mcnaughton_yamada_thompson  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

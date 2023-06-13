@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/octal_to_binary.dir/octal_to_binary.c.o  -o octal_to_binary  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

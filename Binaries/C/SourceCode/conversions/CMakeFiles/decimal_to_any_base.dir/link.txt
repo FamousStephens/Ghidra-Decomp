@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/decimal_to_any_base.dir/decimal_to_any_base.c.o  -o decimal_to_any_base  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

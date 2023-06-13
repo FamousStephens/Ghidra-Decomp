@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/modified_binary_search.dir/modified_binary_search.c.o  -o modified_binary_search  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

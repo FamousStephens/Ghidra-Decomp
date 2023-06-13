@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/adaline_learning.dir/adaline_learning.c.o  -o adaline_learning  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

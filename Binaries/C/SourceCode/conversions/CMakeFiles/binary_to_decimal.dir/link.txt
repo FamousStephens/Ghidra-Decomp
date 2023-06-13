@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/binary_to_decimal.dir/binary_to_decimal.c.o  -o binary_to_decimal  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

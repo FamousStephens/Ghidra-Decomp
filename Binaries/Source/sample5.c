@@ -67,6 +67,9 @@ int for_loop_down(void) {
 }
 
 int switch_small(int a, int b, int c, int d) {
+   double t1 = b;
+   double t2 = c;
+   double t3 = d;
    int result = 0;
    switch (a) {
    case 1:

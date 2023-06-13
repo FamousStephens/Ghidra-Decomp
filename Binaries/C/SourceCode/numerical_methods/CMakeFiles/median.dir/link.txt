@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/median.dir/median.c.o  -o median  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

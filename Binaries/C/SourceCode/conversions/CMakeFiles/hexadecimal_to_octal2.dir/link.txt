@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/hexadecimal_to_octal2.dir/hexadecimal_to_octal2.c.o  -o hexadecimal_to_octal2  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

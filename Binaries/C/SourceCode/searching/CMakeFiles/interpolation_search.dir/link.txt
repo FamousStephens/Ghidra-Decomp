@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/interpolation_search.dir/interpolation_search.c.o  -o interpolation_search  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

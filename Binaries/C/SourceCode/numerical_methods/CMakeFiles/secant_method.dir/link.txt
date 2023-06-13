@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/secant_method.dir/secant_method.c.o  -o secant_method  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/int_to_string.dir/int_to_string.c.o  -o int_to_string  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

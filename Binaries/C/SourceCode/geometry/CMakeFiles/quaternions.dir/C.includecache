@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tim/Desktop/GhidraGNN/C/geometry/geometry_datatypes.h
+
+/home/tim/Desktop/GhidraGNN/C/geometry/quaternions.c
+stdio.h
+-
+arm_math.h
+-
+math.h
+-
+assert.h
+-
+geometry_datatypes.h
+/home/tim/Desktop/GhidraGNN/C/geometry/geometry_datatypes.h
+

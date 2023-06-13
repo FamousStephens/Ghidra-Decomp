@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/celsius_to_fahrenheit.dir/celsius_to_fahrenheit.c.o  -o celsius_to_fahrenheit  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

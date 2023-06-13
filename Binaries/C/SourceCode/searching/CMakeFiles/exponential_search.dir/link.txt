@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/exponential_search.dir/exponential_search.c.o  -o exponential_search  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

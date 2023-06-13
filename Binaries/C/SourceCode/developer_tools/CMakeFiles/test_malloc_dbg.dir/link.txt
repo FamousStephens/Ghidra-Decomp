@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/test_malloc_dbg.dir/test_malloc_dbg.c.o  -o test_malloc_dbg  libmalloc_dbg.a -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

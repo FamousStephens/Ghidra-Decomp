@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/tic_tac_toe.dir/tic_tac_toe.c.o  -o tic_tac_toe  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

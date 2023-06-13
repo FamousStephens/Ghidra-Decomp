@@ -1,0 +1,13 @@
+# Target labels
+ FREEGLUT-PRJ
+# Source files and their labels
+/home/tim/Desktop/GhidraGNN/C/graphics/CMakeFiles/FREEGLUT-PRJ
+/home/tim/Desktop/GhidraGNN/C/graphics/CMakeFiles/FREEGLUT-PRJ.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/CMakeFiles/FREEGLUT-PRJ-complete.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-install.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-mkdir.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-download.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-update.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-patch.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-configure.rule
+/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-stamp/FREEGLUT-PRJ-build.rule

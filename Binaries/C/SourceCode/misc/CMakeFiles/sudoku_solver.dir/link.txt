@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/sudoku_solver.dir/sudoku_solver.c.o  -o sudoku_solver  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

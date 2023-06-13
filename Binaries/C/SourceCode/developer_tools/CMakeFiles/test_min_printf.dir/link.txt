@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/test_min_printf.dir/test_min_printf.c.o  -o test_min_printf  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

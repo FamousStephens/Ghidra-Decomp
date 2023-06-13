@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tim/Desktop/GhidraGNN/C/hash/hash_djb2.c
+assert.h
+-
+inttypes.h
+-
+stdio.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/non_preemptive_priority_scheduling.dir/non_preemptive_priority_scheduling.c.o  -o non_preemptive_priority_scheduling  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 
