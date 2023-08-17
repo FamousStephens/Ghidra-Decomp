@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccvv9cYD.o: in function `exact_solution':
+/home/tim/Desktop/C-master/Compile/numerical_methods/ode_semi_implicit_euler.c:73: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/numerical_methods/ode_semi_implicit_euler.c:74: undefined reference to `sin'
+collect2: error: ld returned 1 exit status

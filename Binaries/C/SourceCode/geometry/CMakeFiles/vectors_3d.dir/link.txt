@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/vectors_3d.dir/vectors_3d.c.o  -o vectors_3d  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

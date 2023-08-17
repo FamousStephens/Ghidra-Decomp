@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccxE1nHN.o: in function `isPrime':
+/home/tim/Desktop/C-master/Compile/math/prime.c:27: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/problem_3-sol2.dir/problem_3/sol2.c.o  -o problem_3-sol2  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

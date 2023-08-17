@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/union_find.dir/union_find.c.o  -o union_find  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

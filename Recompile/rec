@@ -1,0 +1,31 @@
+BINARY_DIR=../DecompiledFuncs/sample5.exe/
+HEAD_FILE=headers.h
+DEC_FILE=declarations.h
+MAIN_FILE=main.c
+
+rm ${MAIN_FILE} ${DEC_FILE} ${HEAD_FILE}
+
+if [ ! -f $HEAD_FILE ]; then
+    touch ${HEAD_FILE}
+    echo "#include <stdlib.h>" >> $HEAD_FILE
+fi
+
+if [ ! -f $DEC_FILE ]; then
+    touch ${DEC_FILE}
+    echo "#include \"headers.h\"" >> ${DEC_FILE}
+    echo "" >> ${DEC_FILE}
+fi
+
+if [ ! -f $MAIN_FILE ]; then
+    touch ${MAIN_FILE}
+    echo "#include \"declarations.h\"" >> ${MAIN_FILE}
+    cat ${BINARY_DIR}*main* >> ${MAIN_FILE}
+fi
+
+for func in ${BINARY_DIR}*; do
+    if [[ "$func" != *"main"* ]]; then
+        func_dec=$(grep -m2 "[a-z0-9( _,)]*" "$func")
+        echo $func_dec";" >> $DEC_FILE
+        cat $func >> ${MAIN_FILE}
+    fi
+done;

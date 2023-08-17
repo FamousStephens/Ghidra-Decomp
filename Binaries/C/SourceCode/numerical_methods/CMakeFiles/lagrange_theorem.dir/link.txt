@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/lagrange_theorem.dir/lagrange_theorem.c.o  -o lagrange_theorem  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

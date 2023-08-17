@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/remote_command_exec_udp_client.dir/remote_command_exec_udp_client.c.o  -o remote_command_exec_udp_client  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

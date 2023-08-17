@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/linear_search.dir/linear_search.c.o  -o linear_search  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

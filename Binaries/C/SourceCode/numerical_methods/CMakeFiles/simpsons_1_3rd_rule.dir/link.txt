@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/simpsons_1_3rd_rule.dir/simpsons_1_3rd_rule.c.o  -o simpsons_1_3rd_rule  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

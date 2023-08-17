@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/cclCTx0C.o: in function `test_circle':
+/home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_trace.c:237: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_trace.c:238: undefined reference to `sin'
+/usr/bin/ld: /tmp/cclCTx0C.o: in function `test_lamniscate':
+/home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_trace.c:332: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_trace.c:333: undefined reference to `sin'
+collect2: error: ld returned 1 exit status

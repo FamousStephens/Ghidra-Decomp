@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccj8sQDx.o: in function `main':
+/home/tim/Desktop/C-master/Compile/developer_tools/test_malloc_dbg.c:24: undefined reference to `malloc_dbg'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/developer_tools/test_malloc_dbg.c:25: undefined reference to `calloc_dbg'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/developer_tools/test_malloc_dbg.c:27: undefined reference to `free_dbg'
+collect2: error: ld returned 1 exit status

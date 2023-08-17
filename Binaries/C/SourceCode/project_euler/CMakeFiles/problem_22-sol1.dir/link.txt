@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/problem_22-sol1.dir/problem_22/sol1.c.o  -o problem_22-sol1  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

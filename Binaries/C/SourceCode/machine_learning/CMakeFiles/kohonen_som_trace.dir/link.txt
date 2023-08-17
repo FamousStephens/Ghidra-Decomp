@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/kohonen_som_trace.dir/kohonen_som_trace.c.o  -o kohonen_som_trace  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

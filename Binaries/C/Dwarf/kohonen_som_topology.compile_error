@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccBCiuCo.o: in function `save_u_matrix':
+/home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_topology.c:179: undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccBCiuCo.o: in function `kohonen_update_weights':
+/home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_topology.c:257: undefined reference to `sqrt'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/machine_learning/kohonen_som_topology.c:290: undefined reference to `exp'
+collect2: error: ld returned 1 exit status

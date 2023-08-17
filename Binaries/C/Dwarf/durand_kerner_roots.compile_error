@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/ccnaL8jW.o: in function `poly_function':
+/home/tim/Desktop/C-master/Compile/numerical_methods/durand_kerner_roots.c:56: undefined reference to `cpow'
+/usr/bin/ld: /tmp/ccnaL8jW.o: in function `main':
+/home/tim/Desktop/C-master/Compile/numerical_methods/durand_kerner_roots.c:206: undefined reference to `cabsl'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/numerical_methods/durand_kerner_roots.c:206: undefined reference to `cabsl'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/numerical_methods/durand_kerner_roots.c:208: undefined reference to `cabsl'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/numerical_methods/durand_kerner_roots.c:215: undefined reference to `cabsl'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/numerical_methods/durand_kerner_roots.c:215: undefined reference to `fmaxl'
+collect2: error: ld returned 1 exit status

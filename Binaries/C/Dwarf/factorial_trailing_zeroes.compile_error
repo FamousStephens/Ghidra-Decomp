@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccURvLSu.o: in function `main':
+/home/tim/Desktop/C-master/Compile/math/factorial_trailing_zeroes.c:18: undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -7,11 +7,32 @@
 #include <stdlib.h> /// For the malloc, calloc and free functions.
 #include <stdio.h> /// For IO operations (printf).
 #include <string.h> /// For the memcmp function.
-#include "malloc_dbg.h" /// Header file which contains the prototypes of malloc_dbg, calloc_dbg and fre_dbg.
+ /// Header file which contains the prototypes of malloc_dbg, calloc_dbg and fre_dbg.
 
 /* We must undef these macros in order to use the real malloc / calloc and free functions */
 #undef malloc
-#undef calloc
+#undef calloc/**
+ * @file
+ * @brief Header file that contains macros used to replace malloc/calloc and free.
+ * @details
+ * Macros malloc, calloc and free respectively calls malloc_dbg, calloc_dbg and free_dbg.
+ * malloc_dbg and calloc_dbg allocates memory using the "real" malloc and calloc and store
+ * the pointer returned (with additional informations) in a linked list.
+ * Thanks to this linked list, it is possible to check memory leaks.
+ * @author [tinouduart33](https://github.com/tinouduart33)
+ * @see malloc_dbg.c
+ */
+
+
+#define malloc(bytes) malloc_dbg(bytes, __LINE__, __FILE__, __FUNCTION__)
+#define calloc(elemCount, elemSize) calloc_dbg(elemCount, elemSize, __LINE__, __FILE__, __FUNCTION__)
+#define free(ptr) free_dbg(ptr)
+void* malloc_dbg(size_t bytes, int line, const char* filename, const char* functionName);
+void* calloc_dbg(size_t elementCount, size_t elementSize, int line, const char* filename, const char* functionName);
+void free_dbg(void* ptrToFree);
+void printLeaks(void);
+
+
 #undef free
 
 /**
@@ -35,6 +56,19 @@ mem_info* memoryInformation = NULL;
 /** Another global variable. This one is used to know if we already call the atexit function.
  * */
 int atexitCalled = 0;
+
+
+int main(int argc, char* argv[])
+{
+	int* iptr = malloc(10 * sizeof(int));
+	char* cptr = calloc(256, sizeof(char));
+
+	free(iptr);
+	// free(cptr);
+
+	return 0;
+}
+
 
 
 /**

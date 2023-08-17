@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccY0HY6i.o: in function `stats_computer1':
+/home/tim/Desktop/C-master/Compile/numerical_methods/realtime_stats.c:50: undefined reference to `sqrtf'
+/usr/bin/ld: /tmp/ccY0HY6i.o: in function `stats_computer2':
+/home/tim/Desktop/C-master/Compile/numerical_methods/realtime_stats.c:85: undefined reference to `sqrtf'
+collect2: error: ld returned 1 exit status

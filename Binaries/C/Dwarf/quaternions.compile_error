@@ -1,0 +1,12 @@
+/usr/bin/ld: /tmp/cc6czuK2.o: in function `quat_from_euler':
+/home/tim/Desktop/C-master/Compile/geometry/quaternions.c:59: undefined reference to `cosf'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:60: undefined reference to `sinf'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:61: undefined reference to `cosf'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:62: undefined reference to `sinf'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:63: undefined reference to `cosf'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:64: undefined reference to `sinf'
+/usr/bin/ld: /tmp/cc6czuK2.o: in function `euler_from_quat':
+/home/tim/Desktop/C-master/Compile/geometry/quaternions.c:97: undefined reference to `atan2f'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:101: undefined reference to `asinf'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/geometry/quaternions.c:102: undefined reference to `atan2f'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccL09bCw.o: in function `convert_to_decimal':
+/home/tim/Desktop/C-master/Compile/conversions/binary_to_decimal.c:33: undefined reference to `pow'
+collect2: error: ld returned 1 exit status

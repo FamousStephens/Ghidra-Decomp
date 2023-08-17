@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccozQiLY.o: in function `jump_search':
+/home/tim/Desktop/C-master/Compile/searching/jump_search.c:26: undefined reference to `sqrt'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/searching/jump_search.c:32: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

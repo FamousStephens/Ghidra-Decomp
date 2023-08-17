@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/cclHxiuT.o: in function `fib':
+/home/tim/Desktop/C-master/Compile/math/fibonacci_formula.c:18: undefined reference to `pow'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/math/fibonacci_formula.c:18: undefined reference to `pow'
+collect2: error: ld returned 1 exit status

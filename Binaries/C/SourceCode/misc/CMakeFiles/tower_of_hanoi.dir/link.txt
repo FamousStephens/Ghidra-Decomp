@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/tower_of_hanoi.dir/tower_of_hanoi.c.o  -o tower_of_hanoi  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

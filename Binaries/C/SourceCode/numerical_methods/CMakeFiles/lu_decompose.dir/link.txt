@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/lu_decompose.dir/lu_decompose.c.o  -o lu_decompose  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

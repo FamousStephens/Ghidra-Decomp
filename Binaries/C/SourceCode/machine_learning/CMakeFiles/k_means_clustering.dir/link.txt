@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/k_means_clustering.dir/k_means_clustering.c.o  -o k_means_clustering  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

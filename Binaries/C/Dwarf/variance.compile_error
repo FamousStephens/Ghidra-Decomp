@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccdLhyON.o: in function `main':
+/home/tim/Desktop/C-master/Compile/numerical_methods/variance.c:46: undefined reference to `pow'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/numerical_methods/variance.c:49: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

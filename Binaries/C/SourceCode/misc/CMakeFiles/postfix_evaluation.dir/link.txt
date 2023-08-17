@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/postfix_evaluation.dir/postfix_evaluation.c.o  -o postfix_evaluation  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

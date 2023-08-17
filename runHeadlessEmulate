@@ -1,0 +1,15 @@
+# Path to Ghidra analyzeHeadless script, typically in support directory in the Ghidra installation folder
+HEADLESS_PATH=./ghidra_*_PUBLIC/support/analyzeHeadless
+
+# Path to Ghidra Projects Folder
+PROJECT_DIR=./GhidraProjects/
+
+# Path to Executables Folder that contains Binaries to be analyzed 
+BINARIES_DIR=./Binaries/Samples/sample6.exe
+
+# Path to Ghidra Script Folder, that contains script to Decompile all Functions to files, and other scripts as need be
+SCRIPT_DIR=./GhidraScripts/
+
+# Name of Script to Run in Headless mode
+SCRIPT=Emulator.py
+$HEADLESS_PATH $PROJECT_DIR P_Code -import ${BINARIES_DIR} -overwrite -scriptPath $SCRIPT_DIR -postscript $SCRIPT

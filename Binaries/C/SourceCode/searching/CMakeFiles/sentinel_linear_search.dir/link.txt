@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/sentinel_linear_search.dir/sentinel_linear_search.c.o  -o sentinel_linear_search  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

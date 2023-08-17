@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccocIcvw.o: in function `octalToDecimal':
+/home/tim/Desktop/C-master/Compile/conversions/octal_to_hexadecimal.c:25: undefined reference to `pow'
+collect2: error: ld returned 1 exit status

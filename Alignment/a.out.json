@@ -1,0 +1,69 @@
+{
+    "Globals": {
+        "stdin": "",
+        "stdout": "",
+        "stderr": "",
+        "sys_nerr": "",
+        "sys_errlist": "",
+        "mat": "",
+        "V": "",
+        "dist": "",
+        "q": "",
+        "qp": "",
+        "visited": "",
+        "vp": "",
+        "i": "",
+        "j": "",
+        "u": "",
+        "x": "",
+        "y": ""
+    },
+    "main": {
+        "Locals": {
+            "i": "",
+            "j": ""
+        },
+        "Parameters": {
+            "argc": "",
+            "argv": ""
+        },
+        "Name": "main"
+    },
+    "dijkstra": {
+        "Locals": {
+            "i": ""
+        },
+        "Parameters": {
+            "s": ""
+        },
+        "Name": "dijkstra"
+    },
+    "queue_has_something": {
+        "Locals": {},
+        "Parameters": {},
+        "Name": "queue_has_something"
+    },
+    "dequeue": {
+        "Locals": {},
+        "Parameters": {},
+        "Name": "dequeue"
+    },
+    "cf": {
+        "Locals": {
+            "x": "",
+            "y": ""
+        },
+        "Parameters": {
+            "a": "",
+            "b": ""
+        },
+        "Name": "cf"
+    },
+    "enqueue": {
+        "Locals": {},
+        "Parameters": {
+            "v": ""
+        },
+        "Name": "enqueue"
+    }
+}

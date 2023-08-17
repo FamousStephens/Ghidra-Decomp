@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/cc5TW3qV.o: in function `vector_norm':
+/home/tim/Desktop/C-master/Compile/geometry/vectors_3d.c:144: undefined reference to `sqrtf'
+/usr/bin/ld: /tmp/cc5TW3qV.o: in function `get_angle':
+/home/tim/Desktop/C-master/Compile/geometry/vectors_3d.c:213: undefined reference to `acos'
+collect2: error: ld returned 1 exit status

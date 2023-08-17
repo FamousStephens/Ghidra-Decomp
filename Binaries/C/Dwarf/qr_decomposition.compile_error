@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cckjNT1w.o: in function `vector_mag':
+/home/tim/Desktop/C-master/Compile/numerical_methods/qr_decompose.h:67: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

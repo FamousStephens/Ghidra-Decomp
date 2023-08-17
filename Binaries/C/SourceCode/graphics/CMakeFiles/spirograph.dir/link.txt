@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/spirograph.dir/spirograph.c.o  -o spirograph   -L/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-build/lib  -Wl,-rpath,/home/tim/Desktop/GhidraGNN/C/graphics/freeglut/src/FREEGLUT-PRJ-build/lib: -lm /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

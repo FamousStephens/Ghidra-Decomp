@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Function to compile C programs with the -g flag
+compile_c_with_debug() {
+    local source_file="$1"
+    local base_name="${source_file%.c}"
+    gcc -g "$source_file" -o "$base_name"
+}
+
+# Main script
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <directory>"
+    exit 1
+fi
+
+# Get the directory name from the command-line argument
+directory="$1"
+
+# Check if the provided directory exists
+if [ ! -d "$directory" ]; then
+    echo "Error: Directory '$directory' does not exist."
+    exit 1
+fi
+
+# Create the 'Dwarf' folder in the script's directory
+mkdir -p "$(dirname "$0")/Dwarf"
+
+# Loop through each subdirectory and compile C programs
+for subdirectory in "$directory"*; do
+    echo "Compiling C programs in $subdirectory"
+    cd "$subdirectory" || exit 1
+
+    # Compile each .c file with debug symbols and move the executables to 'Dwarf' folder
+    for c_file in *.c; do
+        compile_c_with_debug "$c_file"
+        base_name="$(basename "${c_file%.c}")"
+        mv "$base_name" "../../Dwarf/$base_name"
+    done
+
+    cd - || exit 1
+    echo "Compilation completed in $subdirectory"
+done
+
+echo "All C programs have been compiled with debug symbols and moved to the 'Dwarf' folder."

@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccyVXPlt.o: in function `to_polar':
+/home/tim/Desktop/C-master/Compile/math/cartesian_to_polar.c:26: undefined reference to `sqrt'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/math/cartesian_to_polar.c:32: undefined reference to `atan'
+/usr/bin/ld: /tmp/ccyVXPlt.o: in function `test':
+/home/tim/Desktop/C-master/Compile/math/cartesian_to_polar.c:111: undefined reference to `hypot'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/math/cartesian_to_polar.c:112: undefined reference to `atan2'
+collect2: error: ld returned 1 exit status

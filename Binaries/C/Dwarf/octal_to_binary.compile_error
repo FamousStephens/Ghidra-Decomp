@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccFFZ8WK.o: in function `octalToBinary':
+/home/tim/Desktop/C-master/Compile/conversions/octal_to_binary.c:26: undefined reference to `pow'
+collect2: error: ld returned 1 exit status

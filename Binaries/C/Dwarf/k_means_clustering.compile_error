@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccJOFMqq.o: in function `test':
+/home/tim/Desktop/C-master/Compile/machine_learning/k_means_clustering.c:334: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/machine_learning/k_means_clustering.c:335: undefined reference to `sin'
+/usr/bin/ld: /tmp/ccJOFMqq.o: in function `test2':
+/home/tim/Desktop/C-master/Compile/machine_learning/k_means_clustering.c:369: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/machine_learning/k_means_clustering.c:370: undefined reference to `sin'
+collect2: error: ld returned 1 exit status

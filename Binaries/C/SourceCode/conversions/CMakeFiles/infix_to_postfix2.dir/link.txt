@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/infix_to_postfix2.dir/infix_to_postfix2.c.o  -o infix_to_postfix2  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

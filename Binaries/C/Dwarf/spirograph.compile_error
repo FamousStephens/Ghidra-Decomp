@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/cck3WEsO.o: in function `spirograph':
+/home/tim/Desktop/C-master/Compile/graphics/spirograph.c:65: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/graphics/spirograph.c:65: undefined reference to `cos'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/graphics/spirograph.c:66: undefined reference to `sin'
+/usr/bin/ld: /home/tim/Desktop/C-master/Compile/graphics/spirograph.c:66: undefined reference to `sin'
+collect2: error: ld returned 1 exit status

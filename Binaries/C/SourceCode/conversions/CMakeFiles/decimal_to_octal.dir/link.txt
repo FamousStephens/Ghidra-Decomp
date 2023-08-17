@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/decimal_to_octal.dir/decimal_to_octal.c.o  -o decimal_to_octal  -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 
