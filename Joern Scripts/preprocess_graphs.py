@@ -6,6 +6,8 @@ import os
 import sys 
 import json 
 import networkx as nx
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pydot
 import re
